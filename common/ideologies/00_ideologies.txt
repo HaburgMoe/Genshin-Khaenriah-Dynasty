@@ -1,0 +1,240 @@
+#Dskod1 (Dylan) now claims this file in the name of the AI... may the AI empire forever expan
+#All ideologies have been clumped into 3 groups for the AI. No one will ever see these, so we are hijacking them for our own purposes. The three AI groups are Democracy, Facist, and Communist
+#there is a 4th ai group called neutral, but that works differently.
+
+#Note: Because of hard coded features, democracies now use the fascist AI and the ol fascists use the neutral AI
+#Note: AI changed back to all neutral ai. This is because the other AI doesn't want to be apart of things if the tension is so low (IE at game start)
+
+ideologies = {
+	FEITU = {
+		types = {
+			FEITU_subtype = {} #generic
+		}
+		dynamic_faction_names = {}
+		color = { 255 255 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	xianfengrenzhi = {
+		types = {
+			luoshalinism = {} 
+			wendiism = {}
+			zifawennisha = {}
+		}
+		dynamic_faction_names = {}
+		color = { 255 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	pingdengrenzhi = {
+		types = {
+			neowennishaism = {} 
+			dikangyundong = {}
+		}
+		dynamic_faction_names = {}
+		color = { 255 106 106 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	tiaohe = {
+		types = {
+			jinbuism = {} 
+			zhongliism = {}
+		}
+		dynamic_faction_names = {}
+		color = { 255 20 147 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	ziyourenzhi = {
+		types = {
+			wennishaism = {} 
+			ziyoubaoshou = {} 
+		}
+		dynamic_faction_names = {}
+		color = { 0 191 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	weiquanrenzhi = {
+		types = {
+			kaimingducaiism = {} 
+			jishuguanliaoism = {} 
+			maoyiziyou = {} 
+		}
+		dynamic_faction_names = {}
+		color = { 255 250 250 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	zhuanzhi = {
+		types = {
+			guizugongheism = {} 
+			junzhuzhuanzhiism = {} 
+			zongdufu = {} 
+			junfaism = {} 
+			junquism = {} 
+		}
+		dynamic_faction_names = {}
+		color = { 105 105 105 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	guojiatiaohe = {
+		types = {
+			neozhongliism = {} 
+			qiyeism = {} 
+		}
+		dynamic_faction_names = {}
+		color = { 139 90 43 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	jiduan = {
+		types = {
+			fuchouism = {} 
+			leftfasterism = {} 
+			shiyanism = {} 
+			jijinwennisha = {} 
+			anyuanism = {} 
+		}
+		dynamic_faction_names = {}
+		color = { 0 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = no
+			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = no
+			can_not_declare_war = yes
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = no
+		modifiers = {
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+
+
+
+
+}

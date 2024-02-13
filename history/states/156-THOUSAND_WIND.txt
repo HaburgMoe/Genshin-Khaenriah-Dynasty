@@ -1,0 +1,15 @@
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		1 1105 2163 2236 2284 2567 3012 5032 5044 5051 5078 5083 5089 5119 5126 5142 5158 5247 
+	}
+	history={
+		owner = MDC
+		add_core_of = MDC
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

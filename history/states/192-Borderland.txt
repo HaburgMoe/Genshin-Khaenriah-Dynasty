@@ -1,0 +1,16 @@
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		513 674 5622 5639 5645 5662 
+	}
+	history={
+		owner = EMP
+		add_core_of = EMP
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

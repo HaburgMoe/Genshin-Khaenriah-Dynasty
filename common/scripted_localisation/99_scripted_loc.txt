@@ -1,0 +1,72 @@
+defined_text = {
+	name = GethuuParanoiaValueColor
+	text = {
+		trigger = {
+			check_variable = { HUU_paranoia = 70 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_red
+	}
+	text = {
+		trigger = {
+			check_variable = { HUU_paranoia = 30 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_yellow
+	}
+	text = {
+		localization_key = SOV_color_green
+	}
+}
+defined_text = {
+	name = GethuustressValueColor
+	text = {
+		trigger = {
+			check_variable = { HUU_stress = 80 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_red
+	}
+	text = {
+		trigger = {
+			check_variable = { HUU_stress = 40 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_yellow
+	}
+	text = {
+		localization_key = SOV_color_green
+	}
+}
+defined_text = {
+	name = GethuuloveValueColor
+	text = {
+		trigger = {
+			check_variable = { HUU_love = 80 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_red
+	}
+	text = {
+		trigger = {
+			check_variable = { HUU_love = 40 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_yellow
+	}
+	text = {
+		localization_key = SOV_color_green
+	}
+}
+defined_text = {
+	name = GethuudarkValueColor
+	text = {
+		trigger = {
+			check_variable = { HUU_dark = 80 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_red
+	}
+	text = {
+		trigger = {
+			check_variable = { HUU_dark = 40 compare = greater_than_or_equals }
+		}
+		localization_key = SOV_color_yellow
+	}
+	text = {
+		localization_key = SOV_color_green
+	}
+}

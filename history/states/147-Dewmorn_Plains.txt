@@ -1,0 +1,15 @@
+state={
+	id=147
+	name="STATE_147"
+	provinces={
+		922 1568 1783 2314 3185 5499 5516 5532 5551 5569 5598 5608 5636 
+	}
+	history={
+		owner = CXG
+		add_core_of = CXG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

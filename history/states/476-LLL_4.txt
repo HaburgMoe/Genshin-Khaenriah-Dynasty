@@ -1,0 +1,19 @@
+
+state={
+	id=476
+	name="STATE_476"
+
+	history={
+		owner = LLL
+		add_core_of = LLL
+
+	}
+
+	provinces={
+		201 523 660 1355 1634 1645 1731 1804 1911 1971 2628 2643 3194 3222 3529 3566 6485 6520 6529 6569 6606 6607 6624 6634 6638 6655 6656 6657 6674 6677 6689 6697 6711 6717 6735 6755 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		1144 2690 8381 8389 8397 8410 8414 8419 8430 8433 8437 8443 
+	}
+	history={
+		owner = SHG
+		add_core_of = SHG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

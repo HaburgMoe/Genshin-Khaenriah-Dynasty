@@ -1,0 +1,16 @@
+state={
+	id=450
+	name="STATE_450"
+	provinces={
+		1241 1324 1972 2543 2766 3044 3086 3551 3568 3578 3587 3817 7201 7210 7242 7245 7254 7280 7286 7299 7310 7311 
+	}
+	history={
+		owner = VMZ
+		add_core_of = VMZ
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

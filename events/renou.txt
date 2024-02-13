@@ -1,0 +1,69 @@
+add_namespace = renou
+
+country_event = {
+	id = renou.1
+	title = renou.1.t
+	desc = renou.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = renou.1.a
+		trigger = {
+				TAG = SHG
+		}
+	country_event = { id = renou.2 }
+                DQG = {set_technology = { GKD_RENOUYANJIU_4 = 1 }} 
+	}
+	option = {
+		name = renou.1.b
+		trigger = {
+				TAG = DQG
+		}
+                SHG = {set_technology = { GKD_RENOUYANJIU_4 = 1 }} 
+	country_event = { id = renou.2 }
+	}
+
+}
+
+news_event = {
+	id = renou.2
+	title = renou.2.t
+	desc = renou.2.d
+	picture = GFX_news_renou2
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = renou.2.a
+		trigger = {
+		OR = {
+				TAG = SHG
+				TAG = DQG
+		}
+		}
+	}
+	option = {
+		name = renou.2.b
+		trigger = { 
+has_country_flag = renhelian_zhengchang_flag
+ }
+
+	}
+	option = {
+		name = renou.2.c
+		trigger = { 
+has_country_flag = waihaixieyue_zhengchang_flag 
+		NOT = { 
+		TAG = SHG
+	 }
+	 }
+	}
+	option = {
+		name = renou.2.e
+		trigger = { 
+		NOT = { 
+has_country_flag = waihaixieyue_zhengchang_flag 
+has_country_flag = renhelian_zhengchang_flag
+	 }
+	 }
+	}
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=305
+	name="STATE_305"
+
+	history={
+		owner = ABY
+		add_core_of = ABY
+
+	}
+
+	provinces={
+		666 996 7572 7576 7626 7673 7707 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

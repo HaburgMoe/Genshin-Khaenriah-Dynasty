@@ -1,0 +1,36 @@
+capital = 481
+oob = "USL"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = ziyourenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	weiquanrenzhi = 30
+	tiaohe = 25
+	ziyourenzhi = 45
+}
+
+add_ideas = {
+	bingyizhidu2	wufazizhumaoyi	8xiaoshi	guoti_banglianzhi	puxuanquan	daliangfulibaozhang	duiwai_zhongli	xianzhizongjiao	zzmzpingdeng	quzhengdanghua	xianzhiyimin	xssdaya	gaizaosifa	nvquan3	yanlun4
+}
+
+create_country_leader = {
+	name = "艾尔海森"
+	desc = "POLITICS_AEHS_DESC"
+	picture = "gfx/leader/AEHS.dds"
+	expire = "1965.1.1"
+	ideology = wennishaism
+	traits = {
+		#
+	}
+}

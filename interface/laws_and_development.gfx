@@ -1,0 +1,435 @@
+
+spriteTypes = {
+    
+	spriteType = {
+		name = "GFX_laws_and_development_background"
+		texturefile = "gfx/laws_and_development/laws_and_development_background.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_laws_and_development_background_grid"
+		textureFile = "gfx/laws_and_development/laws_and_development_background_grid.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
+	}
+    
+	spriteType = {
+		name = "GFX_laws_background"
+		texturefile = "gfx/laws_and_development/laws_background.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_development_background"
+		texturefile = "gfx/laws_and_development/development_background.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_laws_and_development_button"
+		texturefile = "gfx/laws_and_development/laws_and_development_button.DDS"
+	}
+
+    spriteType = {
+		name = "GFX_laws_button"
+		texturefile = "gfx/laws_and_development/laws_button.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_laws_option2"
+		texturefile = "gfx/laws_and_development/laws_option2.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_laws_option1"
+		texturefile = "gfx/laws_and_development/laws_option1.DDS"
+	}
+
+
+    #政策
+	spriteType = {
+		name = "GFX_law_bingyi"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_duiwai"
+		texturefile = "gfx/laws_and_development/icons/law_duiwai.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_fuli"
+		texturefile = "gfx/laws_and_development/icons/law_fuli.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_guoti"
+		texturefile = "gfx/laws_and_development/icons/law_guoti.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_maoyi"
+		texturefile = "gfx/laws_and_development/icons/law_maoyi.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_sifa"
+		texturefile = "gfx/laws_and_development/icons/law_sifa.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_gongzuo"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_xingshaoshu"
+		texturefile = "gfx/laws_and_development/icons/law_xingshaoshu.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_xuanju"
+		texturefile = "gfx/laws_and_development/icons/law_xuanju.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_yimin"
+		texturefile = "gfx/laws_and_development/icons/law_yimin.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_zhengdang"
+		texturefile = "gfx/laws_and_development/icons/law_zhengdang.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_zhongzuminzu"
+		texturefile = "gfx/laws_and_development/icons/law_zhongzuminzu.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_zongjiao"
+		texturefile = "gfx/laws_and_development/icons/law_zongjiao.DDS"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_nvquan"
+		texturefile = "gfx/laws_and_development/icons/law_laba.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_law_yanlun"
+		texturefile = "gfx/laws_and_development/icons/law_yanlun.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+  ##外交界面法案图标
+	spriteType = {
+		name = "GFX_idea_bingyizhidu1"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_bingyizhidu2"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_bingyizhidu3"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_bingyizhidu4"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_bingyizhidu5"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_bingyizhidu6"
+		texturefile = "gfx/laws_and_development/icons/law_bingyi.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guoti_danyizhi"
+		texturefile = "gfx/laws_and_development/icons/law_guoti.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_guoti_jiquanlianbang"
+		texturefile = "gfx/laws_and_development/icons/law_guoti.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_guoti_lianbangzhi"
+		texturefile = "gfx/laws_and_development/icons/law_guoti.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_guoti_banglianzhi"
+		texturefile = "gfx/laws_and_development/icons/law_guoti.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_guoti_wuzhengfu"
+		texturefile = "gfx/laws_and_development/icons/law_guoti.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_duiwai_hexie"
+		texturefile = "gfx/laws_and_development/icons/law_duiwai.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_duiwai_jingti"
+		texturefile = "gfx/laws_and_development/icons/law_duiwai.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_duiwai_heiansenlin"
+		texturefile = "gfx/laws_and_development/icons/law_duiwai.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_duiwai_dengta"
+		texturefile = "gfx/laws_and_development/icons/law_duiwai.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_duiwai_zhongli"
+		texturefile = "gfx/laws_and_development/icons/law_duiwai.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_duodangzhi"
+		texturefile = "gfx/laws_and_development/icons/law_zhengdang.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xiangzhengduodang"
+		texturefile = "gfx/laws_and_development/icons/law_zhengdang.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_yidangzhi"
+		texturefile = "gfx/laws_and_development/icons/law_zhengdang.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_quzhengdanghua"
+		texturefile = "gfx/laws_and_development/icons/law_zhengdang.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_fuchousifa"
+		texturefile = "gfx/laws_and_development/icons/law_sifa.DDS"
+	}
+    spriteType = {
+		name = "GFX_idea_chengjiesifa"
+		texturefile = "gfx/laws_and_development/icons/law_sifa.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_gaizaosifa"
+		texturefile = "gfx/laws_and_development/icons/law_sifa.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xiufusifa"
+		texturefile = "gfx/laws_and_development/icons/law_sifa.DDS"
+	}
+    
+	spriteType = {
+		name = "GFX_idea_wufazizhumaoyi"
+		texturefile = "gfx/laws_and_development/icons/law_maoyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_biguansuoguo"
+		texturefile = "gfx/laws_and_development/icons/law_maoyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_yangexianzhimaoyi"
+		texturefile = "gfx/laws_and_development/icons/law_maoyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_maoyibaohu"
+		texturefile = "gfx/laws_and_development/icons/law_maoyi.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_ziyoumaoyi"
+		texturefile = "gfx/laws_and_development/icons/law_maoyi.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wuxuanju"
+		texturefile = "gfx/laws_and_development/icons/law_xuanju.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_guizuguatou"
+		texturefile = "gfx/laws_and_development/icons/law_xuanju.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_zichanjiaquan"
+		texturefile = "gfx/laws_and_development/icons/law_xuanju.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_daiyixuanju"
+		texturefile = "gfx/laws_and_development/icons/law_xuanju.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_puxuanquan"
+		texturefile = "gfx/laws_and_development/icons/law_xuanju.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zhengjiaoheyi"
+		texturefile = "gfx/laws_and_development/icons/law_zongjiao.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_danyiguojiao"
+		texturefile = "gfx/laws_and_development/icons/law_zongjiao.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_guojiawushenlun"
+		texturefile = "gfx/laws_and_development/icons/law_zongjiao.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xianzhizongjiao"
+		texturefile = "gfx/laws_and_development/icons/law_zongjiao.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_zongjiaoziyou"
+		texturefile = "gfx/laws_and_development/icons/law_zongjiao.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_fengsuobianjing"
+		texturefile = "gfx/laws_and_development/icons/law_yimin.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_yangexianzhiyimin"
+		texturefile = "gfx/laws_and_development/icons/law_yimin.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xianzhiyimin"
+		texturefile = "gfx/laws_and_development/icons/law_yimin.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_kaifangbianjing"
+		texturefile = "gfx/laws_and_development/icons/law_yimin.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wuxianzhi_work"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_14xiaoshi"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_12xiaoshi"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_10xiaoshi"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_8xiaoshi"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_6xiaoshi"
+		texturefile = "gfx/laws_and_development/icons/law_gongzuo.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wufulibaozhang"
+		texturefile = "gfx/laws_and_development/icons/law_fuli.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_shaoliangfulibaozhang"
+		texturefile = "gfx/laws_and_development/icons/law_fuli.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_jibenfulibaozhang"
+		texturefile = "gfx/laws_and_development/icons/law_fuli.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_shiliangfulibaozhang"
+		texturefile = "gfx/laws_and_development/icons/law_fuli.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_daliangfulibaozhang"
+		texturefile = "gfx/laws_and_development/icons/law_fuli.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zzmzjinghua"
+		texturefile = "gfx/laws_and_development/icons/law_zhongzuminzu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_zzmzpohai"
+		texturefile = "gfx/laws_and_development/icons/law_zhongzuminzu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_zzmzqishi"
+		texturefile = "gfx/laws_and_development/icons/law_zhongzuminzu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_zzmzbiaomianpingdeng"
+		texturefile = "gfx/laws_and_development/icons/law_zhongzuminzu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_zzmzpingdeng"
+		texturefile = "gfx/laws_and_development/icons/law_zhongzuminzu.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_xssfeifuomin"
+		texturefile = "gfx/laws_and_development/icons/law_xingshaoshu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xssdaya"
+		texturefile = "gfx/laws_and_development/icons/law_xingshaoshu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xssyouxianpingdeng"
+		texturefile = "gfx/laws_and_development/icons/law_xingshaoshu.DDS"
+	}
+	spriteType = {
+		name = "GFX_idea_xsspingdeng"
+		texturefile = "gfx/laws_and_development/icons/law_xingshaoshu.DDS"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yanlun1"
+		texturefile = "gfx/laws_and_development/icons/law_yanlun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yanlun2"
+		texturefile = "gfx/laws_and_development/icons/law_yanlun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yanlun3"
+		texturefile = "gfx/laws_and_development/icons/law_yanlun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yanlun4"
+		texturefile = "gfx/laws_and_development/icons/law_yanlun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nvquan1"
+		texturefile = "gfx/laws_and_development/icons/law_laba.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nvquan2"
+		texturefile = "gfx/laws_and_development/icons/law_laba.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nvquan3"
+		texturefile = "gfx/laws_and_development/icons/law_laba.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nvquan4"
+		texturefile = "gfx/laws_and_development/icons/law_laba.dds"
+	}
+
+
+
+    
+	#发展度
+	spriteType = {
+        name = "GFX_development_frames"
+        texturefile =  "gfx/laws_and_development/development_frames.dds"
+        noOfFrames = 90
+	}
+	
+}

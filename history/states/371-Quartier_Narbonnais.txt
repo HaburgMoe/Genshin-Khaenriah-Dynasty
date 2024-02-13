@@ -1,0 +1,16 @@
+
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		4575 4589 
+	}
+	history={
+		owner = PRG
+		add_core_of = PRG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

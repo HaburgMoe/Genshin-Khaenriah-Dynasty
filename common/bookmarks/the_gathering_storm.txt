@@ -1,0 +1,72 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_ABY_NAME"
+		desc = "GATHERING_ABY_DESC"
+		date = 500.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ABY"
+		default = yes
+		
+		"FKJ"={
+			history = "FKJ_GATHERING_STORM_DESC"
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SHG"={
+			history = "SHG_GATHERING_STORM_DESC"
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ABY"={
+			history = "ABY_GATHERING_STORM_DESC"
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"MDG"={
+			history = "MDG_GATHERING_STORM_DESC"
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"LIY"={
+			history = "LIY_GATHERING_STORM_DESC"
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"DQG"={
+			history = "DQG_GATHERING_STORM_DESC"
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"XMG"={
+			history = "XMG_GATHERING_STORM_DESC"
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHERGKD_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

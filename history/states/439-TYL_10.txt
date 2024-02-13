@@ -1,0 +1,16 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		428 1239 1461 1537 1701 2529 3346 3516 7438 7478 7493 7501 7521 7527 7546 7583 7589 
+	}
+	history={
+		owner = TYL
+		add_core_of = TYL
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

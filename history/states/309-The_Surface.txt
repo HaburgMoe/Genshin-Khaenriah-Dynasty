@@ -1,0 +1,17 @@
+
+state={
+	id=309
+	name="STATE_309"
+	provinces={
+		188 249 1614 1825 1954 2006 3921 6833 6885 6924 6934 6961 6998 7035 
+	}
+	history={
+		owner = JYG
+		add_core_of = JYG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

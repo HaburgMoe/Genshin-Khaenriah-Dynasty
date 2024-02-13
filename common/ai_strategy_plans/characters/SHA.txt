@@ -1,0 +1,13 @@
+characters={
+	SHA_shamate={
+		name=SHA_CHARACTER_SHAMATE
+		portraits={
+			civilian={
+				large="GFX_portrait_SHA_shamate_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

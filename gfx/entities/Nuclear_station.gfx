@@ -1,0 +1,7 @@
+objectTypes = {
+    pdxmesh = {
+        name = "mesh_Nuclear_station"
+        file = "gfx/models/Nuclear_station/Nuclear_station.mesh"
+	cull_distance = 99999.0	
+    }
+}

@@ -1,0 +1,15 @@
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		541 577 581 845 1439 1716 2100 3340 3434 6054 6063 6096 6103 6119 6124 6140 6153 6160 6172 6190 6200 6217 6231 6275 
+	}
+	history={
+		owner = XSG
+		add_core_of = XSG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

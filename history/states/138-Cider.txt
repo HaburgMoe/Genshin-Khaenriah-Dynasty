@@ -1,0 +1,15 @@
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		768 1128 2767 3614 5346 5365 5381 5404 5419 5428 
+	}
+	history={
+		owner = CXG
+		add_core_of = CXG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

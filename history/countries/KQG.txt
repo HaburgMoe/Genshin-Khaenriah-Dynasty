@@ -1,0 +1,56 @@
+capital = 223
+oob = "KQG"
+set_research_slots = 0
+
+if = {
+	limit = { is_ai = no }
+	country_event = { id = Keqing.1 }
+	
+}
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = jiduan
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	jiduan = 60
+	zhuanzhi = 40
+}
+
+add_ideas = {
+	bingyizhidu6	
+	maoyibaohu
+	14xiaoshi
+	guoti_danyizhi	
+	wuxuanju	
+	shaoliangfulibaozhang	
+	duiwai_zhongli	
+	guojiawushenlun	
+	zzmzbiaomianpingdeng	
+	quzhengdanghua	
+	kaifangbianjing	
+	xssdaya	
+	gaizaosifa	
+	nvquan3	
+	yanlun2
+}
+
+create_country_leader = {
+	name = "刻晴"
+	desc = "POLITICS_KEQING_DESC"
+	picture = "gfx/leader/Keqing.dds"
+	expire = "1965.1.1"
+	ideology = fuchouism
+	traits = {
+		#
+	}
+}

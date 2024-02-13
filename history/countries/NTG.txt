@@ -1,0 +1,51 @@
+capital = 451
+oob = "NTG"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = weiquanrenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	weiquanrenzhi = 60
+	zhuanzhi = 20
+	pingdengrenzhi = 15
+	xianfengrenzhi = 5
+}
+
+add_ideas = {
+	bingyizhidu2	
+	maoyibaohu	
+	12xiaoshi	
+	guoti_jiquanlianbang	
+	daiyixuanju	
+	shaoliangfulibaozhang	
+	duiwai_zhongli	
+	xianzhizongjiao	
+	zzmzbiaomianpingdeng	
+	duodangzhi	
+	xianzhiyimin	
+	xssdaya	
+	gaizaosifa	
+	nvquan3	
+	yanlun3
+}
+
+create_country_leader = {
+	name = "坎瑞亚纳塔协会"
+	desc = "POLITICS_ALS_DESC"
+	picture = "gfx/leader/AILISI.dds"
+	expire = "1965.1.1"
+	ideology = maoyiziyou
+	traits = {
+		#
+	}
+}

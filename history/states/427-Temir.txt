@@ -1,0 +1,19 @@
+
+state={
+	id=427
+	name="STATE_427"
+
+	history={
+		owner = MBG
+		add_core_of = MBG
+
+	}
+
+	provinces={
+		151 193 236 248 333 449 791 921 927 932 958 1074 1124 1138 1166 1409 1584 2012 2597 3495 3633 3672 3689 3911 3912 6576 6595 6679 6687 6736 6768 6769 6781 6797 6802 6822 6829 6838 6849 6859 6902 6911 6917 6982 7057 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

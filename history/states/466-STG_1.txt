@@ -1,0 +1,16 @@
+state={
+	id=466
+	name="STATE_466"
+	provinces={
+		732 1316 7870 7882 7898 7899 7917 7924 7954 7958 7979 7987 
+	}
+	history={
+		owner = STG
+		add_core_of = STG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

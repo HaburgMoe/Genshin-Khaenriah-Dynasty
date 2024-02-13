@@ -1,0 +1,15 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		735 928 1020 1852 2444 3276 3446 3526 8686 8695 8696 8697 8700 8701 8708 8709 
+	}
+	history={
+		owner = SHG
+		add_core_of = SHG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

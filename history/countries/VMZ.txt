@@ -1,0 +1,38 @@
+capital = 444
+oob = "VMZ"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = pingdengrenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	weiquanrenzhi = 10
+	zhuanzhi = 10
+	tiaohe = 30
+	pingdengrenzhi = 45
+	xianfengrenzhi = 5
+}
+
+add_ideas = {
+	bingyizhidu2	wufazizhumaoyi	10xiaoshi	guoti_banglianzhi	puxuanquan	shaoliangfulibaozhang	duiwai_zhongli	xianzhizongjiao	zzmzpingdeng	quzhengdanghua	xianzhiyimin	xssdaya	gaizaosifa	nvquan3	yanlun3
+}
+
+create_country_leader = {
+	name = "拉娜"
+	desc = "POLITICS_LN_DESC"
+	picture = "gfx/leader/LANA.dds"
+	expire = "1965.1.1"
+	ideology = neowennishaism
+	traits = {
+		#
+	}
+}

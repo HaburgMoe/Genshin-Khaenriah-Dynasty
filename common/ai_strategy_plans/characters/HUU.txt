@@ -1,0 +1,13 @@
+characters={
+	HUU_huge={
+		name=HUU_CHARACTER_HUGE
+		portraits={
+			civilian={
+				large="GFX_portrait_HUU_huge_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

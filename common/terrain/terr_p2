@@ -1,0 +1,39 @@
+##################################################################
+### Graphical terrain
+###		type	= refers to the terrain defined above, "terrain category"'s
+### 	color 	= index in bitmap color table (see terrain.bmp)
+###		texture = Texture index from top-right of tilemap, starts at 0. Read left to right.
+
+### These can override, but it will spam some warnings in error log
+### In terrain tilemap: Normal-map alpha == gloss, texture alpha == specular
+terrain = {
+	farm_plains					= { type = plains	 		color = { 	5	 } texture = 0 }
+	frosty_plains				= { type = plains			color = { 	19	 } texture = 0  perm_snow = yes }
+	plains						= { type = plains			color = { 	0	 } texture = 1 }
+	hills_blend					= { type = hills			color = { 	17	 } texture = 2 } ### Note: grass/desert tints are from colormap
+	hills						= { type = hills			color = { 	2	 } texture = 3 }
+
+	jungle						= { type = jungle			color = { 	21	 } texture = 4 }
+	forest						= { type = forest			color = { 	1	 } texture = 5 }
+	forest_blend				= { type = forest			color = { 	4	 } texture = 6 }
+	marsh						= { type = marsh			color = { 	9	 } texture = 7 }
+	mountains_grass			 	= { type = mountain			color = { 	18	 } texture = 8 }
+	mountains_grass2		 	= { type = mountain			color = { 	20	 } texture = 8 }
+	mountains_grass3			= { type = mountain			color = { 	27	 } texture = 8 }
+	jungle_blend				= { type = jungle			color = { 	22	 } texture = 9 } ### Barely used afaik
+
+	desert_fertile				= { type = desert			color = { 	12	 } texture = 10 }
+	desert_blend				= { type = desert			color = { 	3	 } texture = 11 }
+	ocean						= { type = ocean			color = { 	15	 } texture = 11 }
+	urban						= { type = urban			color = { 	13	 } texture = 12 spawn_city = yes }
+	mountains					= { type = mountain			color = { 	11	 } texture = 13 }
+	mountains_ditto				= { type = mountain			color = { 	6	 } texture = 13 }
+	mountains_frosty			= { type = mountain			color = { 	16	 } texture = 13  perm_snow = yes }
+
+	desert						= { type = desert			color = { 	7	 } texture = 15 }
+	mountains_desert_blend		= { type = mountain   		color = { 	10	 } texture = 16 }
+	mountains_desert			= { type = desert			color = { 	8	 } texture = 17 }
+	mountains_desert_tips		= { type = mountain			color = { 	31	 } texture = 18 } ### Rarely used
+
+	lake						= { type = lakes			color = { 	14	 } texture = 255 }
+}

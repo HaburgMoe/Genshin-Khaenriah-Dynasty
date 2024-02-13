@@ -1,0 +1,52 @@
+capital = 307
+oob = "BBL"
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = guojiatiaohe
+	last_election = "500.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	guojiatiaohe = 85
+	xianfengrenzhi = 5
+	jiduan = 10
+}
+
+add_ideas = {
+	bingyizhidu2
+	quzhengdanghua
+	wuxianzhi_work 
+	xssdaya
+	chengjiesifa
+	ziyoumaoyi
+	yangexianzhimaoyi
+	wufulibaozhang
+	wuxuanju
+	xianzhiyimin
+	zzmzqishi
+	guojiawushenlun
+	duiwai_zhongli
+	guoti_danyizhi
+	nvquan3
+	yanlun1
+}
+
+create_country_leader = {
+	name = "白术"
+	desc = "POLITICS_BS_DESC"
+	picture = "gfx/leader/baishu.dds"
+	expire = "1965.1.1"
+	ideology = qiyeism
+	traits = {
+		#
+	}
+}

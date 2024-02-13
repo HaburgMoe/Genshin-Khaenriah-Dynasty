@@ -1,0 +1,19 @@
+
+state={
+	id=180
+	name="STATE_180"
+
+	history={
+		owner = KAD
+		add_core_of = KAD
+
+	}
+
+	provinces={
+		28 252 975 1309 1987 2345 2376 3362 3573 3832 3898 4629 4645 4679 4680 4685 4699 4700 4711 4722 4723 4728 4735 4750 4759 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

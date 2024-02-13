@@ -1,0 +1,19 @@
+
+state={
+	id=354
+	name="STATE_354"
+
+	history={
+		owner = XMG
+		add_core_of = XMG
+
+	}
+
+	provinces={
+		426 429 684 847 962 1028 1356 1508 1738 2191 2339 2555 2574 2667 2715 2833 3484 6589 6614 6628 6653 6666 6684 6702 6705 6712 6724 6751 6757 6770 6783 6794 6827 6864 6875 6901 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

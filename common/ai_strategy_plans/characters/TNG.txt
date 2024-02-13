@@ -1,0 +1,13 @@
+characters={
+	TNG_tanglaoya={
+		name=TNG_CHARACTER_TANGLAOYA
+		portraits={
+			civilian={
+				large="GFX_portrait_TNG_tanglaoya_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

@@ -1,0 +1,185 @@
+capital = 99
+oob = "JYY"
+
+set_technology = {
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	GKD_GENGDIJI = 1
+	GKD_GENGDIJI_1 = 1
+	GKD_GENGDIJI_2 = 1
+	GKD_GENGDIJI_ZHONGXING_0 = 1
+	GKD_GENGDIJI_PENQI_0 = 1
+	GKD_GENGDIJI_PENQI_GAOKONG = 1
+	GKD_GENGDIJI_PENQI_DIKONG = 1
+	GKD_GENGDIJI_PENQI_1 = 1
+	GKD_GENGDIJI_ZAIDAN_1 = 1
+	GKD_GENGDIJI_ZAIDAN_0 = 1
+	GKD_GENGDIJI_JINGDU_0 = 1
+	GKD_GENGDIJI_ZHUANGJIA_0 = 1
+	GKD_GENGDIJI_YINQING_0 = 1
+	GKD_GENGDIJI_YINQING_1 = 1
+	armored_car2 = 1
+	armored_car1 = 1
+	basic_train = 1
+	wartime_train = 1
+	armored_train = 1
+	GKD_JIAOYU_0 = 1
+	GKD_JIAOYU_1 = 1
+	GKD_JIAOYU_2 = 1
+	GKD_JIAOYU_3 = 1
+	GKD_JIAOYU_4 = 1
+	GKD_JIAOYU_5 = 1
+	GKD_JIAOYU_6 = 1
+	GKD_JIAOYU_7 = 1
+	GKD_yuanshinongye = 1
+	GKD_yuanshiyejin_1 = 1
+	GKD_yuanshiyejin_2 = 1
+	GKD_yuanshinongye_2 = 1
+	GKD_yuanshinongye_3 = 1
+	GKD_yuanshigongye_1 = 1
+	GKD_zhengqiji = 1
+	GKD_zhengqiji_2 = 1
+	GKD_zhengqiji_3 = 1
+	GKD_TIELU_1 = 1
+	GKD_TIELU_2 = 1
+	GKD_YEJIN_1 = 1
+	GKD_YEJIN_11 = 1
+	GKD_YEJIN_12 = 1
+	GKD_GONGYE_1 = 1
+	GKD_GONGYE_2 = 1
+	GKD_DIANDENG = 1
+	GKD_GUANGBO = 1
+	GKD_DIANYING = 1
+	GKD_NEIRANJI = 1
+	GKD_DIANGONG = 1
+	GKD_YEJIN_3 = 1
+	GKD_CAIKUANG = 1
+	GKD_QICHE = 1
+	GKD_GAOSU = 1
+	GKD_HEXIN_2 = 1
+	GKD_HEXIN_3 = 1
+	GKD_DIANZIGUAN = 1
+	GKD_JISUANJI_2 = 1
+	GKD_JISUANJI_3 = 1
+	GKD_LIEBIAN_1 = 1
+	GKD_LIEBIAN_2 = 1
+	GKD_LIEBIAN_3 = 1
+	GKD_DIANLU = 1
+	GKD_DIANLU_MINYONG = 1
+	GKD_DIANLU_SANDAI = 1
+	GKD_DIANLU_JUBIAN = 1
+	GKD_DIANLU_SIDAI = 1
+	GKD_DIANLU_GAILIANG = 1
+	GKD_DIANLU_SIDAI = 1
+	GKD_DIANLU_GAILIANG = 1
+	GKD_DIANLU_XIAO = 1
+	GKD_DIANLU_WANGLUO = 1
+	GKD_WANGLUO_0 = 1
+	GKD_GAIJINJISUAN_1 = 1
+	GKD_GAIJINJISUAN_2 = 1
+	GKD_RENGONGZHINENG_1 = 1
+	GKD_DIMAI_1 = 1
+	GKD_DIMAI_2 = 1
+	GKD_DIMAI_3 = 1
+	GKD_DIANSHI = 1
+	GKD_DIMAI_42 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	improved_infantry_weapons_2 = 1
+	infantry_at = 1
+	night_vision = 1
+	night_vision2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1
+	mechanised_infantry3 = 1
+	tech_support = 1
+	GKD_YUNSHU = 1
+	GKD_FENGFAN = 1
+	GKD_YUNSHU_2 = 1
+	GKD_QIANTING = 1
+	GKD_ZHANJIAN = 1
+	GKD_ZIBAO = 1
+	GKD_ZIBAO_11 = 1
+	GKD_YUNSHU_3 = 1
+	GKD_QIANTING_2 = 1
+	GKD_LIEBIAN_FANYINGDUI = 1
+	GKD_DIANLU_333 = 1
+	GKD_DIANLU_ANQUAN = 1
+	GKD_LIEBIAN = 1
+	GKD_LIEBIANDAN_1 = 1
+	GKD_LIEBIANDAN_2 = 1
+	GKD_LIEBIANDAN_3 = 1
+	GKD_LIEBIANDUOYONG = 1
+	GKD_SHENZHIYANZHIZAO = 1
+	GKD_SHENZHIYAN = 1
+	GKD_XIEYAN = 1
+	GKD_XIEYANCHONG = 1
+	GKD_PENSHEXIEYAN = 1
+	GKD_DIMAIYANJIU = 1
+	GKD_DIMAIYUNSHU_1 = 1
+	GKD_DIMAIYUNSHU_2 = 1
+	GKD_DIMAIWANGCESHI_1 = 1
+	GKD_DIMAIWANGCESHI_2 = 1
+	GKD_DIMAIWANGCESHI_3 = 1
+	GKD_DIMAIQIANG_1 = 1
+	GKD_DIMAIJIZHAN_1 = 1
+	GKD_GAILIANGWANGLU_1 = 1
+}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+	SHG = {set_autonomy = {
+		target = JYY
+		autonomous_state = autonomy_junqu
+		freedom_level = 0.2
+	}}
+set_politics = {
+	ruling_party = zhuanzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 100
+}
+
+add_ideas = {
+	bingyizhidu6	
+	wufazizhumaoyi	
+	12xiaoshi	
+	guoti_danyizhi	
+	wuxuanju	
+	shaoliangfulibaozhang	
+	duiwai_zhongli	
+	zongjiaoziyou	
+	zzmzbiaomianpingdeng	
+	quzhengdanghua	
+	xianzhiyimin	
+	xssdaya	
+	gaizaosifa	
+	nvquan3	
+	yanlun2
+}
+
+create_country_leader = {
+	name = "五郎"
+	desc = "POLITICS_WL_DESC"
+	picture = "gfx/leader/Wulang.dds"
+	expire = "1965.1.1"
+	ideology = junquism
+	traits = {
+
+	}
+}

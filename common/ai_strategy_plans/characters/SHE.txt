@@ -1,0 +1,13 @@
+characters={
+	SHE_shege={
+		name=SHE_CHARACTER_SHEGE
+		portraits={
+			civilian={
+				large="GFX_portrait_SHE_shege_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

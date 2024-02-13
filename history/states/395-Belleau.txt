@@ -1,0 +1,16 @@
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		566 1729 2140 3661 4746 4747 4749 4762 4767 4770 4778 4788 4807 4827 4860 4874 8749 
+	}
+	history={
+		owner = ZQL
+		add_core_of = ZQL
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

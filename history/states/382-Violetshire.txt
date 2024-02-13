@@ -1,0 +1,16 @@
+state={
+	id=382
+	name="STATE_382"
+	provinces={
+		238 806 912 2007 2126 2355 2362 2402 2887 3320 4265 4279 4507 4537 4557 4602 4611 8739 
+	}
+	history={
+		owner = FDG
+		add_core_of = FDG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

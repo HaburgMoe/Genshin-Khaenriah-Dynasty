@@ -1,0 +1,20 @@
+
+state={
+	id=160
+	name="STATE_160"
+
+	history={
+		owner = EUL
+		add_core_of = EUL
+		add_core_of = MDG
+
+	}
+
+	provinces={
+		368 661 1478 1909 2130 2441 2807 2913 3928 5087 5120 5146 5182 5244 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

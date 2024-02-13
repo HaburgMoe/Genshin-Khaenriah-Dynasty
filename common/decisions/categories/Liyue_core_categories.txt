@@ -1,0 +1,26 @@
+Liyue_core_categories = {
+	#璃月再整合
+	icon = GFX_decision_category_Liyue_unite 
+	visible_when_empty = yes 
+	allowed = {
+		OR = {
+			tag = LIY 
+			tag = GLG 
+			tag = XRG 
+			tag = LJG 
+			tag = QXG 
+		}
+	}
+	visible = {
+		if = {
+			limit = {
+				OR = {
+					tag = QXG 
+					tag = LJG
+				}
+				
+			}
+			has_country_flag = support_Liyue_unite
+		}
+	}
+}

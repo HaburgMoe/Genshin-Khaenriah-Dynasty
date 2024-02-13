@@ -1,0 +1,19 @@
+
+state={
+	id=263
+	name="STATE_263"
+
+	history={
+		owner = GLG
+		add_core_of = GLG
+
+	}
+
+	provinces={
+		243 554 1675 1990 3055 3100 3830 6454 6472 6493 6498 6549 6579 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

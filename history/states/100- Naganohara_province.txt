@@ -1,0 +1,15 @@
+state={
+	id=100
+	name="STATE_100"
+	history={
+		owner = DQG
+		add_core_of = DQG
+	}
+	provinces={
+		321 823 2477 7910 7936 7955 7983 8012 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

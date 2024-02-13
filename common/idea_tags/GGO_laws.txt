@@ -1,0 +1,138 @@
+idea_categories = {
+	
+	GGO_bingyi = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_duiwai = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+    
+    GGO_maoyi = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_guoti = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_zhengdang = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_sifa = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_gongzuo = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_nvquan = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_yanlun = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_fuli = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_zongjiao = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_minzuzhongzu = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_xingshaoshu = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_yimin = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+
+    GGO_xuanju = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = civilian
+    }
+	
+}

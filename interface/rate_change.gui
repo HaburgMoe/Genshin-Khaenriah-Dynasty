@@ -1,0 +1,551 @@
+guiTypes = {
+	containerWindowType = {
+		name = "rate_change_gui_window"
+		size = { x = 450 y = 600 }
+		clipping = no 
+		moveable = no
+		position = {
+			x = 650
+			y = 250
+		}
+
+		background = {
+			name = "rate_change_gui_bg"
+			spriteType = "GFX_rate_bg"
+		}
+
+		iconType = {
+			name = "rate_bg_title"
+			spriteType = "GFX_title_bg"
+			position = {
+				x = 50
+				y = 31
+			}
+		}
+
+		iconType = {
+			name = "rate_bg_line"
+			spriteType = "GFX_bg_line"
+			position = {
+				x = 50
+				y = 102
+			}
+		}
+
+		iconType = {
+			name = "rate_bg_line_1"
+			spriteType = "GFX_bg_line"
+			position = {
+				x = 50
+				y = 147
+			}
+		}
+
+		iconType = {
+			name = "rate_bg_line_2"
+			spriteType = "GFX_bg_line"
+			position = {
+				x = 50
+				y = 192
+			}
+		}
+
+		iconType = {
+			name = "rate_bg_line_3"
+			spriteType = "GFX_bg_line"
+			position = {
+				x = 50
+				y = 237
+			}
+		}
+
+		iconType = {
+			name = "rate_bg_line_4"
+			spriteType = "GFX_bg_line"
+			position = {
+				x = 50
+				y = 282
+			}
+		}
+
+		iconType = {
+			name = "rate_bg_line_5"
+			spriteType = "GFX_bg_line"
+			position = {
+				x = 50
+				y = 327
+			}
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_title"
+			font = hoi_24header
+			text = "LIY_rate"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 125
+				y = 38
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_desc"
+			font = "hoi_18mbs"
+			text = "LIY_rate_desc"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 125
+				y = 84
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_kanbi"
+			font = hoi_20bs
+			text = "LIY_rate_kanbi"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 25
+				y = 126
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_kanbi"
+			font = hoi_20bs
+			text = "LIY_rate_kanbi"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 160
+				y = 123
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_liyue_yuan"
+			font = hoi_20bs
+			text = "LIY_rate_liyue_yuan_ttt"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 25
+				y = 170
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_wangshengtang_yuan"
+			font = hoi_20bs
+			text = "LIY_rate_wst_ttt"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 25
+				y = 261
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_qing_yuan"
+			font = hoi_20bs
+			text = "LIY_rate_qing_ttt"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 25
+				y = 306
+			}
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_xianbi"
+			font = hoi_20bs
+			text = "LIY_rate_xianbi"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 25
+				y = 215
+			}
+			format = center
+		}
+
+		iconType = {
+			name = "rate_bg_1"
+			spriteType = "GFX_rate_change_bg"
+			position = {
+				x = 250
+				y = 120
+			}
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_kanbi_rate"
+			font = hoi_20b
+			text = "LIY_rate_kanbi_rate"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 225
+				y = 124
+			}
+			format = center
+		}
+
+		iconType = {
+			name = "rate_bg_2"
+			spriteType = "GFX_rate_change_bg"
+			position = {
+				x = 250
+				y = 165
+			}
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_liyue_yuan_rate"
+			font = hoi_20b
+			text = "LIY_rate_liyue_yuan"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 225
+				y = 168
+			}
+			format = center
+		}
+
+		iconType = {
+			name = "rate_bg_3"
+			spriteType = "GFX_rate_change_bg"
+			position = {
+				x = 250
+				y = 210
+			}
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_xianbi_rate"
+			font = hoi_20b
+			text = "LIY_rate_xianbi_ttt"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 225
+				y = 214
+			}
+			format = center
+		}
+
+		iconType = {
+			name = "rate_bg_4"
+			spriteType = "GFX_rate_change_bg"
+			position = {
+				x = 250
+				y = 255
+			}
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_wangshengtang_yuan_rate"
+			font = hoi_20b
+			text = "LIY_rate_wst_ttt_rate"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 225
+				y = 259
+			}
+			format = center
+		}
+
+		iconType = {
+			name = "rate_bg_5"
+			spriteType = "GFX_rate_change_bg"
+			position = {
+				x = 250
+				y = 300
+			}
+		}
+
+		instantTextBoxType = {
+			name = "LIY_rate_gui_qing_rate"
+			font = hoi_20b
+			text = "LIY_rate_q_ttt_rate"
+			orientation = UPPER_LEFT
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			maxHeight = 600
+			maxWidth = 200
+			position = {
+				x = 225
+				y = 304
+			}
+			format = center
+		}
+
+		buttonType = {
+			name = "rate_open_rate"
+			spriteType = "GFX_bg_button"
+			pdx_tooltip = "LIY_open_map"
+			position = {
+				x = 34
+				y = 353
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "open_rate_change_window"
+		size = { x = 65 y = 65 }
+		position = { x = 180 y = 300 }
+
+		buttonType = {
+			name = "open_rate_change_button"
+			spriteType = "GFX_open_rate_change"
+		}
+	}
+
+	containerWindowType = {
+		name = "Liyue_rate_map"
+		size = { x = 760 y = 760 }
+		position = { x = 400 y = 170 }
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "Liyue_rate_map_bg"
+			spriteType = "GFX_liyue_rate_map_bg"
+		}
+
+		buttonType = {
+			name = "Liyue_republic_map"
+			spriteType = "GFX_liyue_republic_map"
+			orientation = CENTER
+			position = { x = 454 y = 454 }
+		}
+
+		buttonType = {
+			name = "rate_lingjv_republic_map"
+			spriteType = "GFX_rate_lingjv_republic_map"
+			orientation = CENTER
+			position = { x = 343 y = 385 }
+		}
+
+		buttonType = {
+			name = "rate_qingxv_republic_map"
+			spriteType = "GFX_rate_qingxv_republic_map"
+			orientation = CENTER
+			position = { x = 292 y = 515 }
+		}
+
+		buttonType = {
+			name = "rate_bubulu_map"
+			spriteType = "GFX_rate_bubulu_map"
+			orientation = CENTER
+			position = { x = 360 y = 470 }
+		}
+
+		buttonType = {
+			name = "rate_guili_map"
+			spriteType = "GFX_rate_guili_map"
+			orientation = CENTER
+			position = { x = 463 y = 380 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_cengyan_map"
+			spriteType = "GFX_rate_cengyan_map"
+			orientation = CENTER
+			position = { x = 168 y = 440 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_minglin_map"
+			spriteType = "GFX_rate_minglin_map"
+			orientation = CENTER
+			position = { x = 43 y = 185 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_north_liyue_map"
+			spriteType = "GFX_rate_north_liyue_map"
+			orientation = CENTER
+			position = { x =  382 y = 310 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_neo_liyue_map"
+			spriteType = "GFX_rate_neo_liyue_map"
+			orientation = CENTER
+			position = { x =  448 y = 286 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_viliage_minglin_map"
+			spriteType = "GFX_rate_viliage_minglin_map"
+			orientation = CENTER
+			position = { x =  426 y = 248 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_none_map"
+			spriteType = "GFX_rate_none_map"
+			orientation = CENTER
+			position = { x =  450 y = 150 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_mingyun_map"
+			spriteType = "GFX_rate_mingyun_map"
+			orientation = CENTER
+			position = { x =  575 y = 292 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_molakesi_map"
+			spriteType = "GFX_rate_molakesi_map"
+			orientation = CENTER
+			position = { x =  433 y = 580 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_heiyan_republic_map"
+			spriteType = "GFX_rate_heiyan_republic_map"
+			orientation = CENTER
+			position = { x =  379 y = 615 }
+		}
+
+		buttonType = {
+			name = "GFX_rate_qingce_map"
+			spriteType = "GFX_rate_qingce_map"
+			orientation = CENTER
+			position = { x =  410 y = 10 }
+		}
+
+		
+	}
+
+	containerWindowType = {
+		name = "state_rate_infor"
+		size = { x = 350 y = 210 }
+		clipping = no 
+		moveable = yes 
+		position = {
+			x = 0
+			y = 0
+		}
+		orientation = CENTER
+
+		background = {
+			name = "infor_bg"
+			spriteType = "GFX_liyue_rate_information"
+		}
+
+		instantTextBoxType = {
+			name = "state_rate_information"
+			text = "[GETstateinfor]"
+			font = PoynterText_Regular_22
+			maxWidth = 300
+			maxHeight = 500
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			format = center 
+			position = {
+				x = 24
+				y = 23
+			}
+		}
+
+		instantTextBoxType = {
+			name = "state_rate_information_desc"
+			text = "[GETstateinfordesc]"
+			font = PoynterText_Regular_18
+			maxWidth = 300
+			maxHeight = 500
+			borderSize = {
+				x = 0
+				y = 0
+			}
+			format = center 
+			position = {
+				x = 24
+				y = 70
+			}
+		}
+	}
+}

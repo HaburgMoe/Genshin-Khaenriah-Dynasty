@@ -1,0 +1,16 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		825 1045 1419 1602 1740 1894 2026 2039 2183 2317 2418 2559 3297 4474 4491 4503 4504 4511 4521 4526 4533 4549 4552 4558 4563 4573 4576 4577 4591 4600 4603 4613 4618 4638 4640 
+	}
+	history={
+		owner = NAV
+		add_core_of = NAV
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

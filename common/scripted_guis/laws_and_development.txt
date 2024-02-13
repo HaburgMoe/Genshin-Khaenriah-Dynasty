@@ -1,0 +1,599 @@
+scripted_gui = {
+
+    laws_and_development_ui = {
+		window_name = "laws_and_development_ui_window"
+		context_type = player_context
+		parent_window_token = politics_tab
+		
+		visible = { always = yes }
+		
+        triggers = {
+		    change_into_laws_button_click_enabled = {
+                has_country_flag = open_development_ui
+            }
+            change_into_laws_button_visible = {
+                is_ai = no
+            }
+
+            change_into_development_button_click_enabled = {
+                NOT = { has_country_flag = open_development_ui }
+            }
+            change_into_development_button_visible = {
+                is_ai = no
+            }
+        }
+        effects = {
+            change_into_laws_button_click = {
+                clr_country_flag = open_development_ui
+            }
+
+            change_into_development_button_click = {
+                set_country_flag = open_development_ui
+            }
+        }
+		
+	}
+
+
+    laws_ui = {
+        window_name = "laws_ui_window"
+		context_type = player_context
+		parent_window_token = politics_tab
+		
+		visible = { 
+            NOT = { has_country_flag = open_development_ui }
+        }
+
+        triggers = {
+          #兵役
+            bingyizhidu1_button_click_enabled = {
+                always = no
+            }
+            bingyizhidu1_chosen_visible = {
+                has_idea = bingyizhidu1
+            }
+            bingyizhidu2_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = bingyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                has_idea = bingyizhidu3
+            }
+            bingyizhidu2_chosen_visible = {
+                has_idea = bingyizhidu2
+            }
+            bingyizhidu3_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = bingyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                OR = {
+                    has_idea = bingyizhidu2
+                    has_idea = bingyizhidu4
+                }
+            }
+            bingyizhidu3_chosen_visible = {
+                has_idea = bingyizhidu3
+            }
+            bingyizhidu4_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = bingyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                OR = {
+                    has_idea = bingyizhidu3
+                    has_idea = bingyizhidu5
+                }
+            }
+            bingyizhidu4_chosen_visible = {
+                has_idea = bingyizhidu4
+            }
+            bingyizhidu5_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = bingyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                OR = {
+                    has_idea = bingyizhidu4
+                    has_idea = bingyizhidu6
+                }
+            }
+            bingyizhidu5_chosen_visible = {
+                has_idea = bingyizhidu5
+            }
+            bingyizhidu6_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = bingyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                has_idea = bingyizhidu5
+            }
+            bingyizhidu6_chosen_visible = {
+                has_idea = bingyizhidu6
+            }
+            
+          #国体
+            guoti_danyizhi_chosen_visible = {
+                has_idea = guoti_danyizhi
+            }
+            guoti_jiquanlianbang_chosen_visible = {
+                has_idea = guoti_jiquanlianbang
+            }
+            guoti_lianbangzhi_chosen_visible = {
+                has_idea = guoti_lianbangzhi
+            }
+            guoti_banglianzhi_chosen_visible = {
+                has_idea = guoti_banglianzhi
+            }
+            guoti_wuzhengfu_chosen_visible = {
+                has_idea = guoti_wuzhengfu
+            }
+
+          #对外政策
+            duiwai_hexie_chosen_visible = {
+                has_idea = duiwai_hexie
+            }
+            duiwai_jingti_chosen_visible = {
+                has_idea = duiwai_jingti
+            }
+            duiwai_heiansenlin_chosen_visible = {
+                has_idea = duiwai_heiansenlin
+            }
+            duiwai_dengta_chosen_visible = {
+                has_idea = duiwai_dengta
+            }
+            duiwai_zhongli_chosen_visible = {
+                has_idea = duiwai_zhongli
+            }
+
+          #政党
+            yidangzhi_chosen_visible = {
+                has_idea = yidangzhi
+            }
+            xiangzhengduodang_chosen_visible = {
+                has_idea = xiangzhengduodang
+            }
+            duodangzhi_chosen_visible = {
+                has_idea = duodangzhi
+            }
+            quzhengdanghua_chosen_visible = {
+                has_idea = quzhengdanghua
+            }
+
+          #工作时长
+            wuxianzhi_work_chosen_visible = {
+                has_idea = wuxianzhi_work
+            }
+            14xiaoshi_chosen_visible = {
+                has_idea = 14xiaoshi
+            }
+            12xiaoshi_chosen_visible = {
+                has_idea = 12xiaoshi
+            }
+            10xiaoshi_chosen_visible = {
+                has_idea = 10xiaoshi
+            }
+            8xiaoshi_chosen_visible = {
+                has_idea = 8xiaoshi
+            }
+            6xiaoshi_chosen_visible = {
+                has_idea = 6xiaoshi
+            }
+
+          #性少数政策
+            xssfeiguomin_chosen_visible = {
+                has_idea = xssfeiguomin
+            }
+            xssdaya_chosen_visible = {
+                has_idea = xssdaya
+            }
+            xssyouxianpingdeng_chosen_visible = {
+                has_idea = xssyouxianpingdeng
+            }
+            xsspingdeng_chosen_visible = {
+                has_idea = xsspingdeng
+            }
+
+          #司法刑罚
+            fuchousifa_chosen_visible = {
+                has_idea = fuchousifa
+            }
+            chengjiesifa_chosen_visible = {
+                has_idea = chengjiesifa
+            }
+            gaizaosifa_chosen_visible = {
+                has_idea = gaizaosifa
+            }
+            xiufusifa_chosen_visible = {
+                has_idea = xiufusifa
+            }
+
+          #两性权益
+            nvquan1_chosen_visible = {
+                has_idea = nvquan1
+            }
+            nvquan2_chosen_visible = {
+                has_idea = nvquan2
+            }
+            nvquan3_chosen_visible = {
+                has_idea = nvquan3
+            }
+            nvquan4_chosen_visible = {
+                has_idea = nvquan4
+            }
+
+          #言论权利
+            yanlun1_chosen_visible = {
+                has_idea = yanlun1
+            }
+            yanlun2_chosen_visible = {
+                has_idea = yanlun2
+            }
+            yanlun3_chosen_visible = {
+                has_idea = yanlun3
+            }
+            yanlun4_chosen_visible = {
+                has_idea = yanlun4
+            }
+
+
+          #福利政策
+            wufulibaozhang_chosen_visible = {
+                has_idea = wufulibaozhang
+            }
+            shaoliangfulibaozhang_chosen_visible = {
+                has_idea = shaoliangfulibaozhang
+            }
+            jibenfulibaozhang_chosen_visible = {
+                has_idea = jibenfulibaozhang
+            }
+            shiliangfulibaozhang_chosen_visible = {
+                has_idea = shiliangfulibaozhang
+            }
+            daliangfulibaozhang_chosen_visible = {
+                has_idea = daliangfulibaozhang
+            }
+
+          #贸易
+            wufazizhumaoyi_button_click_enabled = {
+                always = no
+            }
+            wufazizhumaoyi_chosen_visible = {
+                has_idea = wufazizhumaoyi
+            }
+            biguansuoguo_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = maoyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                has_idea = yangexianzhimaoyi
+            }
+            biguansuoguo_chosen_visible = {
+                has_idea = biguansuoguo
+            }
+            yangexianzhimaoyi_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = maoyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                OR = {
+                    has_idea = biguansuoguo
+                    has_idea = maoyibaohu
+                }
+            }
+            yangexianzhimaoyi_chosen_visible = {
+                has_idea = yangexianzhimaoyi
+            }
+            maoyibaohu_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = maoyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                OR = {
+                    has_idea = yangexianzhimaoyi
+                    has_idea = ziyoumaoyi
+                }
+            }
+            maoyibaohu_chosen_visible = {
+                has_idea = maoyibaohu
+            }
+            ziyoumaoyi_button_click_enabled = {
+                NOT = { has_idea = government_level1 }
+                NOT = { has_idea = maoyibiandong }
+                check_variable = {
+                    var = political_power
+                    value = 149
+                    compare = greater_than
+                }
+                has_idea = maoyibaohu
+            }
+            ziyoumaoyi_chosen_visible = {
+                has_idea = ziyoumaoyi
+            }
+
+          #选举
+            wuxuanju_chosen_visible = {
+                has_idea = wuxuanju
+            }
+            guizuguatou_chosen_visible = {
+                has_idea = guizuguatou
+            }
+            zichanjiaquan_chosen_visible = {
+                has_idea = zichanjiaquan
+            }
+            daiyixuanju_chosen_visible = {
+                has_idea = daiyixuanju
+            }
+            puxuanquan_chosen_visible = {
+                has_idea = puxuanquan
+            }
+
+          #移民政策
+            fengsuobianjing_chosen_visible = {
+                has_idea = fengsuobianjing
+            }
+            yangexianzhiyimin_chosen_visible = {
+                has_idea = yangexianzhiyimin
+            }
+            xianzhiyimin_chosen_visible = {
+                has_idea = xianzhiyimin
+            }
+            kaifangbianjing_chosen_visible = {
+                has_idea = kaifangbianjing
+            }
+
+          #民族种族政策
+            zzmzjinghua_chosen_visible = {
+                has_idea = zzmzjinghua
+            }
+            zzmzpohai_chosen_visible = {
+                has_idea = zzmzpohai
+            }
+            zzmzqishi_chosen_visible = {
+                has_idea = zzmzqishi
+            }
+            zzmzbiaomianpingdeng_chosen_visible = {
+                has_idea = zzmzbiaomianpingdeng
+            }
+            zzmzpingdeng_chosen_visible = {
+                has_idea = zzmzpingdeng
+            }
+
+          #宗教政策
+            zhengjiaoheyi_chosen_visible = {
+                has_idea = zhengjiaoheyi
+            }
+            danyiguojiao_chosen_visible = {
+                has_idea = danyiguojiao
+            }
+            guojiawushenlun_chosen_visible = {
+                has_idea = guojiawushenlun
+            }
+            xianzhizongjiao_chosen_visible = {
+                has_idea = xianzhizongjiao
+            }
+            zongjiaoziyou_chosen_visible = {
+                has_idea = zongjiaoziyou
+            }
+
+        }
+
+
+        effects = {
+          #兵役制度
+            bingyizhidu2_button_click = {
+                add_political_power = -150
+                swap_ideas = {
+                    remove_idea = bingyizhidu3
+                    add_idea = bingyizhidu2
+                }
+                add_timed_idea = {
+                    idea = bingyibiandong
+                    days = 300
+                }
+            }
+            bingyizhidu3_button_click = {
+                add_political_power = -150
+                add_timed_idea = {
+                    idea = bingyibiandong
+                    days = 300
+                }
+                if = {
+                    limit = { has_idea = bingyizhidu2 }
+                    swap_ideas = {
+                        remove_idea = bingyizhidu2
+                        add_idea = bingyizhidu3
+                    }
+                }
+                else_if = {
+                    limit = { has_idea = bingyizhidu4 }
+                    swap_ideas = {
+                        remove_idea = bingyizhidu4
+                        add_idea = bingyizhidu3
+                    }
+                }
+            }
+            bingyizhidu4_button_click = {
+                add_political_power = -150
+                add_timed_idea = {
+                    idea = bingyibiandong
+                    days = 300
+                }
+                if = {
+                    limit = { has_idea = bingyizhidu3 }
+                    swap_ideas = {
+                        remove_idea = bingyizhidu3
+                        add_idea = bingyizhidu4
+                    }
+                }
+                else_if = {
+                    limit = { has_idea = bingyizhidu5 }
+                    swap_ideas = {
+                        remove_idea = bingyizhidu5
+                        add_idea = bingyizhidu4
+                    }
+                }
+            }
+            bingyizhidu5_button_click = {
+                add_political_power = -150
+                add_timed_idea = {
+                    idea = bingyibiandong
+                    days = 300
+                }
+                if = {
+                    limit = { has_idea = bingyizhidu4 }
+                    swap_ideas = {
+                        remove_idea = bingyizhidu4
+                        add_idea = bingyizhidu5
+                    }
+                }
+                else_if = {
+                    limit = { has_idea = bingyizhidu6 }
+                    swap_ideas = {
+                        remove_idea = bingyizhidu6
+                        add_idea = bingyizhidu5
+                    }
+                }
+            }
+            bingyizhidu6_button_click = {
+                add_political_power = -150
+                swap_ideas = {
+                    remove_idea = bingyizhidu5
+                    add_idea = bingyizhidu6
+                }
+                add_timed_idea = {
+                    idea = bingyibiandong
+                    days = 300
+                }
+            }
+
+
+          #贸易政策
+            biguansuoguo_button_click = {
+                add_political_power = -150
+                swap_ideas = {
+                    remove_idea = yangexianzhimaoyi
+                    add_idea = biguansuoguo
+                }
+                add_timed_idea = {
+                    idea = maoyibiandong
+                    days = 300
+                }
+            }
+            yangexianzhimaoyi_button_click = {
+                add_political_power = -150
+                add_timed_idea = {
+                    idea = maoyibiandong
+                    days = 300
+                }
+                if = {
+                    limit = { has_idea = biguansuoguo }
+                    swap_ideas = {
+                        remove_idea = biguansuoguo
+                        add_idea = yangexianzhimaoyi
+                    }
+                }
+                else_if = {
+                    limit = { has_idea = maoyibaohu }
+                    swap_ideas = {
+                        remove_idea = maoyibaohu
+                        add_idea = yangexianzhimaoyi
+                    }
+                }
+            }
+            maoyibaohu_button_click = {
+                add_political_power = -150
+                add_timed_idea = {
+                    idea = maoyibiandong
+                    days = 300
+                }
+                if = {
+                    limit = { has_idea = yangexianzhimaoyi }
+                    swap_ideas = {
+                        remove_idea = yangexianzhimaoyi
+                        add_idea = maoyibaohu
+                    }
+                }
+                else_if = {
+                    limit = { has_idea = ziyoumaoyi }
+                    swap_ideas = {
+                        remove_idea = ziyoumaoyi
+                        add_idea = maoyibaohu
+                    }
+                }
+            }
+            ziyoumaoyi_button_click = {
+                add_political_power = -150
+                swap_ideas = {
+                    remove_idea = maoyibaohu
+                    add_idea = ziyoumaoyi
+                }
+                add_timed_idea = {
+                    idea = maoyibiandong
+                    days = 300
+                }
+            }
+  
+        }
+    }
+
+
+    development_ui = {
+		window_name = "development_ui_window"
+		context_type = player_context
+		parent_window_token = politics_tab
+		
+		visible = { has_country_flag = open_development_ui }
+		
+        
+		properties = {
+			government_frames = {
+				frame = government_level_frame
+			}
+            army_frames = {
+				frame = army_level_frame
+			}
+            agriculture_frames = {
+				frame = agriculture_level_frame
+			}
+            industry_frames = {
+				frame = industry_level_frame
+			}
+            public_facilities_frames = {
+				frame = public_facilities_level_frame
+			}
+            education_frames = {
+				frame = education_level_frame
+			}
+            research_frames = {
+				frame = research_level_frame
+			}
+		}
+    }
+
+	
+}

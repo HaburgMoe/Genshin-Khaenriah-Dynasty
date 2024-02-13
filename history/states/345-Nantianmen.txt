@@ -1,0 +1,16 @@
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		1198 2781 6489 6525 6556 6564 
+	}
+	history={
+		owner = XRG
+		add_core_of = XRG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

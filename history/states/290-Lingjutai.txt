@@ -1,0 +1,17 @@
+
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		3333 3437 3751 6740 6767 6824 6842 6871 
+	}
+	history={
+		owner = LJG
+		add_core_of = LJG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

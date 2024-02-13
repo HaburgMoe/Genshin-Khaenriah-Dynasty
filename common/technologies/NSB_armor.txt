@@ -1,0 +1,951 @@
+technologies = {
+
+
+
+	GKD_GENGDIJI = { 
+		enable_equipments = {
+			GKD_GENGDIJI_0
+		}
+		enable_subunits = {
+			medium_GKD_GENGDIJI
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_JUXING
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_PENQI_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZAIDAN_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_JINGDU_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHUANGJIA_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_YINQING_0
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 0
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 5 y = 0 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_1 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_1
+			GKD_GENGDIJI_QINGXING_0
+			GKD_GENGDIJI_ZHONGXING_0
+		}
+		enable_subunits = {
+			light_armor_GKD_GENGDIJI
+			heavy_armor_GKD_GENGDIJI
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_QINGXING_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHONGXING_0
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 50
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -1 y = 2 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_2 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_2
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 300
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -1 y = 5 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_3 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_3
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_4
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 420
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -1 y = 8 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_4 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_4
+		}
+		research_cost = 2
+		start_year = 490
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -1 y = 11 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_QINGXING_0 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_QINGXING_1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_QINGXING_1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 120
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -5 y = 5 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_QINGXING_1 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_QINGXING_2
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_QINGXING_2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 30
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -5 y = 8 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_QINGXING_2 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_QINGXING_3
+		}
+		research_cost = 2
+		start_year = 480
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = -5 y = 11 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHONGXING_0 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_ZHONGXING_1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHONGXING_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHONGXING_12
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 120
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 2 y = 5 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHONGXING_12 = { 
+		research_cost = 2
+		start_year = 400
+		heavy_armor_GKD_GENGDIJI = {
+			maximum_speed = 0.5
+			hard_attack = 0.15
+		}
+		light_armor_GKD_GENGDIJI = {
+			maximum_speed = 0.5
+			hard_attack = 0.15
+		}
+		medium_GKD_GENGDIJI = {
+			maximum_speed = 0.5
+			hard_attack = 0.15
+		}
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 3 y = 7 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHONGXING_1 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_ZHONGXING_2
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_JUXING
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 470
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 2 y = 8 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_JUXING = { 
+		enable_equipments = {
+			GKD_GENGDIJI_juxingjijia
+		}
+		research_cost = 2
+		start_year = 500
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 5 y = 15 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_PENQI_0 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_PENQI_0
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_PENQI_DIKONG
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_PENQI_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_PENQI_GAOKONG
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 50
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 12 y = 2 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_PENQI_GAOKONG = { 
+		enable_equipments = {
+			GKD_GENGDIJI_PENQI_GAOKONG
+		}
+		research_cost = 2
+		start_year = 150
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 7 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_PENQI_DIKONG = { 
+		enable_equipments = {
+			GKD_GENGDIJI_PENQI_DIKONG
+		}
+		research_cost = 2
+		start_year = 150
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 15 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_PENQI_1 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_PENQI_1
+		}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_PENQI_2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 300
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 12 y =7 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_PENQI_2 = { 
+		enable_equipments = {
+			GKD_GENGDIJI_PENQI_2
+		}
+		research_cost = 2
+		start_year = 480
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 12 y = 14 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZAIDAN_0 = { 
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZAIDAN_1
+			research_cost_coeff = 1
+		}
+	air_attack_factor = 0.2
+	air_cas_present_factor = 0.2
+			medium_GKD_GENGDIJI = {
+	soft_attack = 0.2
+	hard_attack = 0.2
+			}
+			light_armor_GKD_GENGDIJI = {
+	soft_attack = 0.2
+	hard_attack = 0.2
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	soft_attack = 0.2
+	hard_attack = 0.2
+			}
+		research_cost = 2
+		start_year = 150
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 19 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZAIDAN_1 = { 
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZAIDAN_2
+			research_cost_coeff = 1
+		}
+	air_attack_factor = 0.3
+	air_cas_present_factor = 0.3
+	
+			medium_GKD_GENGDIJI = {
+	soft_attack = 0.3
+	hard_attack = 0.3
+			}
+			light_armor_GKD_GENGDIJI = {
+	soft_attack = 0.3
+	hard_attack = 0.3
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	soft_attack = 0.3
+	hard_attack = 0.3
+			}
+		research_cost = 2
+		start_year = 350
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 19 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZAIDAN_2 = { 
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZAIDAN_3
+			research_cost_coeff = 1
+		}
+	air_attack_factor = 0.4
+	air_cas_present_factor = 0.4
+			medium_GKD_GENGDIJI = {
+	soft_attack = 0.4
+	hard_attack = 0.4
+			}
+			light_armor_GKD_GENGDIJI = {
+	soft_attack = 0.4
+	hard_attack = 0.4
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	soft_attack = 0.4
+	hard_attack = 0.4
+			}
+		research_cost = 2
+		start_year = 440
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 19 y = 9 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZAIDAN_3 = { 
+	air_attack_factor = 0.5
+	air_cas_present_factor = 0.5
+	
+			medium_GKD_GENGDIJI = {
+	soft_attack = 0.5
+	hard_attack = 0.5
+			}
+			light_armor_GKD_GENGDIJI = {
+	soft_attack = 0.5
+	hard_attack = 0.5
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	soft_attack = 0.5
+	hard_attack = 0.5
+			}
+		research_cost = 2
+		start_year = 500
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 19 y = 14 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_JINGDU_0 = { 
+	air_attack_factor = 0.2
+	air_cas_present_factor = 0.2
+			medium_GKD_GENGDIJI = {
+	breakthrough = 0.2
+	ap_attack = 0.2
+			}
+			light_armor_GKD_GENGDIJI = {
+	breakthrough = 0.2
+	ap_attack = 0.2
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	breakthrough = 0.2
+	ap_attack = 0.2
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_JINGDU_1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 150
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 21 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_JINGDU_1 = { 
+	air_attack_factor = 0.4
+	air_cas_present_factor = 0.4
+			medium_GKD_GENGDIJI = {
+	breakthrough = 0.4
+	ap_attack = 0.4
+			}
+			light_armor_GKD_GENGDIJI = {
+	breakthrough = 0.4
+	ap_attack = 0.4
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	breakthrough = 0.4
+	ap_attack = 0.4
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_JINGDU_2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 350
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 21 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_JINGDU_2 = { 
+	air_attack_factor = 0.6
+	air_cas_present_factor = 0.6
+			medium_GKD_GENGDIJI = {
+	breakthrough = 0.6
+	ap_attack = 0.6
+			}
+			light_armor_GKD_GENGDIJI = {
+	breakthrough = 0.6
+	ap_attack = 0.6
+			}
+			heavy_armor_GKD_GENGDIJI = {
+	breakthrough = 0.6
+	ap_attack = 0.6
+			}
+		research_cost = 2
+		start_year = 440
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 21 y = 9 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHUANGJIA_0 = { 
+			category_fighter = {
+		defense = 0.2
+			}
+			medium_GKD_GENGDIJI = {
+		defense = 0.2
+	armor_value = 0.2
+	maximum_speed = -0.05
+			}
+			light_armor_GKD_GENGDIJI = {
+		defense = 0.2
+	armor_value = 0.2
+	maximum_speed = -0.05
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		defense = 0.2
+	armor_value = 0.2
+	maximum_speed = -0.05
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHUANGJIA_1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 150
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 24 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHUANGJIA_1 = { 
+			category_fighter = {
+		defense = 0.4
+			}
+			medium_GKD_GENGDIJI = {
+		defense = 0.4
+	armor_value = 0.4
+	maximum_speed = -0.05
+			}
+			light_armor_GKD_GENGDIJI = {
+		defense = 0.4
+	armor_value = 0.4
+	maximum_speed = -0.05
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		defense = 0.4
+	armor_value = 0.4
+	maximum_speed = -0.05
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHUANGJIA_2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 350
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 24 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHUANGJIA_2 = { 
+			category_fighter = {
+		defense = 0.6
+			}
+			medium_GKD_GENGDIJI = {
+		defense = 0.6
+	armor_value = 0.6
+	maximum_speed = -0.05
+			}
+			light_armor_GKD_GENGDIJI = {
+		defense = 0.6
+	armor_value = 0.6
+	maximum_speed = -0.05
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		defense = 0.6
+	armor_value = 0.6
+	maximum_speed = -0.05
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_ZHUANGJIA_3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 440
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 24 y = 9 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_ZHUANGJIA_3 = { 
+			category_fighter = {
+		defense = 1
+			}
+			medium_GKD_GENGDIJI = {
+		defense = 1
+	armor_value = 1
+	maximum_speed = -0.05
+			}
+			light_armor_GKD_GENGDIJI = {
+		defense = 1
+	armor_value = 1
+	maximum_speed = -0.05
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		defense = 1
+	armor_value = 1
+	maximum_speed = -0.05
+			}
+		research_cost = 2
+		start_year = 500
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 24 y = 14 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_YINQING_0 = { 
+			category_fighter = {
+		air_range = 0.5
+		maximum_speed = 0.2
+			}
+			medium_GKD_GENGDIJI = {
+		reliability = 0.2
+	maximum_speed = 0.2
+			}
+			light_armor_GKD_GENGDIJI = {
+		reliability = 0.2
+	maximum_speed = 0.2
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		reliability = 0.2
+	maximum_speed = 0.2
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_YINQING_1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 150
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 27 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_YINQING_1 = { 
+			category_fighter = {
+		air_range = 1.0
+		maximum_speed = 0.5
+			}
+			medium_GKD_GENGDIJI = {
+		reliability = 0.5
+	maximum_speed = 0.5
+			}
+			light_armor_GKD_GENGDIJI = {
+		reliability = 0.5
+	maximum_speed = 0.5
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		reliability = 0.5
+	maximum_speed = 0.5
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_YINQING_2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 350
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 27 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_YINQING_2 = { 
+			category_fighter = {
+		air_range = 1.5
+		maximum_speed = 0.9
+			}
+			medium_GKD_GENGDIJI = {
+		reliability = 0.9
+	maximum_speed = 0.9
+			}
+			light_armor_GKD_GENGDIJI = {
+		reliability = 0.9
+	maximum_speed = 0.9
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		reliability = 0.9
+	maximum_speed = 0.9
+			}
+		path = {
+			leads_to_tech = GKD_GENGDIJI_YINQING_3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 440
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 27 y = 9 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+	GKD_GENGDIJI_YINQING_3 = { 
+			category_fighter = {
+		air_range = 2
+		maximum_speed = 1.5
+			}
+			medium_GKD_GENGDIJI = {
+		reliability = 1.5
+	maximum_speed = 1.5
+			}
+			light_armor_GKD_GENGDIJI = {
+		reliability = 1.5
+	maximum_speed = 1.5
+			}
+			heavy_armor_GKD_GENGDIJI = {
+		reliability = 1.5
+	maximum_speed = 1.5
+			}
+		research_cost = 2
+		start_year = 500
+		folder = {
+			name = nsb_armourA_folder
+			position = { x = 27 y = 14 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			GKD_GENGDIJI
+		}
+	}
+
+
+
+
+}

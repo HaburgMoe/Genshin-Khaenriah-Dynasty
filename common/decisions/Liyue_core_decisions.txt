@@ -1,0 +1,62 @@
+Liyue_core_categories = {
+	Liyue_produce_core = {
+		target_array = controlled_states
+		state_target = yes 
+		cost = 15 
+		available = {
+			FROM = {
+				is_fully_controlled_by = ROOT 
+				not = {
+					is_core_of = ROOT 
+				}
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		target_trigger = {
+			FROM = {
+				is_fully_controlled_by = ROOT 
+				not = {
+					is_core_of = ROOT 
+				}
+				OR = {
+					is_core_of = LIY
+					is_core_of = QXG
+					is_core_of = GLG 
+					is_core_of = XRG 
+					is_core_of = LJG
+					is_core_of = BBL 
+					is_core_of = HYG 
+					is_core_of = YJG 
+					is_core_of = LYA 
+					is_core_of = JYG 
+					is_core_of = XRG 
+					is_core_of = MYZ 
+					is_core_of = MLB 
+					is_core_of = KQG 
+					is_core_of = QCZ 
+					is_core_of = GYG 
+					is_core_of = WST 
+					is_core_of = YLG 
+					state = 36 
+					state = 280 
+					state = 298 
+					state = 272 
+				}
+			}
+		}
+		days_remove = 30 
+		modifier = {
+			political_power_cost = 0.15 
+			consumer_goods_factor = 0.05
+		}
+		complete_effect = {
+			add_stability = -0.025
+		}
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT 
+			}
+			add_stability = 0.025
+		}
+	}
+}

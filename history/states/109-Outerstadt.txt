@@ -1,0 +1,15 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		343 5184 5225 5261 
+	}
+	history={
+		owner = MDC
+		add_core_of = MDC
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

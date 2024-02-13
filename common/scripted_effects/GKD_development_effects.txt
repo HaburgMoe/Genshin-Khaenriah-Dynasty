@@ -1,0 +1,1260 @@
+
+development_frame_data_settlement={
+    set_temp_variable={ government_level_temp=government_level_var }
+    add_to_temp_variable={ government_level_temp=2 }
+    divide_temp_variable={ government_level_temp=2 }
+    add_to_temp_variable={ government_level_temp=-0.4 }
+    round_temp_variable=government_level_temp
+    set_variable={ government_level_frame=government_level_temp }
+    clamp_variable={ 
+        var=government_level_frame 
+        min=1
+        max=90
+    }
+
+    set_temp_variable={ army_level_temp=army_level_var }
+    add_to_temp_variable={ army_level_temp=2 }
+    divide_temp_variable={ army_level_temp=2 }
+    add_to_temp_variable={ army_level_temp=-0.4 }
+    round_temp_variable=army_level_temp
+    set_variable={ army_level_frame=army_level_temp }
+    clamp_variable={ 
+        var=army_level_frame 
+        min=1
+        max=90
+    }
+
+    set_temp_variable={ agriculture_level_temp=agriculture_level_var }
+    add_to_temp_variable={ agriculture_level_temp=2 }
+    divide_temp_variable={ agriculture_level_temp=2 }
+    add_to_temp_variable={ agriculture_level_temp=-0.4 }
+    round_temp_variable=agriculture_level_temp
+    set_variable={ agriculture_level_frame=agriculture_level_temp }
+    clamp_variable={ 
+        var=agriculture_level_frame 
+        min=1
+        max=90
+    }
+
+    set_temp_variable={ industry_level_temp=industry_level_var }
+    add_to_temp_variable={ industry_level_temp=2 }
+    divide_temp_variable={ industry_level_temp=2 }
+    add_to_temp_variable={ industry_level_temp=-0.4 }
+    round_temp_variable=industry_level_temp
+    set_variable={ industry_level_frame=industry_level_temp }
+    clamp_variable={ 
+        var=industry_level_frame 
+        min=1
+        max=90
+    }
+
+    set_temp_variable={ public_facilities_level_temp=public_facilities_level_var }
+    add_to_temp_variable={ public_facilities_level_temp=2 }
+    divide_temp_variable={ public_facilities_level_temp=2 }
+    add_to_temp_variable={ public_facilities_level_temp=-0.4 }
+    round_temp_variable=public_facilities_level_temp
+    set_variable={ public_facilities_level_frame=public_facilities_level_temp }
+    clamp_variable={ 
+        var=public_facilities_level_frame 
+        min=1
+        max=90
+    }
+
+    set_temp_variable={ education_level_temp=education_level_var }
+    add_to_temp_variable={ education_level_temp=2 }
+    divide_temp_variable={ education_level_temp=2 }
+    add_to_temp_variable={ education_level_temp=-0.4 }
+    round_temp_variable=education_level_temp
+    set_variable={ education_level_frame=education_level_temp }
+    clamp_variable={ 
+        var=education_level_frame 
+        min=1
+        max=90
+    }
+
+    set_temp_variable={ research_level_temp=research_level_var }
+    add_to_temp_variable={ research_level_temp=2 }
+    divide_temp_variable={ research_level_temp=2 }
+    add_to_temp_variable={ research_level_temp=-0.4 }
+    round_temp_variable=research_level_temp
+    set_variable={ research_level_frame=research_level_temp }
+    clamp_variable={ 
+        var=research_level_frame 
+        min=1
+        max=90
+    }
+}
+
+
+
+
+#行政管理
+government_level_data_settlement={
+	set_variable={ government_monthly_vary=government_increase_var }
+	add_to_variable={ government_monthly_vary=modifier@government_dvelopment_gain }
+
+    add_to_variable={ government_level_var=government_monthly_vary }
+    clamp_variable={ 
+        var=government_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+government_level_increase_1={
+    add_to_variable={ government_increase_var=0.45 }
+    custom_effect_tooltip=government_development_speed_increase1
+}
+
+government_level_increase_2={
+	add_to_variable={ government_increase_var=0.97 }
+    custom_effect_tooltip=government_development_speed_increase2
+}
+
+government_level_increase_3={
+	add_to_variable={ government_increase_var=1.43 }
+    custom_effect_tooltip=government_development_speed_increase3
+}
+
+government_level_decrease_1={
+	add_to_variable={ government_increase_var=-0.45 }
+    custom_effect_tooltip=government_development_speed_desease3
+}
+
+government_level_decrease_2={
+	add_to_variable={ government_increase_var=-0.97 }
+    custom_effect_tooltip=government_development_speed_desease3
+}
+
+government_level_decrease_3={
+	add_to_variable={ government_increase_var=-1.43 }
+    custom_effect_tooltip=government_development_speed_desease3
+}
+
+
+
+#军队建设
+army_level_data_settlement={
+	set_variable={ army_monthly_vary=army_increase_var }
+    add_to_variable={ army_monthly_vary=modifier@army_dvelopment_gain }
+
+    add_to_variable={ army_level_var=army_monthly_vary }
+    clamp_variable={ 
+        var=army_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+army_level_increase_1={
+    add_to_variable={ army_increase_var=0.45 }
+    custom_effect_tooltip=government_development_speed_increase1
+}
+
+army_level_increase_2={
+	add_to_variable={ army_increase_var=0.97 }
+    custom_effect_tooltip=government_development_speed_increase2
+}
+
+army_level_increase_3={
+	add_to_variable={ army_increase_var=1.43 }
+    custom_effect_tooltip=government_development_speed_increase3
+}
+
+army_level_decrease_1={
+	add_to_variable={ army_increase_var=-0.45 }
+    custom_effect_tooltip=army_development_speed_desease1
+}
+
+army_level_decrease_2={
+	add_to_variable={ army_increase_var=-0.97 }
+    custom_effect_tooltip=army_development_speed_desease2
+}
+
+army_level_decrease_3={
+	add_to_variable={ army_increase_var=-1.43 }
+    custom_effect_tooltip=army_development_speed_desease3
+}
+
+
+
+#农业
+agriculture_level_data_settlement={
+	set_variable={ agriculture_monthly_vary=agriculture_increase_var }
+    add_to_variable={ agriculture_monthly_vary=modifier@agriculture_dvelopment_gain }
+	
+    add_to_variable={ agriculture_level_var=agriculture_monthly_vary }
+    clamp_variable={ 
+        var=agriculture_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+agriculture_level_increase_1={
+    add_to_variable={ agriculture_increase_var=0.45 }
+    custom_effect_tooltip=agriculture_development_speed_increase1
+}
+
+agriculture_level_increase_2={
+	add_to_variable={ agriculture_increase_var=0.97 }
+    custom_effect_tooltip=agriculture_development_speed_increase2
+}
+
+agriculture_increase_3={
+	add_to_variable={ agriculture_increase_var=1.43 }
+    custom_effect_tooltip=agriculture_development_speed_increase3
+}
+
+agriculture_decrease_1={
+	add_to_variable={ agriculture_increase_var=-0.45 }
+    custom_effect_tooltip=agriculture_development_speed_desease1
+}
+
+agriculture_decrease_2={
+	add_to_variable={ agriculture_increase_var=-0.97 }
+    custom_effect_tooltip=agriculture_development_speed_desease2
+}
+
+agriculture_decrease_3={
+	add_to_variable={ agriculture_increase_var=-1.43 }
+    custom_effect_tooltip=agriculture_development_speed_desease3
+}
+
+
+
+#工业
+industry_level_data_settlement={
+	set_variable={ industry_monthly_vary=industry_increase_var }
+    add_to_variable={ industry_monthly_vary=modifier@industry_dvelopment_gain }
+	
+    add_to_variable={ industry_level_var=industry_monthly_vary }
+    clamp_variable={ 
+        var=industry_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+industry_level_increase_1={
+    add_to_variable={ industry_increase_var=0.45 }
+    custom_effect_tooltip=industry_development_speed_increase1
+}
+
+industry_level_increase_2={
+	add_to_variable={ industry_increase_var=0.97 }
+    custom_effect_tooltip=industry_development_speed_increase2
+}
+
+industry_increase_3={
+	add_to_variable={ industry_increase_var=1.43 }
+    custom_effect_tooltip=industry_development_speed_increase3
+}
+
+industry_decrease_1={
+	add_to_variable={ industry_increase_var=-0.45 }
+    custom_effect_tooltip=industry_development_speed_desease1
+}
+
+industry_decrease_2={
+	add_to_variable={ industry_increase_var=-0.97 }
+    custom_effect_tooltip=industry_development_speed_desease2
+}
+
+industry_decrease_3={
+	add_to_variable={ industry_increase_var=-1.43 }
+    custom_effect_tooltip=industry_development_speed_desease3
+}
+
+
+
+#公共设施
+public_facilities_level_data_settlement={
+	set_variable={ public_facilities_monthly_vary=public_facilities_increase_var }
+    add_to_variable={ public_facilities_monthly_vary=modifier@public_facilities_dvelopment_gain }
+	
+    add_to_variable={ public_facilities_level_var=public_facilities_monthly_vary }
+    clamp_variable={ 
+        var=public_facilities_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+public_facilities_level_increase_1={
+    add_to_variable={ public_facilities_increase_var=0.45 }
+    custom_effect_tooltip=public_facilities_development_speed_increase1
+}
+
+public_facilities_level_increase_2={
+	add_to_variable={ public_facilities_increase_var=0.97 }
+    custom_effect_tooltip=public_facilities_development_speed_increase2
+}
+
+public_facilities_increase_3={
+	add_to_variable={ public_facilities_increase_var=1.43 }
+    custom_effect_tooltip=public_facilities_development_speed_increase3
+}
+
+public_facilities_decrease_1={
+	add_to_variable={ public_facilities_increase_var=-0.45 }
+    custom_effect_tooltip=public_facilities_development_speed_desease1
+}
+
+public_facilities_decrease_2={
+	add_to_variable={ public_facilities_increase_var=-0.97 }
+    custom_effect_tooltip=public_facilities_development_speed_desease2
+}
+
+public_facilities_decrease_3={
+	add_to_variable={ public_facilities_increase_var=-1.43 }
+    custom_effect_tooltip=public_facilities_development_speed_desease3
+}
+
+
+
+#教育
+education_level_data_settlement={
+	set_variable={ education_monthly_vary=education_increase_var }
+    add_to_variable={ education_monthly_vary=modifier@education_dvelopment_gain }
+	
+    add_to_variable={ education_level_var=education_monthly_vary }
+    clamp_variable={ 
+        var=education_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+education_level_increase_1={
+    add_to_variable={ education_increase_var=0.45 }
+    custom_effect_tooltip=education_development_speed_increase1
+}
+
+education_level_increase_2={
+	add_to_variable={ education_increase_var=0.97 }
+    custom_effect_tooltip=education_development_speed_increase2
+}
+
+education_increase_3={
+	add_to_variable={ education_increase_var=1.43 }
+    custom_effect_tooltip=education_development_speed_increase3
+}
+
+education_decrease_1={
+	add_to_variable={ education_increase_var=-0.45 }
+    custom_effect_tooltip=education_development_speed_desease1
+}
+
+education_decrease_2={
+	add_to_variable={ education_increase_var=-0.97 }
+    custom_effect_tooltip=education_development_speed_desease2
+}
+
+education_decrease_3={
+	add_to_variable={ education_increase_var=-1.43 }
+    custom_effect_tooltip=education_development_speed_desease3
+}
+
+
+
+#科研
+research_level_data_settlement={
+    set_variable={ research_monthly_vary=research_increase_var }
+    add_to_variable={ research_monthly_vary=modifier@research_dvelopment_gain }
+	
+    add_to_variable={ research_level_var=research_monthly_vary }
+    clamp_variable={ 
+        var=research_level_var
+        min=-0.1
+        max=180
+    }
+    development_frame_data_settlement=yes
+} 
+
+research_level_increase_1={
+    add_to_variable={ research_increase_var=0.45 }
+    custom_effect_tooltip=research_development_speed_increase1
+}
+
+research_level_increase_2={
+	add_to_variable={ research_increase_var=0.97 }
+    custom_effect_tooltip=research_development_speed_increase2
+}
+
+research_increase_3={
+	add_to_variable={ research_increase_var=1.43 }
+    custom_effect_tooltip=research_development_speed_increase3
+}
+
+research_decrease_1={
+	add_to_variable={ research_increase_var=-0.45 }
+    custom_effect_tooltip=research_development_speed_increase1
+}
+
+research_decrease_2={
+	add_to_variable={ research_increase_var=-0.97 }
+    custom_effect_tooltip=research_development_speed_increase2
+}
+
+research_decrease_3={
+	add_to_variable={ research_increase_var=-1.43 }
+    custom_effect_tooltip=research_development_speed_increase3
+}
+
+
+
+
+onstart_development_vary_settlement={
+    set_variable={ government_monthly_vary=government_increase_var }
+    add_to_variable={ government_monthly_vary=modifier@government_dvelopment_gain }
+	
+	set_variable={ army_monthly_vary=army_increase_var }
+    add_to_variable={ army_monthly_vary=modifier@army_dvelopment_gain }
+	
+	set_variable={ agriculture_monthly_vary=agriculture_increase_var }
+    add_to_variable={ agriculture_monthly_vary=modifier@agriculture_dvelopment_gain }
+	
+	set_variable={ industry_monthly_vary=industry_increase_var }
+    add_to_variable={ industry_monthly_vary=modifier@industry_dvelopment_gain
+	
+	set_variable={ public_facilities_monthly_vary=public_facilities_increase_var }
+    add_to_variable={ public_facilities_monthly_vary=modifier@public_facilities_dvelopment_gain
+	
+	set_variable={ education_monthly_vary=education_increase_var }
+    add_to_variable={ education_monthly_vary=modifier@education_dvelopment_gain
+	
+    set_variable={ research_monthly_vary=research_increase_var }
+    add_to_variable={ research_monthly_vary=modifier@research_dvelopment_gain }
+}
+
+
+
+
+integration_development_data_settlement={
+    
+   
+
+
+
+
+    ROOT={
+	    set_temp_variable={ global.country_temp_pop2=selfmanpowervar }
+	
+        if={
+            limit={ has_idea=government_level1 }
+            set_temp_variable={ global.government_temp_level2=government_level_var }
+        }
+        else_if={
+            limit={ has_idea=government_level2 }
+            set_temp_variable={ global.government_temp_level2=government_level_var }
+            add_to_temp_variable={ global.government_temp_level2=180 }
+        }
+        else_if={
+            limit={ has_idea=government_level3 }
+            set_temp_variable={ global.government_temp_level2=government_level_var }
+            add_to_temp_variable={ global.government_temp_level2=360 }
+        }
+        else_if={
+            limit={ has_idea=government_level4 }
+            set_temp_variable={ global.government_temp_level2=government_level_var }
+            add_to_temp_variable={ global.government_temp_level2=540 }
+        }
+        else_if={
+            limit={ has_idea=government_level5 }
+            set_temp_variable={ global.government_temp_level2=government_level_var }
+            add_to_temp_variable={ global.government_temp_level2=720 }
+        }
+        else_if={
+            limit={ has_idea=government_level6 }
+            set_temp_variable={ global.government_temp_level2=government_level_var }
+            add_to_temp_variable={ global.government_temp_level2=900 }
+        }
+
+        if={
+            limit={ has_idea=agriculture_level1 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level2 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level2=180 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level3 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level2=360 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level4 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level2=540 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level5 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level2=720 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level6 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level2=900 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level7 }
+            set_temp_variable={ global.agriculture_temp_level2=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level2=1080 }
+        }
+
+        if={
+            limit={ has_idea=industry_level1 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+        }
+        else_if={
+            limit={ has_idea=industry_level2 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level2=180 }
+        }
+        else_if={
+            limit={ has_idea=industry_level3 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level2=360 }
+        }
+        else_if={
+            limit={ has_idea=industry_level4 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level2=540 }
+        }
+        else_if={
+            limit={ has_idea=industry_level5 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level2=720 }
+        }
+        else_if={
+            limit={ has_idea=industry_level6 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level2=900 }
+        }
+        else_if={
+            limit={ has_idea=industry_level7 }
+            set_temp_variable={ global.industry_temp_level2=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level2=1080 }
+        }
+
+        if={
+            limit={ has_idea=public_facilities_level1 }
+            set_temp_variable={ global.public_facilities_temp_level2=public_facilities_level_var }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level2 }
+            set_temp_variable={ global.public_facilities_temp_level2=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level2=180 }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level3 }
+            set_temp_variable={ global.public_facilities_temp_level2=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level2=360 }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level4 }
+            set_temp_variable={ global.public_facilities_temp_level2=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level2=540 }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level5 }
+            set_temp_variable={ global.public_facilities_temp_level2=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level2=720 }
+        }
+
+        if={
+            limit={ has_idea=education_level1 }
+            set_temp_variable={ global.education_temp_level2=education_level_var }
+        }
+        else_if={
+            limit={ has_idea=education_level2 }
+            set_temp_variable={ global.education_temp_level2=education_level_var }
+            add_to_temp_variable={ global.education_temp_level2=180 }
+        }
+        else_if={
+            limit={ has_idea=education_level3 }
+            set_temp_variable={ global.education_temp_level2=education_level_var }
+            add_to_temp_variable={ global.education_temp_level2=360 }
+        }
+        else_if={
+            limit={ has_idea=education_level4 }
+            set_temp_variable={ global.education_temp_level2=education_level_var }
+            add_to_temp_variable={ global.education_temp_level2=540 }
+        }
+        else_if={
+            limit={ has_idea=education_level5 }
+            set_temp_variable={ global.education_temp_level2=education_level_var }
+            add_to_temp_variable={ global.education_temp_level2=720 }
+        }
+        else_if={
+            limit={ has_idea=education_level6 }
+            set_temp_variable={ global.education_temp_level2=education_level_var }
+            add_to_temp_variable={ global.education_temp_level2=900 }
+        }
+    }
+
+    FROM={
+	
+	    set_temp_variable={ global.country_temp_pop1=selfmanpowervar }
+        
+        if={
+            limit={ has_idea=government_level1 }
+            set_temp_variable={ global.government_temp_level1=government_level_var }
+        }
+        else_if={
+            limit={ has_idea=government_level2 }
+            set_temp_variable={ global.government_temp_level1=government_level_var }
+            add_to_temp_variable={ global.government_temp_level1=180 }
+        }
+        else_if={
+            limit={ has_idea=government_level3 }
+            set_temp_variable={ global.government_temp_level1=government_level_var }
+            add_to_temp_variable={ global.government_temp_level1=360 }
+        }
+        else_if={
+            limit={ has_idea=government_level4 }
+            set_temp_variable={ global.government_temp_level1=government_level_var }
+            add_to_temp_variable={ global.government_temp_level1=540 }
+        }
+        else_if={
+            limit={ has_idea=government_level5 }
+            set_temp_variable={ global.government_temp_level1=government_level_var }
+            add_to_temp_variable={ global.government_temp_level1=720 }
+        }
+        else_if={
+            limit={ has_idea=government_level6 }
+            set_temp_variable={ global.government_temp_level1=government_level_var }
+            add_to_temp_variable={ global.government_temp_level1=900 }
+        }
+
+        if={
+            limit={ has_idea=agriculture_level1 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level2 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level1=180 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level3 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level1=360 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level4 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level1=540 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level5 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level1=720 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level6 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level1=900 }
+        }
+        else_if={
+            limit={ has_idea=agriculture_level7 }
+            set_temp_variable={ global.agriculture_temp_level1=agriculture_level_var }
+            add_to_temp_variable={ global.agriculture_temp_level1=1080 }
+        }
+
+
+        if={
+            limit={ has_idea=industry_level1 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+        }
+        else_if={
+            limit={ has_idea=industry_level2 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level1=180 }
+        }
+        else_if={
+            limit={ has_idea=industry_level3 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level1=360 }
+        }
+        else_if={
+            limit={ has_idea=industry_level4 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level1=540 }
+        }
+        else_if={
+            limit={ has_idea=industry_level5 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level1=720 }
+        }
+        else_if={
+            limit={ has_idea=industry_level6 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level1=900 }
+        }
+        else_if={
+            limit={ has_idea=industry_level7 }
+            set_temp_variable={ global.industry_temp_level1=industry_level_var }
+            add_to_temp_variable={ global.industry_temp_level1=1080 }
+        }
+
+
+        if={
+            limit={ has_idea=public_facilities_level1 }
+            set_temp_variable={ global.public_facilities_temp_level1=public_facilities_level_var }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level2 }
+            set_temp_variable={ global.public_facilities_temp_level1=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level1=180 }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level3 }
+            set_temp_variable={ global.public_facilities_temp_level1=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level1=360 }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level4 }
+            set_temp_variable={ global.public_facilities_temp_level1=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level1=540 }
+        }
+        else_if={
+            limit={ has_idea=public_facilities_level5 }
+            set_temp_variable={ global.public_facilities_temp_level1=public_facilities_level_var }
+            add_to_temp_variable={ global.public_facilities_temp_level1=720 }
+        }
+
+        if={
+            limit={ has_idea=education_level1 }
+            set_temp_variable={ global.education_temp_level1=education_level_var }
+        }
+        else_if={
+            limit={ has_idea=education_level2 }
+            set_temp_variable={ global.education_temp_level1=education_level_var }
+            add_to_temp_variable={ global.education_temp_level1=180 }
+        }
+        else_if={
+            limit={ has_idea=education_level3 }
+            set_temp_variable={ global.education_temp_level1=education_level_var }
+            add_to_temp_variable={ global.education_temp_level1=360 }
+        }
+        else_if={
+            limit={ has_idea=education_level4 }
+            set_temp_variable={ global.education_temp_level1=education_level_var }
+            add_to_temp_variable={ global.education_temp_level1=540 }
+        }
+        else_if={
+            limit={ has_idea=education_level5 }
+            set_temp_variable={ global.education_temp_level1=education_level_var }
+            add_to_temp_variable={ global.education_temp_level1=720 }
+        }
+        else_if={
+            limit={ has_idea=education_level6 }
+            set_temp_variable={ global.education_temp_level1=education_level_var }
+            add_to_temp_variable={ global.education_temp_level1=900 }
+        }
+    }
+ 
+
+    FROM={
+        
+        add_to_variable={ selfmanpowervar=global.country_temp_pop2 }
+
+        divide_temp_variable={ global.country_temp_pop1=selfmanpowervar }
+        divide_temp_variable={ global.country_temp_pop2=selfmanpowervar }
+        
+
+
+
+
+
+        multiply_temp_variable={ global.government_temp_level1=global.country_temp_pop1 }
+        multiply_temp_variable={ global.government_temp_level2=global.country_temp_pop2 }
+
+        set_temp_variable={ government_temp_level3=global.government_temp_level1 }
+        add_to_temp_variable={ government_temp_level3=global.government_temp_level2 }
+
+        set_temp_variable ={ government_temp_level4=government_temp_level3 }
+        divide_temp_variable={ government_temp_level4=180 }
+
+        modulo_temp_variable={ government_temp_level3=180 }
+        set_variable={ government_level_var=government_temp_level3 }
+
+        if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=-0.1  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=1  compare=less_than } 
+            } 
+            add_ideas=government_level1
+            remove_ideas=government_level2
+            remove_ideas=government_level3
+            remove_ideas=government_level4
+            remove_ideas=government_level5
+            remove_ideas=government_level6
+            remove_ideas=government_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=1  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=2  compare=less_than } 
+            } 
+            remove_ideas=government_level1
+            add_ideas=government_level2
+            remove_ideas=government_level3
+            remove_ideas=government_level4
+            remove_ideas=government_level5
+            remove_ideas=government_level6
+            remove_ideas=government_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=2  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=3  compare=less_than } 
+            } 
+            remove_ideas=government_level1
+            remove_ideas=government_level2
+            add_ideas=government_level3
+            remove_ideas=government_level4
+            remove_ideas=government_level5
+            remove_ideas=government_level6
+            remove_ideas=government_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=3  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=4  compare=less_than } 
+            } 
+            remove_ideas=government_level1
+            remove_ideas=government_level2
+            remove_ideas=government_level3
+            add_ideas=government_level4
+            remove_ideas=government_level5
+            remove_ideas=government_level6
+            remove_ideas=government_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=4  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=5  compare=less_than } 
+            } 
+            remove_ideas=government_level1
+            remove_ideas=government_level2
+            remove_ideas=government_level3
+            remove_ideas=government_level4
+            add_ideas=government_level5
+            remove_ideas=government_level6
+            remove_ideas=government_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=5  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=6  compare=less_than } 
+            } 
+            remove_ideas=government_level1
+            remove_ideas=government_level2
+            remove_ideas=government_level3
+            remove_ideas=government_level4
+            remove_ideas=government_level5
+            add_ideas=government_level6
+            remove_ideas=government_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=government_temp_level4  value=6  compare=greater_than_or_equals } 
+                check_variable={ var=government_temp_level4  value=7  compare=less_than_or_equals } 
+            } 
+            remove_ideas=government_level1
+            remove_ideas=government_level2
+            remove_ideas=government_level3
+            remove_ideas=government_level4
+            remove_ideas=government_level5
+            remove_ideas=government_level6
+            add_ideas=government_level7
+        }
+
+
+
+
+        multiply_temp_variable={ global.agriculture_temp_level1=global.country_temp_pop1 }
+        multiply_temp_variable={ global.agriculture_temp_level2=global.country_temp_pop2 }
+
+        set_temp_variable={ agriculture_temp_level3=global.agriculture_temp_level1 }
+        add_to_temp_variable={ agriculture_temp_level3=global.agriculture_temp_level2 }
+
+        set_temp_variable ={ agriculture_temp_level4=agriculture_temp_level3 }
+        divide_temp_variable={ agriculture_temp_level4=180 }
+
+        modulo_temp_variable={ agriculture_temp_level3=180 }
+        set_variable={ agriculture_level_var=agriculture_temp_level3 }
+
+        if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=-0.1  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=1  compare=less_than } 
+            } 
+            add_ideas=agriculture_level1
+            remove_ideas=agriculture_level2
+            remove_ideas=agriculture_level3
+            remove_ideas=agriculture_level4
+            remove_ideas=agriculture_level5
+            remove_ideas=agriculture_level6
+            remove_ideas=agriculture_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=1  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=2  compare=less_than } 
+            } 
+            remove_ideas=agriculture_level1
+            add_ideas=agriculture_level2
+            remove_ideas=agriculture_level3
+            remove_ideas=agriculture_level4
+            remove_ideas=agriculture_level5
+            remove_ideas=agriculture_level6
+            remove_ideas=agriculture_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=2  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=3  compare=less_than } 
+            } 
+            remove_ideas=agriculture_level1
+            remove_ideas=agriculture_level2
+            add_ideas=agriculture_level3
+            remove_ideas=agriculture_level4
+            remove_ideas=agriculture_level5
+            remove_ideas=agriculture_level6
+            remove_ideas=agriculture_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=3  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=4  compare=less_than } 
+            } 
+            remove_ideas=agriculture_level1
+            remove_ideas=agriculture_level2
+            remove_ideas=agriculture_level3
+            add_ideas=agriculture_level4
+            remove_ideas=agriculture_level5
+            remove_ideas=agriculture_level6
+            remove_ideas=agriculture_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=4  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=5  compare=less_than } 
+            } 
+            remove_ideas=agriculture_level1
+            remove_ideas=agriculture_level2
+            remove_ideas=agriculture_level3
+            remove_ideas=agriculture_level4
+            add_ideas=agriculture_level5
+            remove_ideas=agriculture_level6
+            remove_ideas=agriculture_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=5  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=6  compare=less_than } 
+            } 
+            remove_ideas=agriculture_level1
+            remove_ideas=agriculture_level2
+            remove_ideas=agriculture_level3
+            remove_ideas=agriculture_level4
+            remove_ideas=agriculture_level5
+            add_ideas=agriculture_level6
+            remove_ideas=agriculture_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=agriculture_temp_level4  value=6  compare=greater_than_or_equals } 
+                check_variable={ var=agriculture_temp_level4  value=7  compare=less_than_or_equals } 
+            } 
+            remove_ideas=agriculture_level1
+            remove_ideas=agriculture_level2
+            remove_ideas=agriculture_level3
+            remove_ideas=agriculture_level4
+            remove_ideas=agriculture_level5
+            remove_ideas=agriculture_level6
+            add_ideas=agriculture_level7
+        }
+
+
+
+
+        multiply_temp_variable={ global.industry_temp_level1=global.country_temp_pop1 }
+        multiply_temp_variable={ global.industry_temp_level2=global.country_temp_pop2 }
+
+        set_temp_variable={ industry_temp_level3=global.industry_temp_level1 }
+        add_to_temp_variable={ industry_temp_level3=global.industry_temp_level2 }
+
+        set_temp_variable ={ industry_temp_level4=industry_temp_level3 }
+        divide_temp_variable={ industry_temp_level4=180 }
+
+        modulo_temp_variable={ industry_temp_level3=180 }
+        set_variable={ industry_level_var=industry_temp_level3 }
+
+        if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=-0.1  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=1  compare=less_than } 
+            } 
+            add_ideas=industry_level1
+            remove_ideas=industry_level2
+            remove_ideas=industry_level3
+            remove_ideas=industry_level4
+            remove_ideas=industry_level5
+            remove_ideas=industry_level6
+            remove_ideas=industry_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=1  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=2  compare=less_than } 
+            } 
+            remove_ideas=industry_level1
+            add_ideas=industry_level2
+            remove_ideas=industry_level3
+            remove_ideas=industry_level4
+            remove_ideas=industry_level5
+            remove_ideas=industry_level6
+            remove_ideas=industry_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=2  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=3  compare=less_than } 
+            } 
+            remove_ideas=industry_level1
+            remove_ideas=industry_level2
+            add_ideas=industry_level3
+            remove_ideas=industry_level4
+            remove_ideas=industry_level5
+            remove_ideas=industry_level6
+            remove_ideas=industry_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=3  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=4  compare=less_than } 
+            } 
+            remove_ideas=industry_level1
+            remove_ideas=industry_level2
+            remove_ideas=industry_level3
+            add_ideas=industry_level4
+            remove_ideas=industry_level5
+            remove_ideas=industry_level6
+            remove_ideas=industry_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=4  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=5  compare=less_than } 
+            } 
+            remove_ideas=industry_level1
+            remove_ideas=industry_level2
+            remove_ideas=industry_level3
+            remove_ideas=industry_level4
+            add_ideas=industry_level5
+            remove_ideas=industry_level6
+            remove_ideas=industry_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=5  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=6  compare=less_than } 
+            } 
+            remove_ideas=industry_level1
+            remove_ideas=industry_level2
+            remove_ideas=industry_level3
+            remove_ideas=industry_level4
+            remove_ideas=industry_level5
+            add_ideas=industry_level6
+            remove_ideas=industry_level7
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=industry_temp_level4  value=6  compare=greater_than_or_equals } 
+                check_variable={ var=industry_temp_level4  value=7  compare=less_than_or_equals } 
+            } 
+            remove_ideas=industry_level1
+            remove_ideas=industry_level2
+            remove_ideas=industry_level3
+            remove_ideas=industry_level4
+            remove_ideas=industry_level5
+            remove_ideas=industry_level6
+            add_ideas=industry_level7
+        }
+
+
+
+
+        multiply_temp_variable={ global.public_facilities_temp_level1=global.country_temp_pop1 }
+        multiply_temp_variable={ global.public_facilities_temp_level2=global.country_temp_pop2 }
+
+        set_temp_variable={ public_facilities_temp_level3=global.public_facilities_temp_level1 }
+        add_to_temp_variable={ public_facilities_temp_level3=global.public_facilities_temp_level2 }
+
+        set_temp_variable ={ public_facilities_temp_level4=public_facilities_temp_level3 }
+        divide_temp_variable={ public_facilities_temp_level4=180 }
+
+        modulo_temp_variable={ public_facilities_temp_level3=180 }
+        set_variable={ public_facilities_level_var=public_facilities_temp_level3 }
+
+        if={ 
+            limit={ 
+                check_variable={ var=public_facilities_temp_level4  value=-0.1  compare=greater_than_or_equals } 
+                check_variable={ var=public_facilities_temp_level4  value=1  compare=less_than } 
+            } 
+            add_ideas=public_facilities_level1
+            remove_ideas=public_facilities_level2
+            remove_ideas=public_facilities_level3
+            remove_ideas=public_facilities_level4
+            remove_ideas=public_facilities_level5
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=public_facilities_temp_level4  value=1  compare=greater_than_or_equals } 
+                check_variable={ var=public_facilities_temp_level4  value=2  compare=less_than } 
+            } 
+            remove_ideas=public_facilities_level1
+            add_ideas=public_facilities_level2
+            remove_ideas=public_facilities_level3
+            remove_ideas=public_facilities_level4
+            remove_ideas=public_facilities_level5
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=public_facilities_temp_level4  value=2  compare=greater_than_or_equals } 
+                check_variable={ var=public_facilities_temp_level4  value=3  compare=less_than } 
+            } 
+            remove_ideas=public_facilities_level1
+            remove_ideas=public_facilities_level2
+            add_ideas=public_facilities_level3
+            remove_ideas=public_facilities_level4
+            remove_ideas=public_facilities_level5
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=public_facilities_temp_level4  value=3  compare=greater_than_or_equals } 
+                check_variable={ var=public_facilities_temp_level4  value=4  compare=less_than } 
+            } 
+            remove_ideas=public_facilities_level1
+            remove_ideas=public_facilities_level2
+            remove_ideas=public_facilities_level3
+            add_ideas=public_facilities_level4
+            remove_ideas=public_facilities_level5
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=public_facilities_temp_level4  value=4  compare=greater_than_or_equals } 
+                check_variable={ var=public_facilities_temp_level4  value=5  compare=less_than_or_equals } 
+            } 
+            remove_ideas=public_facilities_level1
+            remove_ideas=public_facilities_level2
+            remove_ideas=public_facilities_level3
+            remove_ideas=public_facilities_level4
+            add_ideas=public_facilities_level5
+        }
+
+
+
+
+        multiply_temp_variable={ global.education_temp_level1=global.country_temp_pop1 }
+        multiply_temp_variable={ global.education_temp_level2=global.country_temp_pop2 }
+
+        set_temp_variable={ education_temp_level3=global.education_temp_level1 }
+        add_to_temp_variable={ education_temp_level3=global.education_temp_level2 }
+
+        set_temp_variable ={ education_temp_level4=education_temp_level3 }
+        divide_temp_variable={ education_temp_level4=180 }
+
+        modulo_temp_variable={ education_temp_level3=180 }
+        set_variable={ education_level_var=education_temp_level3 }
+
+        if={ 
+            limit={ 
+                check_variable={ var=education_temp_level4  value=-0.1  compare=greater_than_or_equals } 
+                check_variable={ var=education_temp_level4  value=1  compare=less_than } 
+            } 
+            add_ideas=education_level1
+            remove_ideas=education_level2
+            remove_ideas=education_level3
+            remove_ideas=education_level4
+            remove_ideas=education_level5
+            remove_ideas=education_level6
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=education_temp_level4  value=1  compare=greater_than_or_equals } 
+                check_variable={ var=education_temp_level4  value=2  compare=less_than } 
+            } 
+            remove_ideas=education_level1
+            add_ideas=education_level2
+            remove_ideas=education_level3
+            remove_ideas=education_level4
+            remove_ideas=education_level5
+            remove_ideas=education_level6
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=education_temp_level4  value=2  compare=greater_than_or_equals } 
+                check_variable={ var=education_temp_level4  value=3  compare=less_than } 
+            } 
+            remove_ideas=education_level1
+            remove_ideas=education_level2
+            add_ideas=education_level3
+            remove_ideas=education_level4
+            remove_ideas=education_level5
+            remove_ideas=education_level6
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=education_temp_level4  value=3  compare=greater_than_or_equals } 
+                check_variable={ var=education_temp_level4  value=4  compare=less_than } 
+            } 
+            remove_ideas=education_level1
+            remove_ideas=education_level2
+            remove_ideas=education_level3
+            add_ideas=education_level4
+            remove_ideas=education_level5
+            remove_ideas=education_level6
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=education_temp_level4  value=4  compare=greater_than_or_equals } 
+                check_variable={ var=education_temp_level4  value=5  compare=less_than } 
+            } 
+            remove_ideas=education_level1
+            remove_ideas=education_level2
+            remove_ideas=education_level3
+            remove_ideas=education_level4
+            add_ideas=education_level5
+            remove_ideas=education_level6
+        }
+        else_if={ 
+            limit={ 
+                check_variable={ var=education_temp_level4  value=5  compare=greater_than_or_equals } 
+                check_variable={ var=education_temp_level4  value=6  compare=less_than_or_equals } 
+            } 
+            remove_ideas=education_level1
+            remove_ideas=education_level2
+            remove_ideas=education_level3
+            remove_ideas=education_level4
+            remove_ideas=education_level5
+            add_ideas=education_level6
+        }
+		
+		development_frame_data_settlement=yes
+    }
+}

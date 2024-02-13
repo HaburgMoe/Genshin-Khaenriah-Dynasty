@@ -1,0 +1,52 @@
+capital = 108
+
+oob = "MDC"
+set_technology = {
+
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = zhuanzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 60
+	xianfengrenzhi = 5
+	guojiatiaohe = 25
+	jiduan = 10
+}
+
+add_ideas = {
+	bingyizhidu2
+	quzhengdanghua
+	14xiaoshi
+	xssdaya
+	chengjiesifa
+	wufulibaozhang
+	wufazizhumaoyi
+	wuxuanju
+	xianzhiyimin
+	zzmzbiaomianpingdeng
+	guojiawushenlun
+	duiwai_zhongli
+	guoti_danyizhi
+	nvquan3
+	yanlun1
+}
+
+create_country_leader = {
+	name = "皮耶罗"
+	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	picture = "gfx/leader/choujue.dds"
+	expire = "1965.1.1"
+	ideology = zongdufu
+	traits = {
+
+	}
+}

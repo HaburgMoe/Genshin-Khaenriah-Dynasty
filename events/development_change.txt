@@ -1,0 +1,870 @@
+add_namespace = countrydevelopment
+
+country_event = {
+	id = countrydevelopment.1
+	title = countrydevelopment.1.t
+	desc = countrydevelopment.1.d
+	fire_only_once = no
+	trigger = {
+        check_variable = { 
+			var = government_level_var  
+			value = 180 
+			compare = equals
+		}
+		NOT = { has_idea = government_level6 }
+	}
+	option = { 
+		name = countrydevelopment.1.a
+        
+		add_to_variable = { government_level_var = -180 }
+		add_to_variable = { government_increase_var = -5 }
+		clamp_variable = { 
+			var = government_increase_var 
+			min = 0
+			max = 99
+		}
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = government_level1 }
+			swap_ideas = {
+				remove_idea = government_level1
+				add_idea = government_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level2 }
+			swap_ideas = {
+				remove_idea = government_level2
+				add_idea = government_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level3 }
+			swap_ideas = {
+				remove_idea = government_level3
+				add_idea = government_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level4 }
+			swap_ideas = {
+				remove_idea = government_level4
+				add_idea = government_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level5 }
+			swap_ideas = {
+				remove_idea = government_level5
+				add_idea = government_level6
+			}
+		}
+	}		
+}
+country_event = {
+	id = countrydevelopment.2
+	title = countrydevelopment.2.t
+	desc = countrydevelopment.2.d
+	fire_only_once = no
+	trigger = {
+        check_variable = { 
+			var = government_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = government_level1 }
+	}
+
+	option = { 
+		name = countrydevelopment.2.a
+        
+		add_to_variable = { government_level_var = 180 }
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = government_level6 }
+			swap_ideas = {
+				remove_idea = government_level6
+				add_idea = government_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level5 }
+			swap_ideas = {
+				remove_idea = government_level5
+				add_idea = government_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level4 }
+			swap_ideas = {
+				remove_idea = government_level4
+				add_idea = government_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level3 }
+			swap_ideas = {
+				remove_idea = government_level3
+				add_idea = government_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = government_level2 }
+			swap_ideas = {
+				remove_idea = government_level2
+				add_idea = government_level1
+			}
+		}
+	}		
+}
+
+country_event = {
+	id = countrydevelopment.3
+	title = countrydevelopment.3.t
+	desc = countrydevelopment.3.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = army_level_var  
+			value = 180
+			compare = equals
+		}
+		NOT = { has_idea = army_level6 }
+	}	
+
+	option = {
+		name = countrydevelopment.3.a
+		
+		add_to_variable = { army_level_var = -180 }
+		add_to_variable = { army_increase_var = -5 }
+		clamp_variable = { 
+			var = army_increase_var 
+			min = 0
+			max = 99
+		}
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = army_level1 }
+			swap_ideas = {
+				remove_idea = army_level1
+				add_idea = army_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level2 }
+			swap_ideas = {
+				remove_idea = army_level2
+				add_idea = army_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level3 }
+			swap_ideas = {
+				remove_idea = army_level3
+				add_idea = army_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level4 }
+			swap_ideas = {
+				remove_idea = army_level4
+				add_idea = army_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level5 }
+			swap_ideas = {
+				remove_idea = army_level5
+				add_idea = army_level6
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.4
+	title = countrydevelopment.4.t
+	desc = countrydevelopment.4.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = army_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = army_level1 }
+	}	
+
+	option = {
+		name = countrydevelopment.4.a
+		
+		add_to_variable = { army_level_var = 180 }
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = army_level6 }
+			swap_ideas = {
+				remove_idea = army_level6
+				add_idea = army_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level5 }
+			swap_ideas = {
+				remove_idea = army_level5
+				add_idea = army_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level4 }
+			swap_ideas = {
+				remove_idea = army_level4
+				add_idea = army_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level3 }
+			swap_ideas = {
+				remove_idea = army_level3
+				add_idea = army_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = army_level2 }
+			swap_ideas = {
+				remove_idea = army_level2
+				add_idea = army_level1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.5
+	title = countrydevelopment.5.t
+	desc = countrydevelopment.5.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = agriculture_level_var  
+			value = 180
+			compare = equals
+		}
+		NOT = { has_idea = agriculture_level7 }
+	}	
+
+	option = {
+		name = countrydevelopment.5.a
+		
+		add_to_variable = { agriculture_level_var = -180 }
+		add_to_variable = { agriculture_increase_var = -5 }
+		clamp_variable = { 
+			var = agriculture_increase_var 
+			min = 0
+			max = 99
+		}
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = agriculture_level1 }
+			swap_ideas = {
+				remove_idea = agriculture_level1
+				add_idea = agriculture_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level2 }
+			swap_ideas = {
+				remove_idea = agriculture_level2
+				add_idea = agriculture_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level3 }
+			swap_ideas = {
+				remove_idea = agriculture_level3
+				add_idea = agriculture_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level4 }
+			swap_ideas = {
+				remove_idea = agriculture_level4
+				add_idea = agriculture_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level5 }
+			swap_ideas = {
+				remove_idea = agriculture_level5
+				add_idea = agriculture_level6
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level6 }
+			swap_ideas = {
+				remove_idea = agriculture_level6
+				add_idea = agriculture_level7
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.6
+	title = countrydevelopment.6.t
+	desc = countrydevelopment.6.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = agriculture_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = agriculture_level1 }
+	}	
+
+	option = {
+		name = countrydevelopment.6.a
+		
+		add_to_variable = { agriculture_level_var = 180 }
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = agriculture_leve7 }
+			swap_ideas = {
+				remove_idea = agriculture_level7
+				add_idea = agriculture_level6
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level6 }
+			swap_ideas = {
+				remove_idea = agriculture_level6
+				add_idea = agriculture_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level5 }
+			swap_ideas = {
+				remove_idea = agriculture_level5
+				add_idea = agriculture_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level4 }
+			swap_ideas = {
+				remove_idea = agriculture_level4
+				add_idea = agriculture_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level3 }
+			swap_ideas = {
+				remove_idea = agriculture_level3
+				add_idea = agriculture_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = agriculture_level2 }
+			swap_ideas = {
+				remove_idea = agriculture_level2
+				add_idea = agriculture_level1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.7
+	title = countrydevelopment.7.t
+	desc = countrydevelopment.7.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = industry_level_var  
+			value = 180
+			compare = equals
+		}
+		NOT = { has_idea = industry_level7 }
+	}	
+
+	option = {
+		name = countrydevelopment.7.a
+		
+		add_to_variable = { industry_level_var = -180 }
+		add_to_variable = { industry_increase_var = -5 }
+		clamp_variable = { 
+			var = industry_increase_var 
+			min = 0
+			max = 99
+		}
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = industry_level1 }
+			swap_ideas = {
+				remove_idea = industry_level1
+				add_idea = industry_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level2 }
+			swap_ideas = {
+				remove_idea = industry_level2
+				add_idea = industry_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level3 }
+			swap_ideas = {
+				remove_idea = industry_level3
+				add_idea = industry_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level4 }
+			swap_ideas = {
+				remove_idea = industry_level4
+				add_idea = industry_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level5 }
+			swap_ideas = {
+				remove_idea = industry_level5
+				add_idea = industry_level6
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level6 }
+			swap_ideas = {
+				remove_idea = industry_level6
+				add_idea = industry_level7
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.8
+	title = countrydevelopment.8.t
+	desc = countrydevelopment.8.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = industry_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = industry_level1 }
+	}	
+
+	option = {
+		name = countrydevelopment.8.a
+		
+		add_to_variable = { industry_level_var = 180 }
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = industry_level7 }
+			swap_ideas = {
+				remove_idea = industry_level7
+				add_idea = industry_level6
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level6 }
+			swap_ideas = {
+				remove_idea = industry_level6
+				add_idea = industry_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level6 }
+			swap_ideas = {
+				remove_idea = industry_level6
+				add_idea = industry_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level5 }
+			swap_ideas = {
+				remove_idea = industry_level5
+				add_idea = industry_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level4 }
+			swap_ideas = {
+				remove_idea = industry_level4
+				add_idea = industry_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level3 }
+			swap_ideas = {
+				remove_idea = industry_level3
+				add_idea = industry_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = industry_level2 }
+			swap_ideas = {
+				remove_idea = industry_level2
+				add_idea = industry_level1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.9
+	title = countrydevelopment.9.t
+	desc = countrydevelopment.9.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = public_facilities_level_var  
+			value = 180
+			compare = equals
+		}
+		NOT = { has_idea = public_facilities_level6 }
+	}	
+
+	option = {
+		name = countrydevelopment.9.a
+		
+		add_to_variable = { public_facilities_level_var = -180 }
+		add_to_variable = { public_facilities_increase_var = -5 }
+		clamp_variable = { 
+			var = public_facilities_increase_var 
+			min = 0
+			max = 99
+		}
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = public_facilities_level1 }
+			swap_ideas = {
+				remove_idea = public_facilities_level1
+				add_idea = public_facilities_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = public_facilities_level2 }
+			swap_ideas = {
+				remove_idea = public_facilities_level2
+				add_idea = public_facilities_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = public_facilities_level3 }
+			swap_ideas = {
+				remove_idea = public_facilities_level3
+				add_idea = public_facilities_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = public_facilities_level4 }
+			swap_ideas = {
+				remove_idea = public_facilities_level4
+				add_idea = public_facilities_level5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.10
+	title = countrydevelopment.10.t
+	desc = countrydevelopment.10.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = public_facilities_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = public_facilities_level1 }
+	}	
+
+	option = {
+		name = countrydevelopment.10.a
+		
+		add_to_variable = { public_facilities_level_var = 180 }
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = public_facilities_level5 }
+			swap_ideas = {
+				remove_idea = public_facilities_level5
+				add_idea = public_facilities_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = public_facilities_level4 }
+			swap_ideas = {
+				remove_idea = public_facilities_level4
+				add_idea = public_facilities_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = public_facilities_level3 }
+			swap_ideas = {
+				remove_idea = public_facilities_level3
+				add_idea = public_facilities_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = public_facilities_level2 }
+			swap_ideas = {
+				remove_idea = public_facilities_level2
+				add_idea = public_facilities_level1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.11
+	title = countrydevelopment.11.t
+	desc = countrydevelopment.11.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = education_level_var  
+			value = 180
+			compare = equals
+		}
+		NOT = { has_idea = education_level6 }
+	}	
+
+	option = {
+		name = countrydevelopment.11.a
+		
+		add_to_variable = { education_level_var = -180 }
+		add_to_variable = { education_increase_var = -5 }
+		clamp_variable = { 
+			var = education_increase_var 
+			min = 0
+			max = 99
+		}
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = education_level1 }
+			swap_ideas = {
+				remove_idea = education_level2
+				add_idea = education_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level2 }
+			swap_ideas = {
+				remove_idea = education_level2
+				add_idea = education_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level3 }
+			swap_ideas = {
+				remove_idea = education_level3
+				add_idea = education_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level4 }
+			swap_ideas = {
+				remove_idea = education_level4
+				add_idea = education_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level5 }
+			swap_ideas = {
+				remove_idea = education_level5
+				add_idea = education_level5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.12
+	title = countrydevelopment.12.t
+	desc = countrydevelopment.12.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = education_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = education_level1 }
+	}	
+
+	option = {
+		name = countrydevelopment.12.a
+		
+		add_to_variable = { education_level_var = 180 }
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = education_level6 }
+			swap_ideas = {
+				remove_idea = education_level6
+				add_idea = education_level5
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level5 }
+			swap_ideas = {
+				remove_idea = education_level5
+				add_idea = education_level4
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level4 }
+			swap_ideas = {
+				remove_idea = education_level4
+				add_idea = education_level3
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level3 }
+			swap_ideas = {
+				remove_idea = education_level3
+				add_idea = education_level2
+			}
+		}
+		else_if = {
+			limit = { has_idea = education_level2 }
+			swap_ideas = {
+				remove_idea = education_level2
+				add_idea = education_level1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.13
+	title = countrydevelopment.13.t
+	desc = countrydevelopment.13.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = research_level_var  
+			value = 180
+			compare = equals
+		}
+		NOT = { has_idea = research_level5 }
+	}	
+
+	option = {
+		name = countrydevelopment.13.a
+		
+		add_to_variable = { research_level_var = -180 }
+		add_to_variable = { research_increase_var = -5 }
+		clamp_variable = { 
+			var = research_increase_var 
+			min = 0
+			max = 99
+		}
+        development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = research_level1 }
+			swap_ideas = {
+				remove_idea = research_level1
+				add_idea = research_level2
+			}
+			hidden_effect = {
+				add_research_slot = 1
+			}
+		}
+		else_if = {
+			limit = { has_idea = research_level2 }
+			swap_ideas = {
+				remove_idea = research_level2
+				add_idea = research_level3
+			}
+			hidden_effect = {
+				add_research_slot = 1
+			}
+		}
+		else_if = {
+			limit = { has_idea = research_level3 }
+			swap_ideas = {
+				remove_idea = research_level3
+				add_idea = research_level4
+			}
+			hidden_effect = {
+				add_research_slot = 1
+			}
+		}
+		else_if = {
+			limit = { has_idea = research_level4 }
+			swap_ideas = {
+				remove_idea = research_level4
+				add_idea = research_level5
+			}
+			hidden_effect = {
+				add_research_slot = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = countrydevelopment.14
+	title = countrydevelopment.14.t
+	desc = countrydevelopment.14.d
+	fire_only_once = no
+	trigger = {
+		check_variable = { 
+			var = research_level_var  
+			value = -0.1
+			compare = equals
+		}
+		NOT = { has_idea = research_level1 }
+	}	
+
+	option = {
+		name = countrydevelopment.14.a
+		
+		add_to_variable = { research_level_var = 180 }
+		development_frame_data_settlement = yes
+		if = {
+			limit = { has_idea = research_level5 }
+			swap_ideas = {
+				remove_idea = research_level5
+				add_idea = research_level4
+			}
+			hidden_effect = {
+				add_research_slot = -1
+			}
+		}
+		else_if = {
+			limit = { has_idea = research_level4 }
+			swap_ideas = {
+				remove_idea = research_level4
+				add_idea = research_level3
+			}
+			hidden_effect = {
+				add_research_slot = -1
+			}
+		}
+		else_if = {
+			limit = { has_idea = research_level3 }
+			swap_ideas = {
+				remove_idea = research_level3
+				add_idea = research_level2
+			}
+			hidden_effect = {
+				add_research_slot = -1
+			}
+		}
+		else_if = {
+			limit = { has_idea = research_level2 }
+			swap_ideas = {
+				remove_idea = research_level2
+				add_idea = research_level1
+			}
+			hidden_effect = {
+				add_research_slot = -1
+			}
+		}
+	}
+}

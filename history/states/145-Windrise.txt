@@ -1,0 +1,15 @@
+state={
+	id=145
+	name="STATE_145"
+	provinces={
+		446 671 803 1139 1210 1687 1994 2009 2492 3445 5271 5307 5318 5340 5399 5436 
+	}
+	history={
+		owner = MDC
+		add_core_of = MDC
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

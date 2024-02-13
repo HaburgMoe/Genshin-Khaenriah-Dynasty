@@ -1,0 +1,17 @@
+
+state={
+	id=379
+	name="STATE_379"
+	provinces={
+		217 226 369 479 797 1216 1310 1515 1688 2322 2974 3261 3485 3605 3617 3706 3730 3828 3946 3961 5288 5309 5331 5371 5393 5400 5405 5406 5407 5423 5441 5442 5446 5450 5494 5495 5500 5524 5539 5580 5613 5619 5654 5713 
+	}
+	history={
+		owner = BER
+		add_core_of = BER
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

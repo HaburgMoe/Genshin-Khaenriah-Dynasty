@@ -1,0 +1,178 @@
+technologies = {
+	GKD_SHENYUANYANJIU = {
+		path = {
+			leads_to_tech = GKD_NISHENXIANG_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_ZUZHOUYANJIU_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		research_speed_factor = 0.03
+		start_year = 450
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_NISHENXIANG_1 = {
+		path = {
+			leads_to_tech = GKD_NISHENXIANG_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		research_speed_factor = 0.03
+		start_year = 460
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = -5 y = 4 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_NISHENXIANG_2 = {
+		path = {
+			leads_to_tech = GKD_NISHENXIANG_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 470
+		research_speed_factor = 0.03
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = -5 y = 8 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_NISHENXIANG_3 = {
+		research_cost = 1.5
+		start_year = 480
+		research_speed_factor = 0.03
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = -5 y = 12 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_ZUZHOUYANJIU_1 = {
+		path = {
+			leads_to_tech = GKD_ZUZHOUYANJIU_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		research_speed_factor = 0.03
+		start_year = 460
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = 5 y = 4 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_ZUZHOUYANJIU_2 = {
+		path = {
+			leads_to_tech = GKD_ZUZHOUYANJIU_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		research_speed_factor = 0.03
+		start_year = 470
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = 5 y = 8 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_ZUZHOUYANJIU_3 = {
+		path = {
+			leads_to_tech = GKD_ZUZHOUYANJIU_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		research_speed_factor = 0.03
+		start_year = 490
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = 5 y = 16 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_ZUZHOUYANJIU_4 = {
+		path = {
+			leads_to_tech = GKD_ZUZHOUYANJIU_5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 500
+		research_speed_factor = 0.03
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = 5 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_ZUZHOUYANJIU_5 = {
+		research_cost = 1.5
+		research_speed_factor = 0.03
+		start_year = 510
+		folder = {
+			name = SHENYUAN_folder
+			position = { x = 5 y = 24 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+}

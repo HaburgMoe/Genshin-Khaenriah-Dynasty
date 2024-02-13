@@ -1,0 +1,16 @@
+state={
+	id=327
+	name="STATE_327"
+	provinces={
+		159 685 1542 2115 2646 2820 3161 3482 3591 6273 6310 6343 6354 6361 6375 6399 6447 6475 6497 
+	}
+	history={
+		owner = XRG
+		add_core_of = XRG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

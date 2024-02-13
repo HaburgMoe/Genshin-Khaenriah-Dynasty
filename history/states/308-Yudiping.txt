@@ -1,0 +1,19 @@
+
+state={
+	id=308
+	name="STATE_308"
+
+	history={
+		owner = YJG
+		add_core_of = YJG
+
+	}
+
+	provinces={
+		2656 6733 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=196
+	name="STATE_196"
+	provinces={
+		1200 2310 3479 3775 5372 5434 5443 5467 5507 5549 5584 
+	}
+	history={
+		owner = QCZ
+		add_core_of = QCZ
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

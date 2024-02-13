@@ -1,0 +1,16 @@
+state={
+	id=385
+	name="STATE_385"
+	provinces={
+		165 1079 2422 3091 3135 3224 3303 5362 5456 5484 5489 5504 5525 5528 5533 5544 5553 5557 5577 5581 5599 5637 5670 
+	}
+	history={
+		owner = FDG
+		add_core_of = FDG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

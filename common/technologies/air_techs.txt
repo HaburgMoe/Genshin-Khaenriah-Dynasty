@@ -1,0 +1,203 @@
+technologies = {
+	
+	GKD_SHENZHIYAN = {
+		path = {
+			leads_to_tech = GKD_XIEYAN
+			research_cost_coeff = 1
+		}
+		
+		research_speed_factor = 0.03
+		research_cost = 2
+		start_year = 100
+		folder = {
+			name = air_techsA_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_XIEYAN = {
+		path = {
+			leads_to_tech = GKD_XIEYANCHONG
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_PENSHEXIEYAN
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_SHENZHIYANZHIZAO
+			research_cost_coeff = 1
+		}
+		
+		research_speed_factor = 0.03
+		research_cost = 2
+		start_year = 120
+		folder = {
+			name = air_techsA_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_XIEYANCHONG = {
+		
+		research_cost = 2
+		start_year = 120
+		folder = {
+			name = air_techsA_folder
+			position = { x = -5 y = 10 }
+		}
+		
+		enable_subunits = {
+			GKD_XIEYAN
+		}
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_PENSHEXIEYAN = {
+		
+		research_cost = 2
+		start_year = 120
+		folder = {
+			name = air_techsA_folder
+			position = { x = 5 y = 10 }
+		}
+		
+		enable_subunits = {
+			GKD_HUOYAN
+		}
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_SHENZHIYANZHIZAO = {
+		path = {
+			leads_to_tech = GKD_SHENZHIYANLIANGCHAN
+			research_cost_coeff = 1
+		}
+		
+		research_speed_factor = 0.03
+		research_cost = 2
+		start_year = 440
+		folder = {
+			name = air_techsA_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_SHENZHIYANLIANGCHAN = {
+		path = {
+			leads_to_tech = GKD_SHENZHIYANSHIYONGHUA
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			GKD_SHENZHIYAN_0
+		}
+		research_cost = 2
+		start_year = 460
+		folder = {
+			name = air_techsA_folder
+			position = { x = 0 y = 25 }
+		}
+		
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_SHENZHIYANSHIYONGHUA = {
+		path = {
+			leads_to_tech = GKD_SHENZHIYANMINYONG
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_SHENZHIYANLIUSHUI
+			research_cost_coeff = 1
+		}
+		
+		research_speed_factor = 0.03
+		research_cost = 2
+		start_year = 480
+		folder = {
+			name = air_techsA_folder
+			position = { x = 0 y = 29 }
+		}
+		
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_SHENZHIYANMINYONG = {
+		
+		research_cost = 2
+		start_year = 490
+		folder = {
+			name = air_techsA_folder
+			position = { x = 5 y = 33 }
+		}
+		consumer_goods_factor = -0.1
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	GKD_SHENZHIYANLIUSHUI = {
+		
+		research_cost = 2
+		start_year = 500
+		folder = {
+			name = air_techsA_folder
+			position = { x = 0 y = 35 }
+		}
+		
+		enable_equipments = {
+			GKD_SHENZHIYAN_2
+		}
+		categories = {
+			light_air
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

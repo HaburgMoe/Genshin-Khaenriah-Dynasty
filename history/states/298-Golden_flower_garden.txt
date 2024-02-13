@@ -1,0 +1,19 @@
+
+state={
+	id=298
+	name="STATE_298"
+
+	history={
+		owner = QXG
+		add_core_of = QXG
+
+	}
+
+	provinces={
+		1060 1670 2171 3405 3904 7301 7329 7395 7411 7455 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

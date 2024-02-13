@@ -1,0 +1,6 @@
+entity = {
+    name = "Nuclear_station"
+    pdxmesh = "mesh_Nuclear_station"
+    scale = 1.0
+    }
+    

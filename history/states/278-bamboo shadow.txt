@@ -1,0 +1,17 @@
+
+state={
+	id=278
+	name="STATE_278"
+	provinces={
+		1016 1794 2023 2829 6407 6444 6448 6492 6539 6542 6565 6584 
+	}
+	history={
+		owner = LYA
+		add_core_of = LYA
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,15 @@
+state={
+	id=267
+	name="STATE_267"
+	provinces={
+		266 470 1799 3406 3531 7664 7712 7725 7734 7761 7793 
+	}
+	history={
+		owner = HYG
+		add_core_of = HYG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

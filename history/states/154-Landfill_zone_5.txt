@@ -1,0 +1,15 @@
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		300 317 1153 1578 1629 1984 2381 2515 2594 2719 3877 4769 4780 4784 4799 4818 4819 4845 4857 4866 4888 4907 
+	}
+	history={
+		owner = XLG
+		add_core_of = XLG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

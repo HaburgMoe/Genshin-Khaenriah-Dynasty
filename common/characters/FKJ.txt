@@ -1,0 +1,114 @@
+characters={
+	FKJ_LSL = {
+		name = FKJ_LSL
+		portraits={
+			army = {   
+				large="gfx/leader/Luoshalin.dds"
+			}
+			civilian = {  
+				large="gfx/leader/Luoshalin.dds"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 20
+			attack_skill = 20
+			defense_skill = 20
+			planning_skill = 20
+			logistics_skill = 20
+		}
+		
+		country_leader={  
+			desc = "POLITICS_LSL_DESC"
+			ideology= luoshalinism
+			traits={
+ YSXT_LSLZY
+FKJ_ZCGM
+ FKJ_JJZH
+}
+			expire="1965.1.1.1"
+		}
+
+	}
+	FKJ_FXE = {
+		name = FKJ_FXE
+		portraits={
+			army = {   
+				large="gfx/leader/FXE.dds"
+				small="gfx/country/FKJ/feixieer.dds"
+			}
+			civilian = {  
+				small="gfx/country/FKJ/feixieer.dds"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		
+
+		advisor = {  
+			slot = junwei_advisor
+			idea_token = FKJ_FXE
+			traits = {
+YSXT_ZFWNS
+MLB_YKZJ
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	FKJ_ZWE = {
+		name = FKJ_ZWE
+		portraits={
+			civilian = {  
+				small="gfx/country/FKJ/weizeer.dds"
+			}
+		}
+		
+
+		advisor = {  
+			slot = guowu_advisor
+			idea_token = FKJ_ZWE
+			traits = {
+YSXT_LSLZY
+FKJ_JSZJ 
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	FKJ_XIY= {
+		name = FKJ_XIY
+		portraits={
+			civilian = {  
+				small="gfx/country/FKJ/xinyan.dds"
+			}
+		}
+		
+
+		advisor = {  
+			slot = waijiao_advisor
+			idea_token = FKJ_XIY
+			traits = {
+YSXT_WDZY
+SHG_JQR_JJWJ
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+
+
+
+	}

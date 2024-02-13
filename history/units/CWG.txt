@@ -1,0 +1,86 @@
+division_template = {
+	name = "阿赫玛尔国防军"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }				
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }				
+		artillery_brigade = { x = 1 y = 4 }				
+		artillery_brigade = { x = 2 y = 0 }			
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+units = {
+division = {
+		name = "阿赫玛尔国防军"
+		location = 499
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 2451
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 905
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 1841
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 1297
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 1175
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 1998
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 2584
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "阿赫玛尔国防军"
+		location = 6920
+		division_template = "阿赫玛尔国防军"
+		start_experience_factor = 0.4
+
+	}
+
+}

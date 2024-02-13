@@ -1,0 +1,461 @@
+ideas = {
+
+    #行政管理
+	GGO_government = {
+        government_level1 = {
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.3
+                drift_defence_factor = -0.5
+                stability_factor = -0.25
+                war_support_factor = -0.25
+                consumer_goods_factor = 0.05
+                disabled_ideas = 1
+            }
+        }
+
+        government_level2 = {
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.225
+                drift_defence_factor = -0.25
+                stability_factor = -0.15
+                war_support_factor = -0.15
+                consumer_goods_factor = 0.035
+            }
+        }
+
+        government_level3 = {
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.1
+                stability_factor = -0.05
+                war_support_factor = -0.05
+                consumer_goods_factor = 0.025
+            }
+        }
+
+        government_level4 = { 
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.015
+            }
+        }
+
+        government_level5 = {
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.075
+                drift_defence_factor = 0.1
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                consumer_goods_factor = 0.015
+            }
+        }
+
+        government_level6 = {
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                drift_defence_factor = 0.2
+                stability_factor = 0.15
+                war_support_factor = 0.15
+                consumer_goods_factor = 0.005
+            }
+        }
+    }
+    
+    #军队
+    GGO_army = {
+        army_level1 = {
+            removal_cost = -1
+            modifier = {
+                army_org_factor = -0.35
+                army_morale_factor = -0.3
+                army_attack_factor = -0.25
+                army_defense_factor = -0.25
+                coordination_bonus = -0.1
+                planning_speed = -0.35
+                max_planning = -0.5
+                air_mission_efficiency = -0.3
+                navy_org = -0.35
+            }
+        }
+
+        army_level2 = {
+            removal_cost = -1
+            modifier = {
+                army_org_factor = -0.25
+                army_morale_factor = -0.2
+                army_attack_factor = -0.2
+                army_defense_factor = -0.2
+                coordination_bonus = -0.05
+                planning_speed = -0.2
+                max_planning = -0.35
+                air_mission_efficiency = -0.15
+                navy_org = -0.25
+            }
+        }
+
+        army_level3 = {
+            removal_cost = -1
+            modifier = {
+                army_org_factor = -0.15
+                army_morale_factor = -0.1
+                army_attack_factor = -0.125
+                army_defense_factor = -0.125
+                planning_speed = -0.1
+                max_planning = -0.15
+                air_mission_efficiency = -0.06
+                navy_org = -0.15
+            }
+        }
+
+        army_level4 = {
+            removal_cost = -1
+            modifier = {
+                army_org_factor = -0.075
+                army_attack_factor = -0.05
+                army_defense_factor = -0.05
+                planning_speed = -0.05
+                max_planning = -0.1
+                air_mission_efficiency = -0.03
+                navy_org = -0.075
+            }
+        }
+
+        army_level5 = {
+            removal_cost = -1
+            modifier = {
+                army_org_factor = 0.05
+                army_morale_factor = 0.1
+                max_planning = 0.05
+                air_mission_efficiency = 0.01
+                navy_org = 0.025
+            }
+        }
+
+        army_level6 = {
+            removal_cost = -1
+            modifier = {
+                army_org_factor = 0.15
+                army_morale_factor = 0.1
+                army_attack_factor = 0.1
+                army_defense_factor = 0.1
+                planning_speed = 0.075
+                max_planning = 0.1
+                air_mission_efficiency = 0.05
+                navy_org = 0.15
+            }
+        }
+    }
+
+
+    #农业
+    GGO_agriculture = {
+        agriculture_level1 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.35
+                local_resources_factor = -0.6
+                monthly_population = -0.2
+                conscription_factor = -0.25
+            }
+        }
+
+        agriculture_level2 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.25
+                local_resources_factor = -0.3
+                monthly_population = 0.1
+                conscription_factor = -0.15
+            }
+        }
+
+        agriculture_level3 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.2
+                local_resources_factor = -0.25
+                monthly_population = 0.2
+                conscription_factor = -0.1
+            }
+        }
+
+        agriculture_level4 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.15
+                local_resources_factor = -0.15
+                monthly_population = 0.1
+                conscription_factor = -0.05
+            }
+        }
+
+        agriculture_level5 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.1
+                local_resources_factor = -0.05
+                monthly_population = 0.05
+            }
+        }
+
+        agriculture_level6 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.075
+                local_resources_factor = 0.05
+                conscription_factor = 0.05
+            }
+        }
+
+        agriculture_level7 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.045
+                local_resources_factor = 0.175
+                conscription_factor = 0.125
+            }
+        }
+    }
+
+
+    #工业
+    GGO_industry = { 
+        industry_level1 = {
+            removal_cost = -1
+            modifier = { 
+                consumer_goods_factor = 0.25
+                local_building_slots_factor = -0.75
+                production_speed_buildings_factor = -0.8
+                line_change_production_efficiency_factor = -0.4
+                production_factory_max_efficiency_factor = -0.35
+                production_factory_efficiency_gain_factor = -0.45
+            } 
+        }
+
+        industry_level2 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.125
+                local_building_slots_factor = -0.35
+                production_speed_buildings_factor = -0.35
+                line_change_production_efficiency_factor = -0.25
+                production_factory_max_efficiency_factor = -0.2
+                production_factory_efficiency_gain_factor = -0.25
+                industry_air_damage_factor = 0.8
+            }
+        }
+
+        industry_level3 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.1
+                local_building_slots_factor = -0.25
+                production_speed_buildings_factor = -0.2
+                line_change_production_efficiency_factor = -0.15
+                production_factory_max_efficiency_factor = -0.15
+                production_factory_efficiency_gain_factor = -0.2
+                industry_air_damage_factor = 0.35
+            }
+        }
+
+        industry_level4 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.075
+                local_building_slots_factor = -0.15
+                production_speed_buildings_factor = -0.1
+                line_change_production_efficiency_factor = -0.075
+                production_factory_max_efficiency_factor = -0.05
+                production_factory_efficiency_gain_factor = -0.1
+				industry_air_damage_factor = 0.15
+            }
+        }
+
+        industry_level5 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.05
+            }
+        }
+
+        industry_level6 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.035
+                line_change_production_efficiency_factor = 0.05
+                production_factory_max_efficiency_factor = 0.075
+                production_factory_efficiency_gain_factor = 0.05
+                industry_air_damage_factor = -0.15
+            }
+        }
+
+        industry_level7 = {
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = 0.025
+                line_change_production_efficiency_factor = 0.2
+                production_factory_max_efficiency_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.2
+                industry_air_damage_factor = -0.3
+            }
+        }
+    }
+
+    #公共设施
+    GGO_public_facilities = {   
+        public_facilities_level1 = {
+            removal_cost = -1
+            modifier = {
+                industry_repair_factor = -0.8
+                army_speed_factor = -0.25
+                supply_consumption_factor = 0.2
+                production_speed_infrastructure_factor = -0.3
+                production_speed_supply_node_factor = -0.25
+                production_speed_rail_way_factor = -0.3
+            }
+        }
+
+        public_facilities_level2 = {
+            removal_cost = -1
+            modifier = {
+                industry_repair_factor = -0.3
+                army_speed_factor = -0.1
+                supply_consumption_factor = 0.1
+                production_speed_infrastructure_factor = -0.2
+                production_speed_supply_node_factor = -0.125
+                production_speed_rail_way_factor = -0.2
+            }
+        }
+
+        public_facilities_level3 = {
+            removal_cost = -1
+            modifier = {
+                army_speed_factor = -0.05
+                production_speed_infrastructure_factor = -0.1
+                production_speed_supply_node_factor = -0.05
+                production_speed_rail_way_factor = -0.1
+            }
+        }
+
+        public_facilities_level4 = {
+            removal_cost = -1
+            modifier = {
+                industry_repair_factor = 0.2
+                army_speed_factor = 0.025
+                supply_node_range = 0.05
+                production_speed_supply_node_factor = 0.025
+            }
+        }
+
+        public_facilities_level5 = {
+            removal_cost = -1
+            modifier = {
+                industry_repair_factor = 0.35
+                army_speed_factor = 0.1
+                supply_node_range = 0.2
+                production_speed_supply_node_factor = 0.15
+                production_speed_rail_way_factor = 0.1
+                consumer_goods_factor = 0.015
+            }
+        }
+    }
+
+    #教育
+    GGO_education = {   
+        education_level1 = {
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = -0.25
+                production_speed_buildings_factor = -0.35
+                consumer_goods_factor = 0.035
+            }
+        }
+
+        education_level2 = {
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = -0.175
+                production_speed_buildings_factor = -0.25
+                consumer_goods_factor = 0.015
+            }
+        }
+
+        education_level3 = {
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = -0.1
+                production_speed_buildings_factor = -0.1
+                consumer_goods_factor = 0.015
+            }
+        }
+
+        education_level4 = {
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = -0.04
+                consumer_goods_factor = 0.02
+            }
+        }
+
+        education_level5 = {
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = 0.02
+                consumer_goods_factor = 0.025
+            }
+        }
+
+        education_level6 = {
+            removal_cost = -1
+            modifier = {
+                research_speed = 0.08
+				production_speed_buildings_factor = 0.05
+                consumer_goods_factor = 0.035
+            }
+        }
+    }
+
+    #科研
+    GGO_research = {   
+        research_level1 = {
+            removal_cost = -1
+            modifier = {
+                custom_modifier_tooltip = modify_research_slot_1
+            }
+        }
+
+        research_level2 = {
+            removal_cost = -1
+            modifier = {
+                custom_modifier_tooltip = modify__research_slot_2
+            }
+        }
+
+        research_level3 = {
+            removal_cost = -1
+            modifier = {
+                custom_modifier_tooltip = modify__research_slot_3
+            }
+        }
+
+        research_level4 = {
+            removal_cost = -1
+            modifier = {
+                custom_modifier_tooltip = modify__research_slot_4
+            }
+        }
+
+        research_level5 = {
+            removal_cost = -1
+            modifier = {
+                custom_modifier_tooltip = modify__research_slot_5
+            }
+        }
+    }
+
+    
+}

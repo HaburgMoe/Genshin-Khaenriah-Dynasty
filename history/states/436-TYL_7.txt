@@ -1,0 +1,16 @@
+state={
+	id=436
+	name="STATE_436"
+	provinces={
+		940 1715 2655 3535 7813 7879 7915 
+	}
+	history={
+		owner = TYL
+		add_core_of = TYL
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = STG
+		add_core_of = STG
+
+	}
+
+	provinces={
+		161 167 437 530 536 711 1067 1125 1453 1876 1915 2280 2346 2352 2404 3471 3812 3864 7652 7689 7695 7717 7718 7727 7731 7749 7751 7759 7781 7783 7784 7790 7797 7812 7825 7832 7838 7846 7856 7895 7911 7920 7942 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

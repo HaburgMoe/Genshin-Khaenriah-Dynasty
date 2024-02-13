@@ -1,0 +1,94 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_rate_bg"
+		textureFile = "gfx/interface/rate_bg.png"
+	}
+	spriteType = {
+		name = "GFX_rate_change_bg"
+		textureFile = "gfx/interface/rate_change_bg.png"
+	}
+	spriteType = {
+		name = "GFX_open_rate_change"
+		textureFile = "gfx/interface/open_rate.png"
+	}
+	spriteType = {
+		name = "GFX_title_bg"
+		textureFile = "gfx/interface/rate_bg_title.png"
+	}
+	spriteType = {
+		name = "GFX_bg_line"
+		textureFile = "gfx/interface/rate_bg_line.png"
+	}
+	spriteType = {
+		name = "GFX_bg_button"
+		textureFile = "gfx/interface/rate_liyue.png"
+	}
+	spriteType = {
+		name = "GFX_liyue_rate_map_bg"
+		textureFile = "gfx/interface/rate_map_don_t_use_it.png"
+	}
+	spriteType = {
+		name = "GFX_liyue_rate_information"
+		textureFile = "gfx/interface/rate_information.png"
+	}
+	spriteType = {
+		name = "GFX_liyue_republic_map"
+		textureFile = "gfx/interface/rate/rate_liyue_republic.png"
+	}
+	spriteType = {
+		name = "GFX_rate_lingjv_republic_map"
+		textureFile = "gfx/interface/rate/rate_lingjv_republic.png"
+	}
+	spriteType = {
+		name = "GFX_rate_bubulu_map"
+		textureFile = "gfx/interface/rate/rate_bubulu.png"
+	}
+	spriteType = {
+		name = "GFX_rate_cengyan_map"
+		textureFile = "gfx/interface/rate/rate_cengyan.png"
+	}
+	spriteType = {
+		name = "GFX_rate_guili_map"
+		textureFile = "gfx/interface/rate/rate_guili.png"
+	}
+	spriteType = {
+		name = "GFX_rate_heiyan_republic_map"
+		textureFile = "gfx/interface/rate/rate_heiyan_republic.png"
+	}
+	spriteType = {
+		name = "GFX_rate_minglin_map"
+		textureFile = "gfx/interface/rate/rate_minglin.png"
+	}
+	spriteType = {
+		name = "GFX_rate_mingyun_map"
+		textureFile = "gfx/interface/rate/rate_mingyun.png"
+	}
+	spriteType = {
+		name = "GFX_rate_molakesi_map"
+		textureFile = "gfx/interface/rate/rate_molakesi.png"
+	}
+	spriteType = {
+		name = "GFX_rate_neo_liyue_map"
+		textureFile = "gfx/interface/rate/rate_neo_liyue.png"
+	}
+	spriteType = {
+		name = "GFX_rate_none_map"
+		textureFile = "gfx/interface/rate/rate_none.png"
+	}
+	spriteType = {
+		name = "GFX_rate_north_liyue_map"
+		textureFile = "gfx/interface/rate/rate_north_liyue.png"
+	}
+	spriteType = {
+		name = "GFX_rate_qingce_map"
+		textureFile = "gfx/interface/rate/rate_qingce.png"
+	}
+	spriteType = {
+		name = "GFX_rate_qingxv_republic_map"
+		textureFile = "gfx/interface/rate/rate_qingxv_republic.png"
+	}
+	spriteType = {
+		name = "GFX_rate_viliage_minglin_map"
+		textureFile = "gfx/interface/rate/rate_viliage_minglin.png"
+	}
+}

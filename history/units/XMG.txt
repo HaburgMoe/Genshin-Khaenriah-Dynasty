@@ -1,0 +1,107 @@
+division_template = {
+	name = "须弥国防军"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }				
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }				
+		artillery_brigade = { x = 1 y = 4 }				
+		artillery_brigade = { x = 2 y = 0 }			
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+units = {
+division = {
+		name = "须弥国防军"
+		location = 5448
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 846
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 2883
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 5138
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 1293
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 1149
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 2300
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 6401
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 6157
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 5780
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 6064
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "须弥国防军"
+		location = 2565
+		division_template = "须弥国防军"
+		start_experience_factor = 0.4
+
+	}
+
+}

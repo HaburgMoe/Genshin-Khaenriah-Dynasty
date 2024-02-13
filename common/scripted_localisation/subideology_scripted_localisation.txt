@@ -1,0 +1,162 @@
+########has_country_leader_ideology 
+defined_text = { # Country
+	name = GetRulingIdeologySubtype
+	text = {
+		trigger = {
+			has_country_leader_ideology  = FEITU_subtype
+		} 
+		localization_key = FEITU_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = anyuanism
+		} 
+		localization_key = anyuanism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = zifawennisha
+		} 
+		localization_key = zifawennisha
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = ziyoubaoshou
+		} 
+		localization_key = ziyoubaoshou
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = jijinwennisha
+		} 
+		localization_key = jijinwennisha
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = jinbuism
+		} 
+		localization_key = jinbuism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = qiyeism
+		} 
+		localization_key = qiyeism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = shiyanism
+		} 
+		localization_key = shiyanism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = junquism
+		} 
+		localization_key = junquism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = junfaism
+		} 
+		localization_key = junfaism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = maoyiziyou
+		} 
+		localization_key = maoyiziyou
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = zongdufu
+		} 
+		localization_key = zongdufu
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = luoshalinism
+		} 
+		localization_key = luoshalinism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = wendiism
+		} 
+		localization_key = wendiism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = neowennishaism
+		} 
+		localization_key = neowennishaism
+	}
+
+	text = {
+		trigger = {
+			has_country_leader_ideology  = dikangyundong
+		} 
+		localization_key = dikangyundong
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = jinbuism
+		} 
+		localization_key = jinbuism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = zhongliism
+		} 
+		localization_key = zhongliism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = wennishaism
+		} 
+		localization_key = wennishaism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = kaimingducaiism
+		} 
+		localization_key = kaimingducaiism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = jishuguanliaoism
+		} 
+		localization_key = jishuguanliaoism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = guizugongheism
+		} 
+		localization_key = guizugongheism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = junzhuzhuanzhiism
+		} 
+		localization_key = junzhuzhuanzhiism
+	}
+	text = { 
+		trigger = {
+			has_country_leader_ideology  = neozhongliism
+		} 
+		localization_key = neozhongliism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = fuchouism
+		} 
+		localization_key = fuchouism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology  = leftfasterism
+		} 
+		localization_key = leftfasterism
+	}
+
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=387
+	name="STATE_387"
+	provinces={
+		25 64 346 889 898 1088 1376 1465 1878 1897 2507 2604 2800 2837 2842 2843 2860 2968 3951 3966 4754 4764 4776 4777 4787 4793 4812 4831 4854 4859 4864 4867 4884 4890 4908 4917 4923 4934 4954 4988 5007 
+	}
+	history={
+		owner = BER
+		add_core_of = BER
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

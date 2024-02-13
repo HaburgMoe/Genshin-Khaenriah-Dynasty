@@ -1,0 +1,15 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		1161 1974 3053 7579 7627 7662 7699 7708 7735 
+	}
+	history={
+		owner = BCG
+		add_core_of = BCG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

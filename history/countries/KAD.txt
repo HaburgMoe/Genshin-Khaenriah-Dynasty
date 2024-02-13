@@ -1,0 +1,52 @@
+capital = 174
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+oob = "KAD"
+set_politics = {
+	ruling_party = weiquanrenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 5
+	jiduan = 30
+	ziyourenzhi = 15
+	weiquanrenzhi = 50
+}
+
+add_ideas = {
+	bingyizhidu6	
+	wufazizhumaoyi	
+	wuxianzhi_work	
+	guoti_danyizhi	
+	wuxuanju	
+	wufulibaozhang	
+	duiwai_zhongli	
+	guojiawushenlun	
+	zzmzbiaomianpingdeng	
+	quzhengdanghua	
+	fengsuobianjing	
+	xssdaya	
+	chengjiesifa	
+	nvquan3	
+	yanlun1
+}
+
+create_country_leader = {
+	name = "镇压叛民组织"
+	desc = "POLITICS_ABD_DESC"
+	picture = "gfx/leader/abeiduo.dds"
+	expire = "1965.1.1"
+	ideology = jishuguanliaoism
+	traits = {
+		#
+	}
+}
+	declare_war_on = {
+		target = FKJ
+		type = annex_everything
+	}

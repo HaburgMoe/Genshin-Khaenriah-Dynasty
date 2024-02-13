@@ -1,0 +1,9 @@
+LIY_whose_republic = {
+	icon = GFX_idea_whose_republic
+	remove_trigger = {
+		always = no 
+	}
+	political_power_gain = LIY_decrease_pp
+	stability_factor = LIY_descrease_stability
+	war_support_factor = LIY_decrease_war_support
+}

@@ -1,0 +1,100 @@
+scripted_gui = {
+	rate_change_open_gui = {
+		window_name = "open_rate_change_window"
+		context_type = player_context
+		parent_window_token = politics_tab
+		visible = {
+			tag = LIY 
+		}
+		effects = {
+			open_rate_change_button_click = {
+				if = {
+					limit = {
+						has_country_flag = rate_has_open
+					}
+					clr_country_flag = rate_has_open
+				}
+				else_if = {
+					limit = {
+						not = {
+							has_country_flag = rate_has_open
+						}
+					}
+					set_country_flag = rate_has_open
+				}
+
+				if = {
+					limit = {
+						has_country_flag = map_has_opened
+					}
+					clr_country_flag = map_has_opened
+				}
+			}
+			
+		}
+	}
+
+	rate_change_gui = {
+		window_name = "rate_change_gui_window"
+		context_type = player_context
+		visible = {
+			has_country_flag = rate_has_open
+		}
+		effects = {
+			rate_open_rate_click = {
+				if = {
+					limit = {
+						not = {
+							has_country_flag = map_has_opened
+						}
+					}
+					set_country_flag = map_has_opened
+				}
+				else_if = {
+					limit = {
+						has_country_flag = map_has_opened
+					}
+					clr_country_flag = map_has_opened
+				}
+			}
+		}
+	}
+
+	rate_map_gui = {
+		window_name = "Liyue_rate_map"
+		context_type = player_context
+		visible = {
+			has_country_flag = map_has_opened
+		}
+		effects = {
+			Liyue_republic_map_click = {
+				if = {
+					limit = {
+						has_country_flag = open_map_window
+					}
+					clr_country_flag = open_map_window
+				}
+				else_if = {
+					limit = {
+						not = {
+							has_country_flag = open_map_window
+						}
+					}
+					set_country_flag = open_map_window
+				}
+			}
+		}
+	}
+
+	rate_map_information = {
+		window_name = "state_rate_infor"
+		context_type = player_context
+		visible = {
+			OR = {
+				has_country_flag = open_map_window
+			}
+		}
+	}
+
+
+}

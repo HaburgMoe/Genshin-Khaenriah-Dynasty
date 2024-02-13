@@ -1,0 +1,15 @@
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		2342 3709 8258 8291 8292 8311 8856 
+	}
+	history={
+		owner = FON
+		add_core_of = FON
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

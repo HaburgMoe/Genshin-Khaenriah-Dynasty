@@ -1,0 +1,19 @@
+
+state={
+	id=201
+	name="STATE_201"
+
+	history={
+		owner = EMP
+		add_core_of = EMP
+
+	}
+
+	provinces={
+		573 1558 1917 2067 2235 5682 5729 5734 5772 5798 5802 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

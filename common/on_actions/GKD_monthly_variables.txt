@@ -1,0 +1,13 @@
+on_actions = {
+
+	on_monthly = {
+		effect = {
+		    government_level_data_settlement = yes
+			army_level_data_settlement = yes
+			agriculture_level_data_settlement = yes
+			industry_level_data_settlement = yes
+			public_facilities_level_data_settlement = yes
+			education_level_data_settlement = yes
+		}
+	}
+}

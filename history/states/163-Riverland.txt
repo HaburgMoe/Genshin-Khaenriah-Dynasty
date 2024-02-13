@@ -1,0 +1,15 @@
+state={
+	id=163
+	name="STATE_163"
+	provinces={
+		672 1351 2030 2505 2523 2679 5345 5352 5380 5390 5403 5427 5453 5460 5487 5488 5518 5542 5565 
+	}
+	history={
+		owner = MDG
+		add_core_of = MDG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

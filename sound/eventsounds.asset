@@ -1,0 +1,6 @@
+sound = {
+	name = "keqing1"
+	file = "menu/keqing1.wav"
+	volume = 1
+	always_load = yes
+}

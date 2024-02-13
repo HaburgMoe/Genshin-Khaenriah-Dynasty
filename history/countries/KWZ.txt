@@ -1,0 +1,50 @@
+capital = 456
+oob = "KWZ"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = ziyourenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	zhuanzhi = 15
+	ziyourenzhi = 45
+	weiquanrenzhi = 40
+}
+
+add_ideas = {
+	bingyizhidu2	
+	wufazizhumaoyi	
+	8xiaoshi	
+	guoti_danyizhi	
+	puxuanquan	
+	shiliangfulibaozhang	
+	duiwai_zhongli	
+	zongjiaoziyou	
+	zzmzbiaomianpingdeng	
+	quzhengdanghua	
+	xianzhiyimin	
+	xssdaya	
+	gaizaosifa	
+	nvquan3	
+	yanlun3
+}
+
+create_country_leader = {
+	name = "坎蒂丝"
+	desc = "POLITICS_KDS_DESC"
+	picture = "gfx/leader/kandisi.dds"
+	expire = "1965.1.1"
+	ideology = ziyoubaoshou
+	traits = {
+		#
+	}
+}

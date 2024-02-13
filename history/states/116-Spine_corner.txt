@@ -1,0 +1,16 @@
+
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		170 759 1586 1787 2161 2308 3231 5646 5663 5684 5693 5735 5760 5768 5771 5785 5822 5823 5839 5840 5846 5872 
+	}
+	history={
+		owner = CXG
+		add_core_of = CXG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

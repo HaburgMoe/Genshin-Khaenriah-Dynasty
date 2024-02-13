@@ -1,0 +1,16 @@
+state={
+	id=386
+	name="STATE_386"
+	provinces={
+		77 384 615 909 1033 1141 1828 2081 2288 3950 5281 5297 5314 5337 5377 5383 5469 5483 5510 5552 5556 5575 5605 
+	}
+	history={
+		owner = FDG
+		add_core_of = FDG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

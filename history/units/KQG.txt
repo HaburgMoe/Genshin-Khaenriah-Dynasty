@@ -1,0 +1,29 @@
+division_template = {
+	name = "新璃月民团"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }				
+		infantry = { x = 0 y = 4 }
+	}
+	support = {
+	}
+}
+units = {
+division = {
+		name = "“玉衡”团"
+		location = 4652
+		division_template = "新璃月民团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "“复仇”团"
+		location = 2328
+		division_template = "新璃月民团"
+		start_experience_factor = 0.2
+
+	}
+
+}

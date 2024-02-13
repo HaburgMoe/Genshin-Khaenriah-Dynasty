@@ -1,0 +1,15 @@
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		197 560 1884 3317 3968 8131 8137 8157 8207 8218 8223 8252 8302 
+	}
+	history={
+		owner = SHG
+		add_core_of = SHG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

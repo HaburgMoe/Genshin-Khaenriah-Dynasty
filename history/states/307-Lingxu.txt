@@ -1,0 +1,19 @@
+
+state={
+	id=307
+	name="STATE_307"
+
+	history={
+		owner = BBL
+		add_core_of = BBL
+
+	}
+
+	provinces={
+		330 2481 2626 6807 6821 6828 6868 6877 6895 6909 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

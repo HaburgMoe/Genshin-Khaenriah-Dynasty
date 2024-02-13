@@ -1,0 +1,17 @@
+
+state={
+	id=279
+	name="STATE_279"
+	provinces={
+		717 3352 3562 3615 3885 6196 6240 6253 6281 6320 6323 6355 6356 
+	}
+	history={
+		owner = LYA
+		add_core_of = LYA
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

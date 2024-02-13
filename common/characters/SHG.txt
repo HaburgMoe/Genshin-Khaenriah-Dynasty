@@ -1,0 +1,125 @@
+characters={
+	SHG_KKM = {
+		name = SHG_KKM
+		portraits={
+			army = {   
+				large="gfx/leader/Xinhai.dds"
+				small="gfx/country/SHG/kokomi.dds"
+			}
+			civilian = {  
+				large="gfx/leader/Xinhai.dds"
+				small="gfx/country/SHG/kokomi.dds"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		
+		country_leader={  
+			desc = "POLITICS_Xinhai_DESC"
+			ideology= kaimingducaiism
+			traits={
+ YSXT_KMZZ  
+ SHG_XRSWN
+ SHG_KKM_YXJ  
+}
+			expire="1965.1.1.1"
+		}
+
+		advisor = {  
+			slot = junwei_advisor
+			idea_token = SHG_KKM
+			traits = {
+ YSXT_KMZZ
+ SHG_XRSWN
+ SHG_YANKE
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	SHG_LZ = {
+		name = SHG_LZ
+		portraits={
+			civilian = {  
+				large="gfx/leader/LUZI.dds"
+				small="gfx/country/SHG/luzi.dds"
+			}
+		}
+		
+		country_leader={  
+			desc = "POLITICS_LZ_DESC"
+			ideology= ziyoubaoshou
+			traits={
+ YSXT_BSZY
+}
+			expire="1965.1.1.1"
+		}
+
+		advisor = {  
+			slot = guowu_advisor
+			idea_token = SHG_LZ
+			traits = {
+ YSXT_BSZY
+ SHG_LZ_CMSGJ   
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	SHG_JQR= {
+		name = SHG_JQR
+		portraits={
+			army = {   
+				large="gfx/leader/Jiuqiren.dds"
+				small="gfx/country/SHG/jiuqiren.dds"
+			}
+			civilian = {  
+				large="gfx/leader/Jiuqiren.dds"
+				small="gfx/country/SHG/jiuqiren.dds"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		
+		country_leader={  
+			desc = "POLITICS_JQR_DESC"
+			ideology= wendiism
+			traits={
+ YSXT_WDZY
+}
+			expire="1965.1.1.1"
+		}
+
+		advisor = {  
+			slot = waijiao_advisor
+			idea_token = SHG_JQR
+			traits = {
+ YSXT_WNSZYM
+ SHG_JQR_JJWJ   
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+
+
+
+	}

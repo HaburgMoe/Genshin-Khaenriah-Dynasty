@@ -1,0 +1,13 @@
+characters={
+	AAA_daogeganbaoshijie={
+		name=AAA_CHARACTER_DAOGESHASHIJIE
+		portraits={
+			civilian={
+				large="GFX_portrait_AAA_daogeganbaoshijie_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

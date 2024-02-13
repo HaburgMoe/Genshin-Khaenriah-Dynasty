@@ -1,0 +1,49 @@
+capital = 471
+oob = "STG"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = zhuanzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	weiquanrenzhi = 40
+	zhuanzhi = 60
+}
+
+add_ideas = {
+	bingyizhidu3	
+	wufazizhumaoyi	
+	14xiaoshi	
+	guoti_banglianzhi	
+	wuxuanju	
+	shaoliangfulibaozhang	
+	duiwai_zhongli	
+	xianzhizongjiao	
+	zzmzpingdeng	
+	quzhengdanghua	
+	xianzhiyimin	
+	xssdaya	
+	gaizaosifa	
+	nvquan3	
+	yanlun3
+}
+
+create_country_leader = {
+	name = "卡维"
+	desc = "POLITICS_KAWEI_DESC"
+	picture = "gfx/leader/kawei.dds"
+	expire = "1965.1.1"
+	ideology = junquism
+	traits = {
+		#
+	}
+}

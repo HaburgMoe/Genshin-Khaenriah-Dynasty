@@ -1,0 +1,16 @@
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		445 3554 5571 5576 5592 5612 5640 5653 5679 5690 5727 5738 
+	}
+	history={
+		owner = BER
+		add_core_of = BER
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,7 @@
+category = {
+	name = "event_sound"
+	soundeffects = {
+		keqing1
+	}
+	compressor = master_compressor
+}

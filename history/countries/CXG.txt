@@ -1,0 +1,52 @@
+capital = 138
+oob = "CXG"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 0.6
+set_war_support = 0.2 
+set_convoys = 5
+
+set_politics = {
+	ruling_party = weiquanrenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	weiquanrenzhi = 40
+	zhuanzhi = 30
+	tiaohe = 10
+	pingdengrenzhi = 15
+	xianfengrenzhi = 5
+}
+
+add_ideas = {
+	bingyizhidu4 
+	ziyoumaoyi
+	14xiaoshi
+	guoti_danyizhi
+	zichanjiaquan
+	wufulibaozhang
+	duiwai_zhongli
+	guojiawushenlun
+	zzmzbiaomianpingdeng
+	duodangzhi
+	xianzhiyimin
+	xssdaya
+	chengjiesifa
+	nvquan3
+	yanlun2
+}
+
+create_country_leader = {
+	name = "莱艮那多·迪卢克"
+	desc = "POLITICS_DLK_DESC"
+	picture = "gfx/leader/Diluke.dds"
+	expire = "1965.1.1"
+	ideology = maoyiziyou
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,109 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_FEITU_subtype"
+		texturefile = "gfx/zysxttb/FEITU_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_anyuanism"
+		texturefile = "gfx/zysxttb/anyuanism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_zifawennisha"
+		texturefile = "gfx/zysxttb/zifawennisha.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ziyoubaoshou"
+		texturefile = "gfx/zysxttb/ziyoubaoshou.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jijinwennisha"
+		texturefile = "gfx/zysxttb/jijinwennisha.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jinbuism"
+		texturefile = "gfx/zysxttb/jinbuism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_qiyeism"
+		texturefile = "gfx/zysxttb/qiyeism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_shiyanism"
+		texturefile = "gfx/zysxttb/shiyan.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_junquism"
+		texturefile = "gfx/zysxttb/junqu.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_junfaism"
+		texturefile = "gfx/zysxttb/junfa.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_maoyiziyou"
+		texturefile = "gfx/zysxttb/maoyiziyou.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_zongdufu"
+		texturefile = "gfx/zysxttb/zongdufu.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_luoshalinism"
+		texturefile = "gfx/zysxttb/luoshalinism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_wendiism"
+		texturefile = "gfx/zysxttb/wendiism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_neowennishaism"
+		texturefile = "gfx/zysxttb/neowennishaism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_dikangyundong"
+		texturefile = "gfx/zysxttb/dikangyundong.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jinbuism"
+		texturefile = "gfx/zysxttb/jinbuism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_zhongliism"
+		texturefile = "gfx/zysxttb/zhongliism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_wennishaism"
+		texturefile = "gfx/zysxttb/wennishaism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_kaimingducaiism"
+		texturefile = "gfx/zysxttb/kaimingducaiism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jishuguanliaoism"
+		texturefile = "gfx/zysxttb/jishuguanliaoism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_guizugongheism"
+		texturefile = "gfx/zysxttb/guizugongheism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_junzhuzhuanzhiism"
+		texturefile = "gfx/zysxttb/junzhuzhuanzhiism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_neozhongliism"
+		texturefile = "gfx/zysxttb/neozhongliism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fuchouism"
+		texturefile = "gfx/zysxttb/fuchouism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_leftfasterism"
+		texturefile = "gfx/zysxttb/leftfasterism.dds"
+	}
+
+
+}

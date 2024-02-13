@@ -1,0 +1,19 @@
+
+state={
+	id=284
+	name="STATE_284"
+
+	history={
+		owner = MLK
+		add_core_of = MLK
+
+	}
+
+	provinces={
+		1188 1473 1737 1918 2152 2971 7338 7348 7353 7376 7388 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

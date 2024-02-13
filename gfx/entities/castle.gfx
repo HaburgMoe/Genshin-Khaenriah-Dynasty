@@ -1,0 +1,8 @@
+objectTypes = {
+    pdxmesh = {
+        name = "mesh_castle"
+        file = "gfx/models/castle.mesh"
+	scale = 1.0
+	cull_distance = 350.0			
+    }
+}

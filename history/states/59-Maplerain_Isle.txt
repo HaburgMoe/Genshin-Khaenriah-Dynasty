@@ -1,0 +1,15 @@
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		8846 8854 8860 8861 
+	}
+	history={
+		owner = FON
+		add_core_of = FON
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

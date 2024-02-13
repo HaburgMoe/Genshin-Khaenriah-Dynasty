@@ -1,0 +1,19 @@
+
+state={
+	id=478
+	name="STATE_478"
+
+	history={
+		owner = LLL
+		add_core_of = LLL
+
+	}
+
+	provinces={
+		336 425 609 1008 1143 1221 1575 2032 3114 3217 3651 3893 6157 6193 6208 6219 6248 6255 6272 6291 6299 6300 6304 6317 6386 6398 6409 6414 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,449 @@
+﻿l_simp_chinese:
+GKD_YUNSHU:0 "早期运输船"
+GKD_YUNSHU_desc:0 "早期运输船"
+GKD_FENGFAN:0 "风帆战舰"
+GKD_FENGFAN_desc:0 "风帆战舰"
+GKD_YUNSHU_2:0 "蒸汽运输船"
+GKD_YUNSHU_2_desc:0 "蒸汽运输船"
+GKD_QIANTING:0 "早期潜艇"
+GKD_QIANTING_desc:0 "早期潜艇"
+GKD_ZHANJIAN:0 "电气时代战舰"
+GKD_ZHANJIAN_desc:0 "电气时代战舰"
+GKD_ZIBAO:0 "自杀舰"
+GKD_ZIBAO_desc:0 "自杀舰"
+GKD_ZIBAO_11:0 "裂变自杀舰"
+GKD_ZIBAO_11_desc:0 "裂变自杀舰"
+GKD_ZIBAO_12:0 "自动自爆舰"
+GKD_ZIBAO_12_desc:0 "自动自爆舰"
+GKD_YUNSHU_3:0 "裂变动力运输舰"
+GKD_YUNSHU_3_desc:0 "裂变动力运输舰"
+GKD_QIANTING_2:0 "裂变动力潜艇"
+GKD_QIANTING_2_desc:0 "裂变动力潜艇"
+GKD_YIDONGYAOSAI:0 "移动海上要塞"
+GKD_YIDONGYAOSAI_desc:0 "移动海上要塞"
+GKD_YUNSHU_4:0 "信息化舰队控制系统"
+GKD_YUNSHU_4_desc:0 "信息化舰队控制系统"
+GKD_YUNSHU_5:0 "全自动舰队控制系统"
+GKD_YUNSHU_5_desc:0 "全自动舰队控制系统"
+
+GKD_LIEBIAN_FANYINGDUI:0 "裂变反应堆"
+GKD_LIEBIAN_FANYINGDUI_desc:0 "裂变反应堆"
+
+GKD_DIANLU_333:0 "电炉"
+GKD_DIANLU_333_desc:0 "电炉"
+
+GKD_DIANLU_DICHENGBEN:0 "低成本电炉"
+GKD_DIANLU_DICHENGBEN_desc:0 "低成本电炉"
+
+GKD_DIANLU_ANQUAN:0 "安全电炉"
+GKD_DIANLU_ANQUAN_desc:0 "安全电炉"
+
+GKD_LIEBIAN:0 "裂变理论"
+GKD_LIEBIAN_desc:0 "裂变理论"
+GKD_LIEBIANDAN_1:0 "裂变弹"
+GKD_LIEBIANDAN_1_desc:0 "裂变弹"
+
+GKD_LIEBIANDAN_2:0 "二级裂变弹"
+GKD_LIEBIANDAN_2_desc:0 "二级裂变弹"
+
+GKD_LIEBIANDAN_3:0 "超级裂变弹"
+GKD_LIEBIANDAN_3_desc:0 "超级裂变弹"
+
+GKD_GKD_LIEBIANDUOYONG:0 "裂变武器多元化"
+GKD_GKD_LIEBIANDUOYONG_desc:0 "裂变武器多元化"
+
+GKD_LIEBIANDILEI:0 "裂变地雷"
+GKD_LIEBIANDILEI_desc:0 "裂变地雷
+
+GKD_LIEBIANYULEI:0 "裂变鱼雷"
+GGKD_LIEBIANYULEI_desc:0 "裂变鱼雷"
+
+GKD_LIEBIANZHADAN:0 "裂变深水炸弹"
+GKD_LIEBIANZHADAN_desc:0 "裂变深水炸弹"
+
+GKD_LIEBIANDAODAN:0 "裂变导弹"
+GKD_LIEBIANDAODAN_desc:0 "裂变导弹"
+
+GKD_LIEBIANHONGZHA:0 "自律裂变轰炸机器"
+GKD_LIEBIANHONGZHA_desc:0 "自律裂变轰炸机器"
+
+GKD_YUANSU:0 "元素控制装置"
+GKD_YUANSU_desc:0 "元素控制装置"
+
+GKD_YUANSUPAO:0 "元素炮"
+GKD_YUANSUPAO_desc:0 "元素炮"
+
+GKD_YUANSUPAOYAN_1:0 "岩元素炮"
+GKD_YUANSUPAOYAN_1_desc:0 "岩元素炮"
+
+GKD_YUANSUPAOYAN_2:0 "冰岩元素炮"
+GKD_YUANSUPAOYAN_2_desc:0 "冰岩元素炮"
+
+GKD_YUANSUPAOYAN_3:0 "机甲歼击车"
+GKD_YUANSUPAOYAN_3_desc:0 "机甲歼击车"
+
+GKD_YUANSUPAOYAN_4:0 "现代机甲歼击车"
+GKD_YUANSUPAOYAN_4_desc:0 "现代机甲歼击车"
+
+GKD_YUANSUPAOLEI:0 "雷元素炮"
+GKD_YUANSUPAOLEI_desc:0 "雷元素炮"
+
+GKD_YUANSUPAOLEIHUO:0 "雷火元素炮"
+GKD_YUANSUPAOLEIHUO_desc:0 "雷火元素炮"
+
+GKD_YUANSUPAOZIXING:0 "自行元素炮"
+GKD_YUANSUPAOZIXING_desc:0 "自行元素炮"
+
+GKD_YUANSUPAOZIXING_2:0 "现代自行元素炮"
+GKD_YUANSUPAOZIXING_2_desc:0 "现代自行元素炮"
+
+GKD_YUANSUPAO_6:0 "电子元素炮辅助部件"
+GKD_YUANSUPAO_6_desc:0 "电子元素炮辅助部件"
+
+GKD_YUANSUPAO_7:0 "自动化元素炮部件"
+GKD_YUANSUPAO_7_desc:0 "自动化元素炮部件"
+
+GKD_YUANSUPAOLEISHUI_2:0 "雷水气象弹幕元素炮"
+GKD_YUANSUPAOLEISHUI_2_desc:0 "雷水气象弹幕元素炮"
+
+GKD_YUANSUPAOLEISHUI:0 "雷水元素炮"
+GKD_YUANSUPAOLEISHUI_desc:0 "雷水元素炮"
+
+GKD_YUANSUYAO:0 "元素药物"
+GKD_YUANSUYAO_desc:0 "元素药物"
+
+GKD_YUANSUYAO_2:0 "元素麻醉剂"
+GKD_YUANSUYAO_2_desc:0 "元素麻醉剂"
+
+GKD_YUANSUYIYUE:0 "元素医学"
+GKD_YUANSUYIYUE_desc:0 "元素医学"
+
+GKD_YUANSUYAO_3:0 "元素致幻剂"
+GKD_YUANSUYAO_3_desc:0 "元素致幻剂"
+
+GKD_YUANSUYAO_4:0 "元素致极乐品"
+GKD_YUANSUYAO_4_desc:0 "元素致极乐品"
+
+GKD_YUANSUYAO_5:0 "低成本元素喷雾"
+GKD_YUANSUYAO_5_desc:0 "低成本元素喷雾"
+
+GKD_SHENZHIYAN:0 "神之眼研究"
+GKD_SHENZHIYAN_desc:0 "神之眼研究"
+GKD_XIEYAN:0 "邪眼"
+GKD_XIEYAN_desc:0 "邪眼"
+GKD_XIEYANCHONG:0 "邪眼铳"
+GKD_XIEYANCHONG_desc:0 "邪眼铳"
+GKD_PENSHEXIEYAN:0 "火焰喷射器"
+GKD_PENSHEXIEYAN_desc:0 "火焰喷射器"
+GKD_SHENZHIYANZHIZAO:0 "神之眼制造"
+GKD_SHENZHIYANZHIZAO_desc:0 "神之眼制造"
+GKD_SHENZHIYANLIANGCHAN:0 "神之眼量产"
+GKD_SHENZHIYANLIANGCHAN_desc:0 "神之眼量产"
+GKD_SHENZHIYANSHIYONGHUA:0 "神之眼实用研究"
+GKD_SHENZHIYANSHIYONGHUA_desc:0 "神之眼实用研究"
+GKD_SHENZHIYANMINYONG:0 "民用化神之眼"
+GKD_SHENZHIYANMINYONG_desc:0 "民用化神之眼"
+GKD_SHENZHIYANLIUSHUI:0 "神之眼流水线"
+GKD_SHENZHIYANLIUSHUI_desc:0 "神之眼流水线"
+
+GKD_SHIGUYANJIU:0 "裂变事故研究"
+GKD_SHIGUYANJIU_desc:0 "裂变事故研究"
+GKD_WURANTIXI:0 "污染系研究"
+GKD_WURANTIXI_desc:0 "污染系研究"
+GKD_DIANLUQIANG:0 "电炉枪弹"
+GKD_DIANLUQIANG_desc:0 "电炉枪弹"
+GKD_DIANLUPAO:0 "电炉炮"
+GKD_DIANLUPAO_desc:0 "电炉炮"
+GKD_DIANLUPAO_2:0 "劣质裂变弹改造"
+GKD_DIANLUPAO_2_desc:0 "劣质裂变弹改造"
+GKD_WEISHENGWU:0 "微生物武器研究"
+GKD_WEISHENGWU_desc:0 "微生物武器研究"
+GKD_XIJUN_1:0 "细菌培养"
+GKD_XIJUN_1_desc:0 "细菌培养"
+GKD_XIJUN_2:0 "细菌战"
+GKD_XIJUN_2_desc:0 "细菌战"
+GKD_BINGDU_1:0 "病毒培养"
+GKD_BINGDU_1_desc:0 "病毒培养"
+GKD_BINGDU_2:0 "人造病毒"
+GKD_BINGDU_2_desc:0 "人造病毒"
+
+
+infantryA_folder:0 "陆战军团"
+infantryA_folder_desc:0 "陆战军团"
+
+supportA_folder:0 "辅助部队"
+supportA_folder_desc:0 "辅助部队"
+
+nsb_armourA_folder:0 "机甲部队"
+nsb_armourA_folder_desc:0 "机甲部队"
+
+artilleryA_folder:0 "元素科技"
+artilleryA_folder_desc:0 "元素科技"
+
+air_techsA_folder:0 "神之眼"
+air_techsA_folder_desc:0 "神之眼"
+
+mtgnavalfolderA:0 "舰队"
+mtgnavalfolderA_desc:0 "舰队"
+
+mtgnavalsupportfolderA:0 "污染武器"
+mtgnavalsupportfolderA_desc:0 "污染武器"
+
+industryA_folder:0 "工业科技"
+industryA_folder_desc:0 "工业科技"
+
+electronicsA_folder:0 "裂变科技"
+electronicsA_folder_desc:0 "裂变科技"
+
+TAIXUWANG_folder:0 "太虚网"
+TAIXUWANG_folder_desc:0 "太虚网"
+
+SHENYUAN_folder:0 "深渊科技"
+SHENYUAN_folder_desc:0 "深渊科技"
+
+DIMAIWANG_folder:0 "互联网"
+DIMAIWANG_folder_desc:0 "互联网"
+
+RENOU_folder:0 "人偶科技"
+RENOU_folder_desc:0 "人偶科技"
+
+MOSHEN_folder:0 "魔神权能"
+MOSHEN_folder_desc:0 "魔神权能"
+
+GKD_SHIJIESHUYANJIU:0 "世界树研究"
+GKD_SHIJIESHUYANJIU_desc:0 "世界树研究"
+GKD_XUKONGSHIJIAN_1:0 "时间研究1"
+GKD_XUKONGSHIJIAN_1_desc:0 "时间研究1"
+GKD_XUKONGSHIJIAN_2:0 "时间研究2"
+GKD_XUKONGSHIJIAN_2_desc:0 "时间研究2"
+GKD_XUKONGSHIJIAN_3:0 "时间研究3"
+GKD_XUKONGSHIJIAN_3_desc:0 "时间研究3"
+GKD_XUKONGSHIJIAN_4:0 "时间研究4"
+GKD_XUKONGSHIJIAN_4_desc:0 "时间研究4"
+GKD_XUKONGSHIJIAN_5:0 "时间机器"
+GKD_XUKONGSHIJIAN_5_desc:0 "时间机器"
+
+
+GKD_XUKONGNENGLIANG_1:0 "虚空能量研究"
+GKD_XUKONGNENGLIANG_1_desc:0 "虚空能量研究"
+GKD_XUKONGNENGLIANG_2:0 "实验性虚空网络"
+GKD_XUKONGNENGLIANG_2_desc:0 "实验性虚空网络"
+GKD_ZILVHUOJIAN:0 "自律火箭"
+GKD_ZILVHUOJIAN_desc:0 "自律火箭"
+GKD_WEIXING_1:0 "卫星试射"
+GKD_WEIXING_1_desc:0 "卫星试射"
+GKD_WEIXING_2:0 "第二代卫星"
+GKD_WEIXING_2_desc:0 "第二代卫星"
+GKD_WEIXING_3:0 "聚变核心卫星"
+GKD_WEIXING_3_desc:0 "聚变核心卫星"
+GKD_WEIXING_ZAIREN:0 "载人火箭"
+GKD_WEIXING_ZAIREN_desc:0 "载人火箭"
+GKD_WEIXING_4:0 "太空武器"
+GKD_WEIXING_4_desc:0 "太空武器"
+GKD_WEIXING_51:0 "激光打击"
+GKD_WEIXING_51_desc:0 "激光打击"
+GKD_WEIXING_52:0 "卫星制导"
+GKD_WEIXING_52_desc:0 "卫星制导"
+
+GKD_WEIXING_LIANGCHAN:0 "低成本量产卫星"
+GKD_WEIXING_LIANGCHAN_desc:0 "低成本量产卫星"
+
+GKD_JIAQIANGLIANJIE:0 "加强连接效率"
+GKD_JIAQIANGLIANJIE_desc:0 "加强连接效率"
+
+GKD_TAIXUQIANG_1:0 "太虚墙"
+GKD_TAIXUQIANG_1_desc:0 "太虚墙"
+
+GKD_TAIXUQIANG_2:0 "智能标记"
+GKD_TAIXUQIANG_2_desc:0 "智能标记"
+
+GKD_TAIXUQIANG_3:0 "智能屏蔽"
+GKD_TAIXUQIANG_3_desc:0 "智能屏蔽"
+
+GKD_TAIXUQIANG_4:0 "智能识别"
+GKD_TAIXUQIANG_4_desc:0 "智能识别"
+
+GKD_TAIXUQIANG_5:0 "实时定位打击系统"
+GKD_TAIXUQIANG_5_desc:0 "实时定位打击系统"
+
+GKD_CHENJINHUA_1:0 "沉浸化研究"
+GKD_CHENJINHUA_1_desc:0 "沉浸化研究"
+
+GKD_CHENJINHUA_2:0 "休眠实验"
+GKD_CHENJINHUA_2_desc:0 "休眠实验"
+
+GKD_CHENJINHUA_3:0 "完全沉浸体验"
+GKD_CHENJINHUA_3_desc:0 "完全沉浸体验"
+
+GKD_XINLING_1:0 "意识同构"
+GKD_XINLING_1_desc:0 "意识同构"
+
+GKD_XINLING_2:0 "大脑研究"
+GKD_XINLING_2_desc:0 "大脑研究"
+
+GKD_XINLING_3:0 "初级思维影响技术"
+GKD_XINLING_3_desc:0 "初级思维影响技术"
+
+GKD_SHENYUANYANJIU:0 "深渊研究"
+GKD_SHENYUANYANJIU_desc:0 "深渊研究"
+
+GKD_NISHENXIANG_1:0 "逆位神像研究"
+GKD_NISHENXIANG_1_desc:0 "逆位神像研究"
+
+GKD_NISHENXIANG_2:0 "深渊能量提取"
+GKD_NISHENXIANG_2_desc:0 "深渊能量提取"
+
+GKD_NISHENXIANG_3:0 "深渊能量使用"
+GKD_NISHENXIANG_3_desc:0 "深渊能量使用"
+
+GKD_ZUZHOUYANJIU_1:0 "被诅咒者研究1"
+GKD_ZUZHOUYANJIU_1_desc:0 "被诅咒者研究1"
+
+GKD_ZUZHOUYANJIU_2:0 "被诅咒者研究2"
+GKD_ZUZHOUYANJIU_2_desc:0 "被诅咒者研究2"
+
+GKD_ZUZHOUYANJIU_3:0 "被诅咒者研究3"
+GKD_ZUZHOUYANJIU_3_desc:0 "被诅咒者研究3"
+
+GKD_ZUZHOUYANJIU_4:0 "解药"
+GKD_ZUZHOUYANJIU_4_desc:0 "解药"
+
+GKD_ZUZHOUYANJIU_5:0 "诅咒光线"
+GKD_ZUZHOUYANJIU_5_desc:0 "诅咒光线"
+
+GKD_RENOUYANJIU:0 "人偶研究"
+GKD_RENOUYANJIU_desc:0 "人偶研究"
+
+GKD_RENOUYANJIU_2:0 "第一代实验型人偶"
+GKD_RENOUYANJIU_2_desc:0 "第一代实验型人偶"
+
+GKD_RENOUYANJIU_3:0 "第二代实验型人偶"
+GKD_RENOUYANJIU_3_desc:0 "第二代实验型人偶"
+
+GKD_RENOUYANJIU_4:0 "将军级人偶"
+GKD_RENOUYANJIU_4_desc:0 "将军级人偶"
+
+GKD_RENOUYANJIU_51:0 "魔神级人偶"
+GKD_RENOUYANJIU_51_desc:0 "魔神级人偶"
+
+GKD_RENOUYANJIU_52:0 "量产型人偶"
+GKD_RENOUYANJIU_52_desc:0 "量产型人偶"
+
+GKD_QUANNENGYANJIU:0 "魔神权能研究"
+GKD_QUANNENGYANJIU_desc:0 "魔神权能研究"
+
+GKD_QUANNENGYANJIU_2:0 "通用魔神权能研究1"
+GKD_QUANNENGYANJIU_2_desc:0 "通用魔神权能研究1"
+
+GKD_QUANNENGYANJIU_3:0 "通用魔神权能研究2"
+GKD_QUANNENGYANJIU_3_desc:0 "通用魔神权能研究2"
+
+GKD_QUANNENGYANJIU_4:0 "通用魔神权能研究3"
+GKD_QUANNENGYANJIU_4_desc:0 "通用魔神权能研究3"
+
+GKD_QUANNENGYANJIU_5:0 "深入魔神权能研究"
+GKD_QUANNENGYANJIU_5_desc:0 "深入魔神权能研究"
+
+
+GKD_QUANNENGYANJIU_6:0 "雷电权能研究"
+GKD_QUANNENGYANJIU_6_desc:0 "雷电权能研究"
+GKD_QUANNENGYANJIU_71:0 "其它权能研究"
+GKD_QUANNENGYANJIU_71_desc:0 "其它权能研究"
+GKD_QUANNENGYANJIU_72:0 "天气控制器"
+GKD_QUANNENGYANJIU_72_desc:0 "天气控制器"
+
+
+GKD_RUOHUAQUANNENG:0 "弱化特别魔神权能研究"
+GKD_RUOHUAQUANNENG_desc:0 "弱化特别魔神权能研究"
+
+GKD_RUOHUAQUANNENGHUDUN:0 "立场护盾"
+GKD_RUOHUAQUANNENGHUDUN_desc:0 "立场护盾"
+
+GKD_RUOHUAQUANNENGCIBAO:0 "磁暴装置"
+GKD_RUOHUAQUANNENGCIBAO_desc:0 "磁暴装置"
+
+GKD_RUOHUAQUANNENGXUANFU:0 "悬浮装置"
+GKD_RUOHUAQUANNENGXUANFU_desc:0 "悬浮装置"
+
+GKD_RUOHUAQUANNENGTANCE:0 "心灵探测器"
+GKD_RUOHUAQUANNENGTANCE_desc:0 "心灵探测器"
+
+GKD_RUOHUAQUANNENGCHAOXI:0 "潮汐引力发生器"
+GKD_RUOHUAQUANNENGCHAOXI_desc:0 "潮汐引力发生器"
+
+GKD_RUOHUAQUANNENGWENDU:0 "温度控制器"
+GKD_RUOHUAQUANNENGWENDU_desc:0 "温度控制器"
+
+GKD_DIMAIYANJIU:0 "地脉研究"
+GKD_DIMAIYANJIU_desc:0 "地脉研究"
+
+GKD_DIMAIYUNSHU_1:0 "地脉运输研究"
+GKD_DIMAIYUNSHU_1_desc:0 "地脉运输研究"
+
+GKD_DIMAIYUNSHU_2:0 "地脉节点"
+GKD_DIMAIYUNSHU_2_desc:0 "地脉节点"
+
+GKD_DIMAIYUNSHU_3:0 "快速转移体系"
+GKD_DIMAIYUNSHU_3_desc:0 "快速转移体系"
+
+GKD_DIMAIWANGCESHI_1:0 "局域地脉网络测试"
+GKD_DIMAIWANGCESHI_1_desc:0 "局域地脉网络测试"
+
+GKD_DIMAIWANGCESHI_2:0 "深度地脉研究"
+GKD_DIMAIWANGCESHI_2_desc:0 "深度地脉研究"
+
+GKD_DIMAIWANGCESHI_3:0 "初代地脉基站"
+GKD_DIMAIWANGCESHI_3_desc:0 "初代地脉基站"
+
+GKD_DIMAIQIANG_1:0 "防火墙概念"
+GKD_DIMAIQIANG_1_desc:0 "防火墙概念"
+
+GKD_DIMAIQIANG_2:0 "实用性防火墙"
+GKD_DIMAIQIANG_2_desc:0 实用性防火墙"
+
+GKD_DIMAIQIANG_3:0 "审核系统"
+GKD_DIMAIQIANG_3_desc:0 "审核系统"
+
+GKD_DIMAIQIANG_4:0 "人工智能审核系统"
+GKD_DIMAIQIANG_4_desc:0 "人工智能审核系统"
+
+GKD_DIMAIJIZHAN_1:0 "基站量产化"
+GKD_DIMAIJIZHAN_1_desc:0 "基站量产化"
+
+GKD_DIMAIJIZHAN_2:0 "降低基站成本"
+GKD_DIMAIJIZHAN_2_desc:0 "降低基站成本"
+
+GKD_DIMAIJIZHAN_3:0 "更快速的网络"
+GKD_DIMAIJIZHAN_3_desc:0 "更快速的网络"
+
+GKD_DIMAIJIZHAN_4:0 "家庭式基站"
+GKD_DIMAIJIZHAN_4_desc:0 "更快速的网络"
+
+GKD_GAILIANGWANGLU_1:0 "改良网络"
+GKD_GAILIANGWANGLU_1_desc:0 "改良网络"
+
+GKD_GAILIANGWANGLU_22:0 "无线网络"
+GKD_GAILIANGWANGLU_22_desc:0 "无线网络"
+
+GKD_GAILIANGWANGLU_32:0 "信号增强"
+GKD_GAILIANGWANGLU_32_desc:0 "信号增强"
+
+GKD_GAILIANGWANGLU_21:0 "个人对个人"
+GKD_GAILIANGWANGLU_21_desc:0 "个人对个人"
+
+GKD_GAILIANGWANGLU_31:0 "群体对群体"
+GKD_GAILIANGWANGLU_31_desc:0 "群体对群体"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

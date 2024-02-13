@@ -1,0 +1,13 @@
+characters={
+	DAO_daoge={
+		name=DAO_CHARACTER_DAOGE
+		portraits={
+			civilian={
+				large="GFX_portrait_DAO_daoge_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

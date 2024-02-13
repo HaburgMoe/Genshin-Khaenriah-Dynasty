@@ -1,0 +1,19 @@
+
+state={
+	id=422
+	name="STATE_422"
+
+	history={
+		owner = OMS
+		add_core_of = OMS
+
+	}
+
+	provinces={
+		160 181 1772 1960 3094 7706 7744 7791 7841 7864 7871 7890 7907 7912 7945 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

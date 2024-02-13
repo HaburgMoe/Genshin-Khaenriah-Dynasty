@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_renou2"
+		texturefile = "gfx/event/GFX_news_renou2.dds"
+	}
+
+}

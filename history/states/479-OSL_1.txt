@@ -1,0 +1,16 @@
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		214 478 606 852 1043 1068 1489 1590 1939 1948 2485 2584 2841 2890 3259 3822 7192 7248 7262 7284 7303 7309 7331 7341 7355 7365 7392 7403 7420 7442 7467 7488 7492 
+	}
+	history={
+		owner = USL
+		add_core_of = USL
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

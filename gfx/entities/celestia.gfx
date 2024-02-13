@@ -1,0 +1,8 @@
+objectTypes = {
+    pdxmesh = {
+        name = "mesh_celestia"
+        file = "gfx/models/buildings/celestia.mesh"
+	scale = 1.0
+	cull_distance = 9999.0			
+    }
+}

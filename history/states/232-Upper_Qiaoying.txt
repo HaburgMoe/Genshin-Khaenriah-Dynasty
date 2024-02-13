@@ -1,0 +1,17 @@
+
+state={
+	id=232
+	name="STATE_232"
+	provinces={
+		36 307 907 1261 1362 1694 1807 1967 2123 2201 2370 2465 3638 3798 4768 4794 4795 4801 4810 4822 4834 4862 4871 4886 4891 4893 4894 4899 4909 4924 4925 4940 4950 4958 4967 4979 4992 5000 5001 5020 5028 5029 5035 5042 5061 
+	}
+	history={
+		owner = ABY
+		add_core_of = ABY
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

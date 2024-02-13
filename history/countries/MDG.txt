@@ -1,0 +1,49 @@
+capital = 164
+oob = "MDG"
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = zhuanzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 100
+}
+
+add_ideas = {
+	bingyizhidu3
+	quzhengdanghua
+	14xiaoshi
+	xssdaya
+	chengjiesifa
+	wufulibaozhang
+	yangexianzhimaoyi
+	wuxuanju
+	xianzhiyimin
+	zzmzbiaomianpingdeng
+	guojiawushenlun
+	duiwai_zhongli
+	guoti_danyizhi
+	nvquan3
+	yanlun1
+}
+
+create_country_leader = {
+	name = "舒伯特·劳伦斯"
+	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	picture = "gfx/leader/shubote.dds"
+	expire = "1965.1.1"
+	ideology = junzhuzhuanzhiism
+	traits = {
+		#
+	}
+}

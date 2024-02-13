@@ -1,0 +1,126 @@
+focus_tree={
+	id = LIY_start_focus_tree
+	country={
+		factor=0
+		modifier={
+			add=10
+			tag=LIY
+		}
+	}
+	default=no
+	focus={
+		id=LIY_the_true_of_new_order
+		icon=GFX_goal_LIY_the_true_of_new_order
+		x=5
+		y=0
+		cost=2
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = anything_right
+				NOT = {
+					has_country_flag = my_country_is_in_a_mass_what_about_yours
+				}
+			}
+		}
+		search_filters={
+		}
+		completion_reward={
+			custom_effect_tooltip = history_of_Liyue
+			add_dynamic_modifier = {
+				modifier = LIY_whose_republic
+			}
+			set_variable = { LIY_decrease_pp = -1 }		
+			set_variable = { LIY_descrease_stability = -0.1 }
+			set_variable = { LIY_decrease_war_support = -0.3 }
+		}
+	}
+	focus={
+		id=LIY_election_arrive_as_scheduled
+		icon=GFX_goal_LIY_election_arrive_as_scheduled
+		x=5
+		y=1
+		prerequisite={focus=LIY_the_true_of_new_order}
+		cost=1
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = anything_right
+				NOT = {
+					has_country_flag = my_country_is_in_a_mass_what_about_yours
+				}
+			}
+		}
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=LIY_the_result_is
+		icon=GFX_goal_LIY_the_result_is
+		x=5
+		y=2
+		prerequisite={focus=LIY_election_arrive_as_scheduled}
+		cost=1
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = anything_right
+				NOT = {
+					has_country_flag = my_country_is_in_a_mass_what_about_yours
+				}
+			}
+		}
+		search_filters={
+		}
+		completion_reward={
+			country_event = {
+				id = LIY.1
+				days = 5
+			}
+		}
+	}
+	focus={
+		id=LIY_yanfei
+		icon=GFX_goal_LIY_yanfei
+		x=5
+		y=3
+		relative_position_id = LIY_the_result_is
+		prerequisite={focus=LIY_the_result_is}
+		cost=4
+		ai_will_do={
+			factor=1
+		}
+		allow_branch = {
+			has_country_flag = yanfei_win
+			mark_focus_tree_layout_dirty = yes
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = anything_right
+				NOT = {
+					has_country_flag = my_country_is_in_a_mass_what_about_yours
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = yanfei_has_won_the_election
+				has_country_flag = yanfei_win
+			}
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+}

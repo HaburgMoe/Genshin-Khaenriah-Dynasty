@@ -1,0 +1,16 @@
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+		808 938 1229 1280 1886 3241 4582 4590 4601 4644 4658 4659 4667 4671 4683 4684 
+	}
+	history={
+		owner = NAV
+		add_core_of = NAV
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

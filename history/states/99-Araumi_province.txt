@@ -1,0 +1,16 @@
+
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		733 955 1013 2446 2470 2668 2828 3242 3464 7344 7381 7422 7439 7469 7503 7522 7531 7550 7567 7578 7591 7621 7638 
+	}
+	history={
+		owner = JYY
+		add_core_of = JYY
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

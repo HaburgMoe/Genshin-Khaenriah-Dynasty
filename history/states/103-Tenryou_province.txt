@@ -1,0 +1,15 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		379 2924 8003 8020 8021 8042 8047 8056 8068 8080 
+	}
+	history={
+		owner = DQG
+		add_core_of = DQG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,15 @@
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		555 720 2148 3794 4809 4840 4905 4915 
+	}
+	history={
+		owner = MDG
+		add_core_of = MDG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

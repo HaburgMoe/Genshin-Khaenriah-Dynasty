@@ -1,0 +1,579 @@
+technologies = {
+	GKD_SHIJIESHUYANJIU = {
+		path = {
+			leads_to_tech = GKD_XUKONGNENGLIANG_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_XUKONGSHIJIAN_1
+			research_cost_coeff = 1
+		}
+		research_speed_factor = 0.03
+		research_cost = 1.5
+		start_year = 400
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 25 y = 0 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGSHIJIAN_1 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XUKONGSHIJIAN_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 420
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 25 y = 4 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGSHIJIAN_2 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XUKONGSHIJIAN_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 430
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 25 y = 8 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGSHIJIAN_3 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XUKONGSHIJIAN_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 25 y = 12 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGSHIJIAN_4 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XUKONGSHIJIAN_5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 25 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGSHIJIAN_5 = {
+		research_speed_factor = 1.00
+		research_cost = 1.5
+		start_year = 520
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 25 y = 55 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGNENGLIANG_1 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XUKONGNENGLIANG_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 420
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 20 y = 8 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XUKONGNENGLIANG_2 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_JIAQIANGLIANJIE
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 20 y = 16 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_ZILVHUOJIAN = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_WEIXING_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 400
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_1= {
+		path = {
+			leads_to_tech = GKD_WEIXING_2
+			research_cost_coeff = 1
+		}
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+		research_cost = 1.5
+		start_year = 420
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 4 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_2= {
+		path = {
+			leads_to_tech = GKD_WEIXING_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_JIAQIANGLIANJIE
+			research_cost_coeff = 1
+		}
+		enable_building = {
+			building = radar_station
+			level = 6
+		}
+		research_cost = 1.5
+		start_year = 430
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 8 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_3= {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_WEIXING_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_WEIXING_ZAIREN
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = -5 y = 12 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_ZAIREN= {
+		research_speed_factor = 0.03
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 16 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_4= {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_WEIXING_51
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_WEIXING_52
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = -5 y = 16 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_51= {
+		research_cost = 1.5
+		start_year = 460
+	army_attack_factor = 0.3
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = -5 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_WEIXING_52= {
+		research_cost = 1.5
+		start_year = 460
+	army_attack_factor = 0.3
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_JIAQIANGLIANJIE= {
+		enable_building = {
+			building = radar_station
+			level = 10
+		}
+		path = {
+			leads_to_tech = GKD_TAIXUQIANG_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_CHENJINHUA_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_XINLING_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 5 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_TAIXUQIANG_1= {
+		path = {
+			leads_to_tech = GKD_TAIXUQIANG_2
+			research_cost_coeff = 1
+		}
+	stability_factor = 0.1
+	drift_defence_factor = 0.1
+	war_support_factor = 0.1
+		research_cost = 1.5
+		start_year = 460
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 24 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_TAIXUQIANG_2= {
+		path = {
+			leads_to_tech = GKD_TAIXUQIANG_3
+			research_cost_coeff = 1
+		}
+	stability_factor = 0.1
+	drift_defence_factor = 0.1
+	war_support_factor = 0.1
+		research_cost = 1.5
+		start_year = 470
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 28 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_TAIXUQIANG_3= {
+		path = {
+			leads_to_tech = GKD_TAIXUQIANG_4
+			research_cost_coeff = 1
+		}
+	stability_factor = 0.1
+	drift_defence_factor = 0.1
+	war_support_factor = 0.1
+		research_cost = 1.5
+		start_year = 480
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 32 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_TAIXUQIANG_4= {
+		path = {
+			leads_to_tech = GKD_TAIXUQIANG_5
+			research_cost_coeff = 1
+		}
+	stability_factor = 0.1
+	drift_defence_factor = 0.1
+	war_support_factor = 0.1
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 36 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_TAIXUQIANG_5= {
+		research_cost = 1.5
+		start_year = 505
+	stability_factor = 0.4
+	drift_defence_factor = 0.4
+	war_support_factor = 0.4
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 0 y = 40 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_CHENJINHUA_1= {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_CHENJINHUA_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 460
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 5 y = 24 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_CHENJINHUA_2= {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_CHENJINHUA_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 480
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 5 y = 32 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_CHENJINHUA_3= {
+	stability_factor = 0.2
+	drift_defence_factor = 0.2
+	war_support_factor = 0.2
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 5 y = 38 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XINLING_1= {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XINLING_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 460
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 10 y = 24 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XINLING_2= {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_XINLING_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 480
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 10 y = 32 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_XINLING_3= {
+		research_speed_factor = 0.1
+		research_cost = 1.5
+		start_year = 520
+		folder = {
+			name = TAIXUWANG_folder
+			position = { x = 10 y = 48 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+}

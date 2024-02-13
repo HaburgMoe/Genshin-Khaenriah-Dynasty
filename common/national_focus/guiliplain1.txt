@@ -1,0 +1,69 @@
+focus_tree = {
+	id = guiliplain1
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GLG
+		}
+	}
+	#请仙典仪
+	focus = {
+		id = GLG_qingxiandianyi
+		icon = GFX_GLG_qingxiandianyi-164731
+		x = 9
+		y = 3
+		cost = 7
+	}
+
+	#解除禁令
+	focus = {
+		id = GLG_jiechujinling
+		icon = GFX_GLG_jiechujinling-144759
+		x = 9
+		y = 4
+		cost = 7
+		prerequisite = { focus = GLG_qingxiandianyi  }
+		completion_reward = {
+			260 = {set_demilitarized_zone = no}
+		}
+	}
+
+	#宣称正统
+	focus = {
+		id = GLG_xuanchengzhengtong
+		icon = GFX_GLG_xuanchengzhengtong-144758
+		x = 9
+		y = 5
+		cost = 7
+		prerequisite = { focus = GLG_jiechujinling  }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+
+	#与烟共舞
+	focus = {
+		id = GLG_yuyangongwu
+		icon = GFX_GLG_yuyangongwu-144760
+		x = 8
+		y = 6
+		cost = 7
+		prerequisite = { focus = GLG_xuanchengzhengtong  }
+		mutually_exclusive = { focus = GLG_daoxiangdiquguo  }
+	}
+
+	#倒向地区国
+	focus = {
+		id = GLG_daoxiangdiquguo
+		icon = GFX_GLG_daoxiangdiquguo-129757
+		x = 10
+		y = 6
+		cost = 7
+		prerequisite = { focus = GLG_xuanchengzhengtong  }
+		mutually_exclusive = { focus = GLG_yuyangongwu  }
+	}
+
+}

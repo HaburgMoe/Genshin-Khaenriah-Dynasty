@@ -1,0 +1,36 @@
+capital = 246
+oob = "WST"
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = guojiatiaohe
+	last_election = "500.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	guojiatiaohe = 85
+	xianfengrenzhi = 15
+}
+
+add_ideas = {
+	bingyizhidu2	ziyoumaoyi	8xiaoshi	guoti_danyizhi	wuxuanju	jibenfulibaozhang	duiwai_zhongli	guojiawushenlun	zzmzbiaomianpingdeng	quzhengdanghua	xianzhiyimin	xssdaya	chengjiesifa	nvquan3	yanlun1
+}
+
+create_country_leader = {
+	name = "胡桃"
+	desc = "POLITICS_HT_DESC"
+	picture = "gfx/leader/hutao.dds"
+	expire = "1965.1.1"
+	ideology = qiyeism
+	traits = {
+		#
+	}
+}

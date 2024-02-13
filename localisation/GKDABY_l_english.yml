@@ -1,0 +1,570 @@
+﻿l_english:
+ LIY:0 "Republic of Liyue"
+ LIY_DEF:0 "Republic of Liyue"
+ LIY_ADJ:0 "Republic of Liyue"
+ MDG:0 "Kingdom of Mondstadt"
+ MDG_DEF:0 "Kingdom of Mondstadt"
+ MDG_ADJ:0 "Kingdom of Mondstadt"
+
+ MSK:0 "Musk Entertainment Region"
+ MSK_DEF:0 "Musk Entertainment Region"
+ MSK_ADJ:0 "Musk Entertainment Region"
+
+ EUL:0 "Spindrift Knightdom"
+ EUL_DEF:0 "Spindrift Knightdom"
+ EUL_ADJ:0 "Spindrift Knightdom"
+
+ FDG:0 "Imperial Fontaine Precinct"
+ FDG_DEF:0 "Imperial Fontaine Precinct"
+ FDG_ADJ:0 "Imperial Fontaine Precinct"
+ MDC:0 "Windrise AR"
+ MDC_DEF:0 "Windrise AR"
+ MDC_ADJ:0 "Windrise AR"
+ ABY:0 "Great Khaenri'ah Empire"
+ ABY_DEF:0 "Great Khaenri'ah Empire"
+ ABY_ADJ:0 "Great Khaenri'ah Empire"
+ XMG:0 "Constitutional State of Sumeru"
+ XMG_DEF:0 "Constitutional State of Sumeru"
+ XMG_ADJ:0 "Constitutional State of Sumeru"
+
+ CXG:0 "Republic of Dawn"
+ CXG_DEF:0 "Republic of Dawn"
+ CXG_ADJ:0 "Republic of Dawn"
+ DLK:0 "Ragnvindr City"
+ DLK_DEF:0 "Ragnvindr City"
+ DLK_ADJ:0 "Ragnvindr City"
+
+ YJG:0 "Yun-Han Opera Troupe"
+ YJG_DEF:0 "Yun-Han Opera Troupe"
+ YJG_ADJ:0 "Yun-Han Opera Troupe"
+
+ GLG:0 "Constitutional Autonomous State of Guili"
+ GLG_DEF:0 "Constitutional Autonomous State of Guili"
+ GLG_ADJ:0 "Constitutional Autonomous State of Guili"
+ XSG:0 "Autonomous Teyvat Scientific Research Union"
+ XSG_DEF:0 "Autonomous Teyvat Scientific Research Union"
+ XSG_ADJ:0 "Autonomous Teyvat Scientific Research Union"
+ LYA:0 "Beiliyue Defense Patrol Force"
+ LYA_DEF:0 "Beiliyue Defense Patrol Force"
+ LYA_ADJ:0 "Beiliyue Defense Patrol Force"
+ JYG:0 "Biochemical Reception Research Autonomous Region"
+ JYG_DEF:0 "Biochemical Reception Research Autonomous Region"
+ JYG_ADJ:0 "Biochemical Reception Research Autonomous Region"
+ MYZ:0 "Ming Yun Autonomous Armed Guard"
+ MYZ_DEF:0 "Ming Yun Autonomous Armed Guard"
+ MYZ_ADJ:0 "Ming Yun Autonomous Armed Guard"
+ XLG:0 "Starfall Guard"
+ XLG_DEF:0 "Starfall Guard"
+ XLG_ADJ:0 "Starfall Guard"
+ DDW:0 "Free Trade Nation of Dadaupa"
+ DDW_DEF:0 "Free Trade Nation of Dadaupa"
+ DDW_ADJ:0 "Free Trade Nation of Dadaupa"
+ LJG:0 "Republic of Lingju"
+ LJG_DEF:0 "Republic of Lingju"
+ LJG_ADJ:0 "Republic of Lingju"
+ BBL:0 "Bubu Pharmacy Corporate State"
+ BBL_DEF:0 "Bubu Pharmacy Corporate State"
+ BBL_ADJ:0 "Bubu Pharmacy Corporate State"
+ YLG:0 "Liyue Habour"
+ YLG_DEF:0 "Liyue Habour"
+ YLG_ADJ:0 "Liyue Habour"
+ WST:0 "Wangsheng Funeral Parlor"
+ WST_DEF:0 "Wangsheng Funeral Parlor"
+ WST_ADJ:0 "Wangsheng Funeral Parlor"
+ MLK:0 "Morax"
+ MLK_DEF:0 "Morax"
+ MLK_ADJ:0 "Morax"
+ QXG:0 "Republic of Qingxu"
+ QXG_DEF:0 "Republic of Qingxu"
+ QXG_ADJ:0 "Republic of Qingxu"
+ MLG:0 "珉林协作国"
+ MLG_DEF:0 "珉林协作国"
+ MLG_ADJ:0 "珉林协作国"
+
+ XRG:0 "Minlin Adepti Union"
+ XRG_DEF:0 "Minlin Adepti Union"
+ XRG_ADJ:0 "Minlin Adepti Union"
+
+ KAD:0 "The Khaenri'ah Anti-Rebel Army"
+ KAD_DEF:0 "The Khaenri'ah Anti-Rebel Army"
+ KAD_ADJ:0 "The Khaenri'ah Anti-Rebel Army"
+
+ ZDG:0 "Republic of New Snezhnaya"
+ ZDG_DEF:0 "Republic of New Snezhnaya"
+ ZDG_ADJ:0 "Republic of New Snezhnaya"
+
+ HYG:0 "The Black Rock Commercial Republic"
+ HYG_DEF:0 "The Black Rock Commercial Republic"
+ HYG_ADJ:0 "The Black Rock Commercial Republic"
+
+ KQG:0 "New Liyue Gang"
+ KQG_DEF:0 "New Liyue Gang"
+ KQG_ADJ:0 "New Liyue Gang"
+
+ MLB:0 "Minlin Village Area"
+ MLB_DEF:0 "Minlin Village Area"
+ MLB_ADJ:0 "Minlin Village Area"
+
+ EMP:0 "Data Loss"
+ EMP_DEF:0 "Data Loss"
+ EMP_ADJ:0 "Data Loss"
+
+ LOADEMP:0 "卫星数据加载中"
+ LOADEMP_DEF:0 "卫星数据加载中"
+ LOADEMP_ADJ:0 "卫星数据加载中"
+
+ QCZ:0 "Mingce Militia Free Zone"
+ QCZ_DEF:0 "Mingce Militia Free Zone"
+ QCZ_ADJ:0 "Mingce Militia Free Zone"
+
+ TYL:0 "Eastern Frontier Forestry Corps"
+ TYL_DEF:0 "Eastern Frontier Forestry Corps"
+ TYL_ADJ:0 "Eastern Frontier Forestry Corps"
+ 
+ OMS:0 "Ormos Free Zone"
+ OMS_DEF:0 "Ormos Free Zone"
+ OMS_ADJ:0 "Ormos Free Zone"
+
+ VMZ:0 "Vimara Autonomous Region"
+ VMZ_DEF:0 "Vimara Autonomous Region"
+ VMZ_ADJ:0 "Vimara Autonomous Region"
+
+ USL:0 "Union Scientific Research Zone of Teyvat"
+ USL_DEF:0 "Union Scientific Research Zone of Teyvat"
+ USL_ADJ:0 "Union Scientific Research Zone of Teyvat"
+
+ STG:0 "Apam Construction Agency"
+ STG_DEF:0 "Apam Construction Agency"
+ STG_ADJ:0 "Apam Construction Agency"
+
+ LLL:0 "Aranara Reserve"
+ LLL_DEF:0 "Aranara Reserve"
+ LLL_ADJ:0 "Aranara Reserve"
+
+ NZL:0 "North Border autonomous territory"
+ NZL_DEF:0 "North Border autonomous territory"
+ NZL_ADJ:0 "North Border autonomous territory"
+
+ NTG:0 "New Natlan area"
+ NTG_DEF:0 "New Natlan area"
+ NTG_ADJ:0 "New Natlan area"
+
+ MBG:0 "Nabu Malikata"
+ MBG_DEF:0 "Nabu Malikata"
+ MBG_ADJ:0 "Nabu Malikata"
+ 
+ CWG:0"Al-Ahmar"
+ CWG_DEF:0 "Al-Ahmar"
+ CWG_ADJ:0 "Al-Ahmar"
+
+ KWZ:0"Aaru-Caravan Ribat commune"
+ KWZ_DEF:0 "Aaru-Caravan Ribat commune"
+ KWZ_ADJ:0 "Aaru-Caravan Ribat commune"
+
+
+
+ CWG_zhuanzhi_party:0 "§g保守党§!"
+ CWG_zhuanzhi_party_long:0 "§g保守党§!"
+ CWG_xianfengrenzhi_party:0 "§Z人民党-激进派§!"
+ CWG_xianfengrenzhi_party_long:0 "§Z人民党-激进派§!"
+ CWG_pingdengrenzhi_party:0 "§S人民党-温和派§!"
+ CWG_pingdengrenzhi_party_long:0 "§S人民党-温和派§!"
+ CWG_ziyourenzhi_party:0 "§I自由党§!"
+ CWG_ziyourenzhi_party_long:0 "§I自由党§!"
+ CWG_weiquanrenzhi_party:0 "保守党"
+ CWG_weiquanrenzhi_party_long:0 "保守党"
+ CWG_guojiatiaohe_party:0 "§O人民党-保守派§!"
+ CWG_guojiatiaohe_party_long:0 "§O人民党-保守派§!"
+ CWG_jiduan_party:0 "§V赤王组织§!"
+ CWG_jiduan_party_long:0 "§V赤王组织§!"
+
+
+ OMS_zhuanzhi_party:0 "§g须弥顾问团§!"
+ OMS_zhuanzhi_party_long:0 "§g须弥顾问团§!"
+ OMS_ziyourenzhi_party:0 "§I奥摩斯民主运动§!"
+ OMS_ziyourenzhi_party_long:0 "§I奥摩斯民主运动§!"
+ OMS_weiquanrenzhi_party:0 "§Y特区总商会§!"
+ OMS_weiquanrenzhi_party_long:0 "§Y特区总商会§!"
+
+
+
+ HYG_zhuanzhi_party:0 "§g坎瑞亚璃月军团§!"
+ HYG_zhuanzhi_party_long:0 "§g坎瑞亚璃月军团§!"
+ HYG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ HYG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ HYG_pingdengrenzhi_party:0 "§S璃月自由运动§!"
+ HYG_pingdengrenzhi_party_long:0 "§S璃月自由运动§!"
+ HYG_ziyourenzhi_party:0 "§I民权党§!"
+ HYG_ziyourenzhi_party_long:0 "§I民权党§!"
+ HYG_weiquanrenzhi_party:0 "§Y自由贸易党§!"
+ HYG_weiquanrenzhi_party_long:0 "§Y自由贸易党§!"
+ HYG_guojiatiaohe_party:0 "§O璃月人民党§!"
+ HYG_guojiatiaohe_party_long:0 "§O璃月人民党§!"
+ HYG_jiduan_party:0 "§M夜叉行动组§!"
+ HYG_jiduan_party_long:0 "§M夜叉行动组§!"
+
+ QCZ_pingdengrenzhi_party:0 "§S轻策民兵自卫队§!"
+ QCZ_pingdengrenzhi_party_long:0 "§S轻策民兵自卫队§!"
+ QCZ_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ QCZ_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ QCZ_tiaohe_party:0 "§P进步团体§!"
+ QCZ_tiaohe_party_long:0 "§P进步团体§!"
+ QCZ_ziyourenzhi_party:0 "§I璃月民主运动§!"
+ QCZ_ziyourenzhi_party_long:0 "§I璃月民主运动§!"
+
+ MLG_tiaohe_party:0 "§P协作会议§!"
+ MLG_tiaohe_party_long:0 "§P协作会议§!"
+ MLG_pingdengrenzhi_party:0 "§S璃月自由运动§!"
+ MLG_pingdengrenzhi_party_long:0 "§S璃月自由运动§!"
+
+
+ QXG_zhuanzhi_party:0 "§g坎瑞亚璃月军团§!"
+ QXG_zhuanzhi_party_long:0 "§g坎瑞亚璃月军团§!"
+ QXG_tiaohe_party:0 "§P正义党§!"
+ QXG_tiaohe_party_long:0 "§P正义党§!"
+ QXG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ QXG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ QXG_pingdengrenzhi_party:0 "§S璃月自由运动§!"
+ QXG_pingdengrenzhi_party_long:0 "§S璃月自由运动§!"
+ QXG_ziyourenzhi_party:0 "§I改革党§!"
+ QXG_ziyourenzhi_party_long:0 "§I改革党§!"
+ QXG_weiquanrenzhi_party:0 "保守党"
+ QXG_weiquanrenzhi_party_long:0 "保守党"
+ QXG_guojiatiaohe_party:0 "§O璃月人民党§!"
+ QXG_guojiatiaohe_party_long:0 "§O璃月人民党§!"
+ QXG_jiduan_party:0 "§M夜叉行动组§!"
+ QXG_jiduan_party_long:0 "§M夜叉行动组§!"
+
+
+ MLK_zhuanzhi_party:0 "§g坎瑞亚璃月军团§!"
+ MLK_zhuanzhi_party_long:0 "§g坎瑞亚璃月军团§!"
+
+
+
+
+
+ YLT_guojiatiaohe_party:0 "§O璃月总务司§!"
+ YLT_guojiatiaohe_party_long:0 "§O璃月总务司§!"
+ YLT_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ YLT_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+
+
+
+
+
+ WST_guojiatiaohe_party:0 "§O往生堂公司§!"
+ WST_guojiatiaohe_party_long:0 "§O往生堂公司§!"
+ WST_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ WST_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+
+
+
+
+
+ BBL_guojiatiaohe_party:0 "§O不卜卢公司§!"
+ BBL_guojiatiaohe_party_long:0 "§O不卜卢公司§!"
+ BBL_jiduan_party:0 "§M夜叉行动组§!"
+ BBL_jiduan_party_long:0 "§M夜叉行动组§!"
+ BBL_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ BBL_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+
+
+ LJG_zhuanzhi_party:0 "§g坎瑞亚璃月军团§!"
+ LJG_zhuanzhi_party_long:0 "§g坎瑞亚璃月军团§!"
+ LJG_tiaohe_party:0 "§P正义党§!"
+ LJG_tiaohe_party_long:0 "§P正义党§!"
+ LJG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ LJG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ LJG_pingdengrenzhi_party:0 "§S灵矩总工会§!"
+ LJG_pingdengrenzhi_party_long:0 "§S灵矩总工会§!"
+ LJG_ziyourenzhi_party:0 "§I自由党§!"
+ LJG_ziyourenzhi_party_long:0 "§I自由党§!"
+ LJG_weiquanrenzhi_party:0 "§Y飞云商会§!"
+ LJG_weiquanrenzhi_party_long:0 "§Y飞云商会§!"
+ LJG_guojiatiaohe_party:0 "§O璃月人民党§!"
+ LJG_guojiatiaohe_party_long:0 "§O璃月人民党§!"
+ LJG_jiduan_party:0 "§M夜叉行动组§!"
+ LJG_jiduan_party_long:0 "§M夜叉行动组§!"
+
+
+
+ DDW_zhuanzhi_party:0 "§g坎瑞亚蒙德军团§!"
+ DDW_zhuanzhi_party_long:0 "§g坎瑞亚蒙德军团§!"
+ DDW_tiaohe_party:0 "§P合作党§!"
+ DDW_tiaohe_party_long:0 "§P合作党§!"
+ DDW_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ DDW_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ DDW_pingdengrenzhi_party:0 "§S达达乌帕总工会§!"
+ DDW_pingdengrenzhi_party_long:0 "§S达达乌帕总工会§!"
+ DDW_ziyourenzhi_party:0 "§I自由党§!"
+ DDW_ziyourenzhi_party_long:0 "§I自由党§!"
+ DDW_weiquanrenzhi_party:0 "§Y达达乌帕行政协商会议§!"
+ DDW_weiquanrenzhi_party_long:0 "§Y达达乌帕行政协商会议§!"
+ DDW_guojiatiaohe_party:0 "§O蒙德反抗军§!"
+ DDW_guojiatiaohe_party_long:0 "§O蒙德反抗军§!"
+ DDW_jiduan_party:0 "§V蒙德反抗军§!"
+ DDW_jiduan_party_long:0 "§V蒙德反抗军§!"
+
+
+ XLG_zhuanzhi_party:0 "§g坎瑞亚星落湖军团§!"
+ XLG_zhuanzhi_party_long:0 "§g坎瑞亚星落湖军团§!"
+ XLG_jiduan_party:0 "§V蒙德反抗军§!"
+ XLG_jiduan_party_long:0 "§V蒙德反抗军§!"
+ XLG_guojiatiaohe_party:0 "§O蒙德反抗军§!"
+ XLG_guojiatiaohe_party_long:0 "§O蒙德反抗军§!"
+ XLG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ XLG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+
+
+
+ MYZ_zhuanzhi_party:0 "§g南十字武装民兵团§!"
+ MYZ_zhuanzhi_party_long:0 "§g南十字武装民兵团§!"
+ MYZ_weiquanrenzhi_party:0 "§Y南十字商会§!"
+ MYZ_weiquanrenzhi_party_long:0 "§Y南十字商会§!"
+
+
+ JYG_zhuanzhi_party:0 "§g坎瑞亚巨渊近卫军§!"
+ JYG_zhuanzhi_party_long:0 "§g坎瑞亚巨渊近卫军§!"
+ JYG_jiduan_party:0 "§V“弑神者”特别行动部队§!"
+ JYG_jiduan_party_long:0 "§V“弑神者”特别行动部队§!"
+ JYG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ JYG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+
+ LYA_zhuanzhi_party:0 "§g北璃月飞行团§!"
+ LYA_zhuanzhi_party_long:0 "§g北璃月飞行团§!"
+ LYA_pingdengrenzhi_party:0 "§S飞行团-独立派§!"
+ LYA_pingdengrenzhi_party_long:0 "§S飞行团-独立派§!"
+ LYA_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ LYA_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ LYA_weiquanrenzhi_party:0 "飞行团-安柏派"
+ LYA_weiquanrenzhi_party_long:0 "飞行团-安柏派"
+ LYA_guojiatiaohe_party:0 "§O飞行团-激进派§!"
+ LYA_guojiatiaohe_party_long:0 "§O飞行团-激进派§!"
+ LYA_jiduan_party:0 "§M夜叉行动组§!"
+ LYA_jiduan_party_long:0 "§M夜叉行动组§!"
+
+ GLG_zhuanzhi_party:0 "§g坎瑞亚璃月军团§!"
+ GLG_zhuanzhi_party_long:0 "§g坎瑞亚璃月军团§!"
+ GLG_tiaohe_party:0 "§P正统党§!"
+ GLG_tiaohe_party_long:0 "§P正统党§!"
+ GLG_pingdengrenzhi_party:0 "§S游击运动§!"
+ GLG_pingdengrenzhi_party_long:0 "§S游击运动§!"
+ GLG_ziyourenzhi_party:0 "§I改革党§!"
+ GLG_ziyourenzhi_party_long:0 "§I改革党§!"
+ GLG_weiquanrenzhi_party:0 "革新党"
+ GLG_weiquanrenzhi_party_long:0 "革新党"
+ GLG_guojiatiaohe_party:0 "§O新党§!"
+ GLG_guojiatiaohe_party_long:0 "§O新党§!"
+ GLG_jiduan_party:0 "§V璃月运动§!"
+ GLG_jiduan_party_long:0 "§V璃月运动§!"
+
+
+
+ ABY_zhuanzhi_party:0 "§g贵族共治同盟§!"
+ ABY_zhuanzhi_party_long:0 "§g贵族共治同盟§!"
+ ABY_tiaohe_party:0 "§P左翼皇女派§!"
+ ABY_tiaohe_party_long:0 "§P左翼皇女派§!"
+ ABY_pingdengrenzhi_party:0 "§S新思想运动§!"
+ ABY_pingdengrenzhi_party_long:0 "§S新思想运动§!"
+ ABY_ziyourenzhi_party:0 "§I平民运动§!"
+ ABY_ziyourenzhi_party_long:0 "§I平民运动§!"
+ ABY_weiquanrenzhi_party:0 "正统皇女派"
+ ABY_weiquanrenzhi_party_long:0 "正统皇女派"
+ ABY_guojiatiaohe_party:0 "§O右翼皇女派§!"
+ ABY_guojiatiaohe_party_long:0 "§O右翼皇女派§!"
+ ABY_jiduan_party:0 "§V新皇女派§!"
+ ABY_jiduan_party_long:0 "§V新皇女派§!"
+
+
+ XSG_zhuanzhi_party:0 "§g坎瑞亚雪山军团§!"
+ XSG_zhuanzhi_party_long:0 "§g坎瑞亚雪山军团§!"
+ XSG_ziyourenzhi_party:0 "§I自治运动§!"
+ XSG_ziyourenzhi_party_long:0 "§I自治运动§!"
+ XSG_weiquanrenzhi_party:0 "莱茵系"
+ XSG_weiquanrenzhi_party_long:0 "莱茵系"
+ XSG_jiduan_party:0 "§V多托雷系§!"
+ XSG_jiduan_party_long:0 "§V多托雷系§!"
+
+
+
+
+
+ MDC_zhuanzhi_party:0 "§g坎瑞亚蒙德军团§!"
+ MDC_zhuanzhi_party_long:0 "§g坎瑞亚蒙德军团§!"
+ MDC_tiaohe_party:0 "§P协作派§!"
+ MDC_tiaohe_party_long:0 "§P协作派§!"
+ MDC_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ MDC_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ MDC_pingdengrenzhi_party:0 "§S蒙德反抗军§!"
+ MDC_pingdengrenzhi_party_long:0 "§S蒙德反抗军§!"
+ MDC_ziyourenzhi_party:0 "§I蒙德反抗军§!"
+ MDC_ziyourenzhi_party_long:0 "§I蒙德反抗军§!"
+ MDC_weiquanrenzhi_party:0 "军团温和派"
+ MDC_weiquanrenzhi_party_long:0 "军团温和派"
+ MDC_guojiatiaohe_party:0 "§O蒙德反抗军§!"
+ MDC_guojiatiaohe_party_long:0 "§O蒙德反抗军§!"
+ MDC_jiduan_party:0 "§V蒙德反抗军§!"
+ MDC_jiduan_party_long:0 "§V蒙德反抗军§!"
+
+
+
+ MDG_zhuanzhi_party:0 "§g劳伦斯家族§!"
+ MDG_zhuanzhi_party_long:0 "§g劳伦斯家族§!"
+ MDG_tiaohe_party:0 "§P进步运动§!"
+ MDG_tiaohe_party_long:0 "§P进步运动§!"
+ MDG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ MDG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ MDG_pingdengrenzhi_party:0 "§S蒙德反抗军§!"
+ MDG_pingdengrenzhi_party_long:0 "§S蒙德反抗军§!"
+ MDG_ziyourenzhi_party:0 "§I进步运动§!"
+ MDG_ziyourenzhi_party_long:0 "§I进步运动§!"
+ MDG_weiquanrenzhi_party:0 "改革派"
+ MDG_weiquanrenzhi_party_long:0 "改革派"
+ MDG_guojiatiaohe_party:0 "§O蒙德反抗军§!"
+ MDG_guojiatiaohe_party_long:0 "§O蒙德反抗军§!"
+ MDG_jiduan_party:0 "§V蒙德反抗军§!"
+ MDG_jiduan_party_long:0 "§V蒙德反抗军§!"
+
+
+
+
+ CXG_zhuanzhi_party:0 "§g劳伦斯家族§!"
+ CXG_zhuanzhi_party_long:0 "§g劳伦斯家族§!"
+ CXG_tiaohe_party:0 "§P平民党§!"
+ CXG_tiaohe_party_long:0 "§P平民党§!"
+ CXG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ CXG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ CXG_pingdengrenzhi_party:0 "§S晨曦总工会§!"
+ CXG_pingdengrenzhi_party_long:0 "§S晨曦总工会§!"
+ CXG_ziyourenzhi_party:0 "§I自由党§!"
+ CXG_ziyourenzhi_party_long:0 "§I自由党§!"
+ CXG_weiquanrenzhi_party:0 "§Y晨曦总商会§!"
+ CXG_weiquanrenzhi_party_long:0 "§Y晨曦总商会§!"
+ CXG_guojiatiaohe_party:0 "§O蒙德反抗军§!"
+ CXG_guojiatiaohe_party_long:0 "§O蒙德反抗军§!"
+ CXG_jiduan_party:0 "§V蒙德反抗军§!"
+ CXG_jiduan_party_long:0 "§V蒙德反抗军§!"
+
+
+ LLL_jiduan_party:0 "§G兰那罗自治村落联合体§!"
+ LLL_jiduan_party_long:0 "§G兰那罗自治村落联合体§!"
+
+
+
+
+
+ CXG_zhuanzhi_party:0 "§g劳伦斯家族§!"
+ CXG_zhuanzhi_party_long:0 "§g劳伦斯家族§!"
+ CXG_tiaohe_party:0 "§P平民党§!"
+ CXG_tiaohe_party_long:0 "§P平民党§!"
+ CXG_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ CXG_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ CXG_pingdengrenzhi_party:0 "§S晨曦总工会§!"
+ CXG_pingdengrenzhi_party_long:0 "§S晨曦总工会§!"
+ CXG_ziyourenzhi_party:0 "§I自由党§!"
+ CXG_ziyourenzhi_party_long:0 "§I自由党§!"
+ CXG_weiquanrenzhi_party:0 "§Y晨曦总商会§!"
+ CXG_weiquanrenzhi_party_long:0 "§Y晨曦总商会§!"
+ CXG_guojiatiaohe_party:0 "§O蒙德反抗军§!"
+ CXG_guojiatiaohe_party_long:0 "§O蒙德反抗军§!"
+ CXG_jiduan_party:0 "§V蒙德反抗军§!"
+ CXG_jiduan_party_long:0 "§V蒙德反抗军§!"
+
+
+
+ LIY_zhuanzhi_party:0 "§g坎瑞亚璃月军官团§!"
+ LIY_zhuanzhi_party_long:0 "§g坎瑞亚璃月军官团§!"
+ LIY_tiaohe_party:0 "§P璃月人民党-行秋派§!"
+ LIY_tiaohe_party_long:0 "§P璃月人民党-行秋派§!"
+ LIY_xianfengrenzhi_party:0 "§Z逐火之蛾§!"
+ LIY_xianfengrenzhi_party_long:0 "§Z逐火之蛾§!"
+ LIY_pingdengrenzhi_party:0 "§S璃月总工会§!"
+ LIY_pingdengrenzhi_party_long:0 "§S璃月总工会§!"
+ LIY_ziyourenzhi_party:0 "§I宪章运动§!"
+ LIY_ziyourenzhi_party_long:0 "§I宪章运动§!"
+ LIY_weiquanrenzhi_party:0 "§Y璃月自由党§!"
+ LIY_weiquanrenzhi_party_long:0 "§Y璃月自由党§!"
+ LIY_guojiatiaohe_party:0 "§O璃月人民党-烟绯派§!"
+ LIY_guojiatiaohe_party_long:0 "§O璃月人民党-烟绯派§!"
+ LIY_jiduan_party:0 "§M夜叉行动组§!"
+ LIY_jiduan_party_long:0 "§M夜叉行动组§!"
+
+
+
+ TYL_zhuanzhi_party:0 "§g巡林团§!"
+ TYL_zhuanzhi_party_long:0 "§g巡林团§!"
+
+
+
+ VMZ_zhuanzhi_party:0 "§g教令院-妙论派§!"
+ VMZ_zhuanzhi_party_long:0 "§g教令院-妙论派§!"
+ VMZ_tiaohe_party:0 "§P教令院-生论派§!"
+ VMZ_tiaohe_party_long:0 "§P教令院-生论派§!"
+ VMZ_pingdengrenzhi_party:0 "§S教令院-因论派§!"
+ VMZ_pingdengrenzhi_party_long:0 "§S教令院-因论派§!"
+ VMZ_ziyourenzhi_party:0 "§I教令院-知论派§!"
+ VMZ_ziyourenzhi_party_long:0 "§I教令院-知论派§!"
+ VMZ_weiquanrenzhi_party:0 "教令院-素论派"
+ VMZ_weiquanrenzhi_party_long:0 "教令院-素论派"
+ VMZ_guojiatiaohe_party:0 "§O教令院-新因论派§!"
+ VMZ_guojiatiaohe_party_long:0 "§O教令院-新因论派§!"
+
+
+
+ USL_zhuanzhi_party:0 "§g教令院-妙论派§!"
+ USL_zhuanzhi_party_long:0 "§g教令院-妙论派§!"
+ USL_tiaohe_party:0 "§P教令院-生论派§!"
+ USL_tiaohe_party_long:0 "§P教令院-生论派§!"
+ USL_pingdengrenzhi_party:0 "§S教令院-因论派§!"
+ USL_pingdengrenzhi_party_long:0 "§S教令院-因论派§!"
+ USL_ziyourenzhi_party:0 "§I教令院-知论派§!"
+ USL_ziyourenzhi_party_long:0 "§I教令院-知论派§!"
+ USL_weiquanrenzhi_party:0 "教令院-素论派"
+ USL_weiquanrenzhi_party_long:0 "教令院-素论派"
+ USL_guojiatiaohe_party:0 "§O教令院-新因论派§!"
+ USL_guojiatiaohe_party_long:0 "§O教令院-新因论派§!"
+
+
+
+ XMG_zhuanzhi_party:0 "§g教令院-妙论派§!"
+ XMG_zhuanzhi_party_long:0 "§g教令院-妙论派§!"
+ XMG_tiaohe_party:0 "§P教令院-生论派§!"
+ XMG_tiaohe_party_long:0 "§P教令院-生论派§!"
+ XMG_pingdengrenzhi_party:0 "§S教令院-因论派§!"
+ XMG_pingdengrenzhi_party_long:0 "§S教令院-因论派§!"
+ XMG_ziyourenzhi_party:0 "§I教令院-知论派§!"
+ XMG_ziyourenzhi_party_long:0 "§I教令院-知论派§!"
+ XMG_weiquanrenzhi_party:0 "教令院-素论派"
+ XMG_weiquanrenzhi_party_long:0 "教令院-素论派"
+ XMG_guojiatiaohe_party:0 "§O教令院-新因论派§!"
+ XMG_guojiatiaohe_party_long:0 "§O教令院-新因论派§!"
+
+
+
+ STG_zhuanzhi_party:0 "§g教令院-妙论派§!"
+ STG_zhuanzhi_party_long:0 "§g教令院-妙论派§!"
+ STG_tiaohe_party:0 "§P教令院-生论派§!"
+ STG_tiaohe_party_long:0 "§P教令院-生论派§!"
+ STG_pingdengrenzhi_party:0 "§S教令院-因论派§!"
+ STG_pingdengrenzhi_party_long:0 "§S教令院-因论派§!"
+ STG_ziyourenzhi_party:0 "§I教令院-知论派§!"
+ STG_ziyourenzhi_party_long:0 "§I教令院-知论派§!"
+ STG_weiquanrenzhi_party:0 "教令院-素论派"
+ STG_weiquanrenzhi_party_long:0 "教令院-素论派"
+ STG_guojiatiaohe_party:0 "§O教令院-新因论派§!"
+ STG_guojiatiaohe_party_long:0 "§O教令院-新因论派§!"
+
+
+
+ KWZ_zhuanzhi_party:0 "§g阿赫玛尔派§!"
+ KWZ_zhuanzhi_party_long:0 "§g阿赫玛尔派§!"
+ KWZ_tiaohe_party:0 "§P自治派§!"
+ KWZ_tiaohe_party_long:0 "§P自治派§!"
+ KWZ_pingdengrenzhi_party:0 "§S总工会§!"
+ KWZ_pingdengrenzhi_party_long:0 "§S总工会§!"
+ KWZ_ziyourenzhi_party:0 "§I自治派§!"
+ KWZ_ziyourenzhi_party_long:0 "§I自治派§!"
+ KWZ_weiquanrenzhi_party:0 "须弥派"
+ KWZ_weiquanrenzhi_party_long:0 "须弥派"
+ KWZ_guojiatiaohe_party:0 "§O新生派§!"
+ KWZ_guojiatiaohe_party_long:0 "§O新生派§!"

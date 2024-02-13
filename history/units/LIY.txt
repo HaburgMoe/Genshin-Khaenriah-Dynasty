@@ -1,0 +1,42 @@
+division_template = {
+	name = "璃月港守备军"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }				
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }			
+		artillery_brigade = { x = 1 y = 2 }				
+		artillery_brigade = { x = 1 y = 3 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+		military_police = { x = 0 y = 0 }  
+	}
+}
+units = {
+division = {
+		name = "璃月港守备军"
+		location = 5576
+		division_template = "璃月港守备军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "璃月港守备军"
+		location = 5850
+		division_template = "璃月港守备军"
+		start_experience_factor = 0.4
+
+	}
+division = {
+		name = "璃月港守备军"
+		location = 600
+		division_template = "璃月港守备军"
+		start_experience_factor = 0.4
+
+	}
+
+}

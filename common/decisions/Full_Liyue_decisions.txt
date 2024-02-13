@@ -1,0 +1,54 @@
+liyuehabour = {
+	liyue_tong_yi = {
+		cost = 150
+		ai_will_do = {
+			base = 25
+		}
+		complete_effect = {
+		set_cosmetic_tag = UNIFYLIY
+		}
+		visible ={	
+			NOT={has_country_flag = Unify_liyue}
+		}
+		
+		available = {
+			controls_state = 305
+			controls_state = 306
+			controls_state = 304
+			controls_state = 280
+			controls_state = 556
+			controls_state = 557
+			controls_state = 272
+			controls_state = 260
+			controls_state = 261
+			controls_state = 269
+			controls_state = 285
+			controls_state = 268
+			controls_state = 262
+			controls_state = 263
+			controls_state = 302
+			controls_state = 435
+			controls_state = 439
+			controls_state = 440
+			controls_state = 442
+			controls_state = 441
+			controls_state = 434
+			controls_state = 413
+			controls_state = 303
+			controls_state = 417
+			controls_state = 438
+			controls_state = 437
+			controls_state = 283
+			controls_state = 352
+			controls_state = 351
+			controls_state = 286
+			controls_state = 353
+			controls_state = 447
+			controls_state = 354
+			controls_state = 445
+			controls_state = 446
+			NOT={has_country_flag = Unify_liyue}
+
+		}
+	}
+}

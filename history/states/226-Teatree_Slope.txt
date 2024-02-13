@@ -1,0 +1,17 @@
+
+state={
+	id=226
+	name="STATE_226"
+	provinces={
+		689 935 1601 2060 2229 3096 3113 3289 3370 3583 3629 3684 3713 3750 5315 5320 5341 5355 5356 5386 5387 5408 5418 5421 5447 5463 5480 5493 5513 5521 5540 5560 5583 
+	}
+	history={
+		owner = ABY
+		add_core_of = ABY
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

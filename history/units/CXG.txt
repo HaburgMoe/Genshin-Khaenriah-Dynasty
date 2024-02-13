@@ -1,0 +1,45 @@
+division_template = {
+	name = "晨曦警卫团"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }	
+	}
+	support = {
+		military_police = { x = 0 y = 0 }  
+	}
+}
+units = {
+division = {
+		name = "晨曦警卫团"
+		location = 31
+		division_template = "晨曦警卫团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "晨曦警卫团"
+		location = 3959
+		division_template = "晨曦警卫团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "晨曦警卫团"
+		location = 4176
+		division_template = "晨曦警卫团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "晨曦警卫团"
+		location = 4148
+		division_template = "晨曦警卫团"
+		start_experience_factor = 0.2
+
+	}
+
+
+
+}

@@ -1,0 +1,51 @@
+capital = 408
+oob = "NZL"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = weiquanrenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 5
+	jiduan = 30
+	ziyourenzhi = 15
+	weiquanrenzhi = 50
+}
+
+add_ideas  = {
+	bingyizhidu4	
+	wufazizhumaoyi	
+	12xiaoshi	
+	guoti_banglianzhi	
+	wuxuanju	
+	shaoliangfulibaozhang	
+	duiwai_zhongli	
+	xianzhizongjiao	
+	zzmzpingdeng	
+	quzhengdanghua	
+	xianzhiyimin	
+	xssdaya	
+	gaizaosifa	
+	nvquan3	
+	yanlun3
+}
+
+create_country_leader = {
+	name = "赛诺"
+	desc = "POLITICS_ABD_DESC"
+	picture = "gfx/leader/abeiduo.dds"
+	expire = "1965.1.1"
+	ideology = jishuguanliaoism
+	traits = {
+		#
+	}
+}

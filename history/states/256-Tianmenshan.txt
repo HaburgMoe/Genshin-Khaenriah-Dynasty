@@ -1,0 +1,19 @@
+
+state={
+	id=256
+	name="STATE_256"
+
+	history={
+		owner = LIY
+		add_core_of = LIY
+
+	}
+
+	provinces={
+		1650 3607 6747 6835 6843 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

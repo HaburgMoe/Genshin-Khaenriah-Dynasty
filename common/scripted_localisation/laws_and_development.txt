@@ -1,0 +1,293 @@
+
+defined_text = { 
+    name = GetGovernmentDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = government_level1
+        }
+        localization_key = "government_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = government_level2
+        }
+        localization_key = "government_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = government_level3
+        }
+        localization_key = "government_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = government_level4
+        }
+        localization_key = "government_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = government_level5
+        }
+        localization_key = "government_development_desc5"
+    }
+    text = { 
+        trigger = {
+            has_idea = government_level6
+        }
+        localization_key = "government_development_desc6"
+    }
+}
+
+
+
+defined_text = { 
+    name = GetArmyDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = army_level1
+        }
+        localization_key = "army_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = army_level2
+        }
+        localization_key = "army_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = army_level3
+        }
+        localization_key = "army_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = army_level4
+        }
+        localization_key = "army_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = army_level5
+        }
+        localization_key = "army_development_desc5"
+    }
+    text = { 
+        trigger = {
+            has_idea = army_level6
+        }
+        localization_key = "army_development_desc6"
+    }
+}
+
+
+
+defined_text = { 
+    name = GetAgricultureDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = agriculture_level1
+        }
+        localization_key = "agriculture_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = agriculture_level2
+        }
+        localization_key = "agriculture_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = agriculture_level3
+        }
+        localization_key = "agriculture_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = agriculture_level4
+        }
+        localization_key = "agriculture_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = agriculture_level5
+        }
+        localization_key = "agriculture_development_desc5"
+    }
+    text = { 
+        trigger = {
+            has_idea = agriculture_level6
+        }
+        localization_key = "agriculture_development_desc6"
+    }
+    text = { 
+        trigger = {
+            has_idea = agriculture_level7
+        }
+        localization_key = "agriculture_development_desc7"
+    }
+}
+
+
+
+defined_text = { 
+    name = GetIndustryDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = industry_level1
+        }
+        localization_key = "industry_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = industry_level2
+        }
+        localization_key = "industry_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = industry_level3
+        }
+        localization_key = "industry_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = industry_level4
+        }
+        localization_key = "industry_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = industry_level5
+        }
+        localization_key = "industry_development_desc5"
+    }
+    text = { 
+        trigger = {
+            has_idea = industry_level6
+        }
+        localization_key = "industry_development_desc6"
+    }
+    text = { 
+        trigger = {
+            has_idea = industry_level7
+        }
+        localization_key = "industry_development_desc7"
+    }
+}
+
+defined_text = { 
+    name = GetPublicfacilitiesDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = public_facilities_level1
+        }
+        localization_key = "public_facilities_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = public_facilities_level2
+        }
+        localization_key = "public_facilities_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = public_facilities_level3
+        }
+        localization_key = "public_facilities_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = public_facilities_level4
+        }
+        localization_key = "public_facilities_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = public_facilities_level5
+        }
+        localization_key = "public_facilities_development_desc5"
+    }
+}
+
+defined_text = { 
+    name = GetEducationDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = education_level1
+        }
+        localization_key = "education_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = education_level2
+        }
+        localization_key = "education_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = education_level3
+        }
+        localization_key = "education_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = education_level4
+        }
+        localization_key = "education_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = education_level5
+        }
+        localization_key = "education_development_desc5"
+    }
+    text = { 
+        trigger = {
+            has_idea = education_level6
+        }
+        localization_key = "education_development_desc6"
+    }
+}
+
+defined_text = { 
+    name = GetResearchDevelopmentDesc
+    
+	text = { 
+        trigger = {
+            has_idea = research_level1
+        }
+        localization_key = "research_development_desc1"
+    }
+    text = { 
+        trigger = {
+            has_idea = research_level2
+        }
+        localization_key = "research_development_desc2"
+    }
+    text = { 
+        trigger = {
+            has_idea = research_level3
+        }
+        localization_key = "research_development_desc3"
+    }
+    text = { 
+        trigger = {
+            has_idea = research_level4
+        }
+        localization_key = "research_development_desc4"
+    }
+    text = { 
+        trigger = {
+            has_idea = research_level5
+        }
+        localization_key = "research_development_desc5"
+    }
+}

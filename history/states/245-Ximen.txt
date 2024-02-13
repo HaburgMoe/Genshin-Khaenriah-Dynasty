@@ -1,0 +1,19 @@
+
+state={
+	id=245
+	name="STATE_245"
+
+	history={
+		owner = LIY
+		add_core_of = LIY
+
+	}
+
+	provinces={
+		413 1831 7097 7179 7214 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

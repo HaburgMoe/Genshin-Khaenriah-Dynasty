@@ -1,0 +1,41 @@
+add_namespace = LIY
+
+country_event = {
+	id = LIY.1
+	title = LIY.1.t
+	desc = LIY.1.d
+	is_triggered_only = yes 
+	fire_only_once = yes 
+	
+	option = {
+		name = LIY.1.a 
+		set_country_flag = yanfei_win
+		custom_effect_tooltip = better_politic
+		add_to_variable = { LIY_decrease_pp = 0.1 }
+	}
+}
+
+country_event = {
+	id = LIY.2
+	title = LIY.2.t
+	desc = LIY.2.d
+	is_triggered_only = yes 
+	fire_only_once = yes 
+	
+	option = {
+		name = LIY.2.a 
+		create_entity = {
+			entity = plane
+			id = 1
+			x = 37
+			y = 207.5
+			z = 0
+			province = 391
+			state = 394
+			rotation = 0.0
+			scale = 35.0
+			min_zoom = 99999.0
+			visible = image_viewer
+		}
+	}
+}

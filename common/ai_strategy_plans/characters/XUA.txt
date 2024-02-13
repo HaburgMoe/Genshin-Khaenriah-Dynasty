@@ -1,0 +1,13 @@
+characters={
+	XUA_xuanfeng={
+		name=XUA_CHARACTER_XUANFENG
+		portraits={
+			civilian={
+				large="GFX_portrait_XUA_xuanfeng_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

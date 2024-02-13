@@ -1,0 +1,307 @@
+technologies = {
+
+
+	GKD_YUNSHU = {
+		enable_equipments = {
+			GKD_YUNSHU_1
+		}
+		path = {
+			leads_to_tech = GKD_FENGFAN
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_YUNSHU_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 0
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 6 y = 2 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_FENGFAN = {
+		enable_equipments = {
+			GKD_FENGFAN_1
+		}
+		research_cost = 1.5
+		start_year = 0
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 0 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_YUNSHU_2 = {
+		enable_equipments = {
+			GKD_YUNSHU_2
+		}
+		path = {
+			leads_to_tech = GKD_QIANTING
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_YUNSHU_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_ZHANJIAN
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_ZIBAO
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 100
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 6 y = 10 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_QIANTING = {
+		enable_equipments = {
+			GKD_QIANTING_1
+		}
+		research_cost = 1.5
+		start_year = 200
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 0 y = 15 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_ZHANJIAN = {
+		enable_equipments = {
+			GKD_ZHANJIAN_1
+		}
+		research_cost = 1.5
+		start_year = 200
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 12 y = 15 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_ZIBAO = {
+		enable_equipments = {
+			GKD_ZIBAO_1
+		}
+		path = {
+			leads_to_tech = GKD_ZIBAO_11
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_ZIBAO_12
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 350
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 16 y = 18 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_ZIBAO_11 = {
+		enable_equipments = {
+			GKD_ZIBAO_11
+		}
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 20 y = 25 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_ZIBAO_12 = {
+		enable_equipments = {
+			GKD_ZIBAO_12
+		}
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 16 y = 30 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_YUNSHU_3 = {
+		enable_equipments = {
+			GKD_YUNSHU_3
+		}
+		path = {
+			leads_to_tech = GKD_QIANTING_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_YUNSHU_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_YIDONGYAOSAI
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 400
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 6 y = 20 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_QIANTING_2 = {
+		enable_equipments = {
+			GKD_QIANTING_2
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 0 y = 23 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_YIDONGYAOSAI = {
+		enable_equipments = {
+			GKD_YIDONGYAOSAI_1
+		}
+		research_cost = 1.5
+		start_year = 480
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 11 y = 27 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_YUNSHU_4 = {
+		path = {
+			leads_to_tech = GKD_YUNSHU_5
+			research_cost_coeff = 1
+		}
+		destroyer = {
+			max_organisation = 5	
+		}
+		submarine = {
+			max_organisation = 5		
+		}
+                                                convoy_escort_efficiency = 0.5
+                                                convoy_raiding_efficiency_factor = 0.5	
+                                                convoy_retreat_speed = 0.5
+naval_speed_factor = 0.5	
+naval_defense_factor = 0.5
+naval_damage_factor = 0.5	
+naval_detection = 0.5	
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 6 y = 25 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	GKD_YUNSHU_5 = {
+		research_cost = 1.5
+		start_year = 505
+		destroyer = {
+			max_organisation = 15	
+		}
+		submarine = {
+			max_organisation = 15	
+		}
+                                                convoy_escort_efficiency = 1	
+                                                convoy_retreat_speed = 1
+                                                convoy_raiding_efficiency_factor = 1
+naval_speed_factor = 1	
+naval_defense_factor = 1
+naval_damage_factor = 1
+naval_detection = 1
+		folder = {
+			name = mtgnavalfolderA
+			position = { x = 6 y = 33 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+}

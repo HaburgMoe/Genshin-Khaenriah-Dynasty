@@ -1,0 +1,15 @@
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		22 112 467 588 783 951 1004 1097 1276 1348 1632 2198 2242 2498 2573 3048 3499 8556 8564 8588 8595 8596 8608 8609 8616 8618 8620 8623 8624 8642 8643 8645 8646 8665 8668 8673 
+	}
+	history={
+		owner = SHG
+		add_core_of = SHG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

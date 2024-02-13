@@ -1,0 +1,28 @@
+guiTypes = {
+	containerWindowType = {
+		name = "renhelian_zhenying_window"
+		size = { width = 66 height = 66 }
+		position = { x = 100  y = 100 }
+	    
+		iconType = {
+                                               name = " renhelian_zhengchang"
+                                               position = { x = 86 y = 129 }
+			spriteType = "GFX_renhelian_zhengchang"
+			pdx_tooltip = GATHERING_ABY_NAME
+			pdx_tooltip_delayed = renhelian_zhenying_tooltip_desc	
+  		}
+	}
+	containerWindowType = {
+		name = "waihaixieyue_zhenying_window"
+		size = { width = 66 height = 66 }
+		position = { x = 100  y = 100 }
+	    
+		iconType = {
+                                               name = " waihaixieyue_zhengchang"
+                                               position = { x = 86 y = 129 }
+			spriteType = "GFX_waihaixieyue_zhengchang"
+			pdx_tooltip = BLITZKRIEG_SHG_NAME
+			pdx_tooltip_delayed = waihaixieyue_zhenying_tooltip_desc	
+  		}
+	}
+}	

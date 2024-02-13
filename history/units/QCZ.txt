@@ -1,0 +1,57 @@
+division_template = {
+	name = "轻策庄民团"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }				
+		infantry = { x = 0 y = 4 }
+	}
+	support = {
+	}
+}
+units = {
+division = {
+		name = "轻策庄民团"
+		location = 4077
+		division_template = "轻策庄民团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "轻策庄民团"
+		location = 4036
+		division_template = "轻策庄民团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "轻策庄民团"
+		location = 2679
+		division_template = "轻策庄民团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "轻策庄民团"
+		location = 3933
+		division_template = "轻策庄民团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "轻策庄民团"
+		location = 3804
+		division_template = "轻策庄民团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "轻策庄民团"
+		location = 4106
+		division_template = "轻策庄民团"
+		start_experience_factor = 0.2
+
+	}
+
+}

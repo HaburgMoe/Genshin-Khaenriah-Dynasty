@@ -1,0 +1,15 @@
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		691 1219 3380 4837 4900 4927 4943 4960 4969 5025 
+	}
+	history={
+		owner = ABY
+		add_core_of = ABY
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		652 1422 2948 5791 5825 5856 
+	}
+	history={
+		owner = DDW
+		add_core_of = DDW
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

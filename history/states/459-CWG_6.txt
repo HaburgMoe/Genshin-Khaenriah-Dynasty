@@ -1,0 +1,19 @@
+
+state={
+	id=459
+	name="STATE_459"
+
+	history={
+		owner = CWG
+		add_core_of = CWG
+
+	}
+
+	provinces={
+		283 598 781 1024 1058 1107 1156 2675 2774 3064 3366 3785 7116 7206 7223 7241 7258 7261 7276 7296 7314 7326 7340 7371 7374 7402 7419 7436 7441 7462 7466 7513 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

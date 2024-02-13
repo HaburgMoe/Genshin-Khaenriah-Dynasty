@@ -1,0 +1,16 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		786 1005 1098 1477 1747 2232 3875 7393 7437 7443 7471 7477 7481 7482 7508 7518 7554 7563 7586 7606 7643 7654 7663 
+	}
+	history={
+		owner = STG
+		add_core_of = STG
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

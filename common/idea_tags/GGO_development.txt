@@ -1,0 +1,66 @@
+idea_categories = {
+	
+	GGO_government = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+
+    GGO_army = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+    
+    GGO_agriculture = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+
+    GGO_industry = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+
+    GGO_public_facilities = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+    
+	GGO_education = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+	
+    GGO_research = {
+		hidden = yes
+
+        cost = 0
+        removal_cost = -1
+
+        ledger = hidden
+    }
+	
+}

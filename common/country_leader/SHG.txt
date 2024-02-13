@@ -1,0 +1,211 @@
+
+leader_traits = {
+
+	YSXT_KMZZ = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_WDZY = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_WNSZYM = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_ZFWNS = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_LSLZY = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_ZYZY = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_WNSZY = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_DKYD = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_MLKS = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	YSXT_BSZY = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SHG_XRSWN = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	FKJ_ZCGM = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SHG_KKM_YXJ = {
+		random = no
+	political_power_gain = 1
+	opinion_gain_monthly_factor = 0.2
+                        send_volunteer_size = 3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SHG_LZ_CMSGJ = {
+		random = no
+	political_power_gain = 1
+	stability_factor = 0.1
+	war_support_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SHG_YANKE = {
+		random = no
+	mobilization_laws_cost_factor = 1
+	army_org_factor = 0.2
+	conscription_factor = -0.5
+	army_leader_start_level = 3
+	command_power_gain = 0.5
+	attrition = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SHG_JQR_JJWJ  = {
+		random = no
+	subversive_activites_upkeep = -0.4
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	MLB_YKZJ  = {
+		random = no
+	army_attack_factor = 0.15
+	army_defence_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	MLB_SGJ  = {
+		random = no
+	industrial_capacity_factory = 0.2
+	production_speed_buildings_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	MLB_JJFS  = {
+		random = no
+	political_power_gain = 2
+	attrition = -0.2
+	planning_speed = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	FKJ_JJZH  = {
+		random = no
+	political_power_gain = 2
+surrender_limit = 1
+	army_org_factor = 0.2
+consumer_goods_factor = -0.2
+conscription = 0.2
+	army_core_attack_factor = 0.15
+	army_core_defence_factor = 0.15
+	supply_consumption_factor = -0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	FKJ_JSZJ  = {
+		random = no
+consumer_goods_factor = -0.2
+	supply_consumption_factor = -0.2
+	industrial_capacity_factory = 0.1
+	production_speed_buildings_factor = 0.2
+	local_building_slots_factor = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	QCZ_GQQS  = {
+		random = no
+	political_power_factor = 1
+	stability_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	QCZ_SYZYWJ  = {
+		random = no
+opinion_gain_monthly = 5
+opinion_gain_monthly_factor = 0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	QCZ_XSLX  = {
+		random = no
+	political_power_factor = 1
+	stability_factor = 0.1
+	war_support_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	QCZ_JJYM  = {
+		random = no
+	army_org = 10
+	planning_speed = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+}

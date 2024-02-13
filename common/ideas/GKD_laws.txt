@@ -1,0 +1,848 @@
+ideas = {
+
+    country = {
+        bingyibiandong = {
+            removal_cost = -1
+            modifier = {
+            }
+        }
+        maoyibiandong = {
+            removal_cost = -1
+            modifier = {
+            }
+        }
+    }
+
+    #兵役政策
+	GGO_bingyi = {
+        law = yes
+        use_list_view = no
+         
+        bingyizhidu1 = {
+            picture = GFX_law_bingyi2 
+            removal_cost = -1
+            modifier = {
+                conscription = 0.005
+                army_attack_factor = -0.3
+                army_defence_factor = -0.3
+                army_org_factor = -0.4
+                army_org_regain = -0.25
+            }
+        }
+
+        bingyizhidu2 = {
+            picture = GFX_law_bingyi2 
+            removal_cost = -1
+            modifier = {
+                conscription = 0.02
+                army_org_factor = 0.1
+                army_org_regain = 0.1
+                consumer_goods_factor = 0.04
+            }
+        }
+
+        bingyizhidu3 = {
+            picture = GFX_law_bingyi2 
+            removal_cost = -1
+            modifier = {
+                conscription = 0.045
+                training_time_factor = 0.1
+                consumer_goods_factor = 0.05
+                industrial_capacity_factory = -0.05
+            }
+        }
+
+        bingyizhidu4 = {
+            picture = GFX_law_bingyi2
+            removal_cost = -1
+            modifier = {
+                conscription = 0.07
+                training_time_factor = 0.15
+                consumer_goods_factor = 0.07
+                industrial_capacity_factory = -0.08
+                army_attack_factor = -0.04
+                army_defence_factor = -0.04
+            }
+        }
+
+        bingyizhidu5 = {
+            picture = GFX_law_bingyi2 
+            removal_cost = -1
+            modifier = {
+                conscription = 0.1
+                training_time_factor = 0.2
+                consumer_goods_factor = 0.09
+                industrial_capacity_factory = -0.12
+                army_attack_factor = -0.08
+                army_defence_factor = -0.08
+            }
+        }
+
+        bingyizhidu6 = {
+            picture = GFX_law_bingyi2 
+            removal_cost = -1
+            modifier = {
+                conscription = 0.15
+                training_time_factor = 0.3
+                consumer_goods_factor = 0.12
+                industrial_capacity_factory = -0.2
+                army_attack_factor = -0.15
+                army_defence_factor = -0.15
+            }
+        }
+    }
+    
+    #贸易政策
+    GGO_maoyi = {
+        law = yes
+        use_list_view = no
+
+        wufazizhumaoyi = {
+            picture = GFX_law_maoyi2
+            removal_cost = -1
+            modifier = {
+                min_export = 0.35
+				consumer_goods_factor = 0.06
+				civilian_intel_to_others = 35
+				navy_intel_to_others = 35
+				agency_upgrade_time = 0.15
+            }
+        }
+
+        biguansuoguo = {
+            picture = GFX_law_maoyi2
+            removal_cost = -1
+            modifier = {
+				consumer_goods_factor = 0.1  
+            }
+        }
+
+        yangexianzhimaoyi = {
+            picture = GFX_law_maoyi2
+            removal_cost = -1
+            modifier = {
+                min_export = 0.25
+				consumer_goods_factor = 0.075  
+				industrial_capacity_factory = 0.04
+				industrial_capacity_dockyard = 0.04
+				production_speed_buildings_factor = 0.02
+				research_speed_factor = 0.01
+				civilian_intel_to_others = 10.0
+				navy_intel_to_others = 5
+            }
+        }
+
+        maoyibaohu = {
+            picture = GFX_law_maoyi2
+            removal_cost = -1
+            modifier = {
+                min_export = 0.45
+				consumer_goods_factor = 0.055 
+				industrial_capacity_factory = 0.075
+				industrial_capacity_dockyard = 0.075
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.04
+			 	civilian_intel_to_others = 20.0
+				navy_intel_to_others = 10.0
+            }
+        }
+
+        ziyoumaoyi = {
+            picture = GFX_law_maoyi2
+            removal_cost = -1
+            modifier = {
+                min_export = 0.6
+				consumer_goods_factor = 0.04 
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_buildings_factor = 0.075
+				research_speed_factor = 0.06
+				civilian_intel_to_others = 35.0
+				navy_intel_to_others = 20.0
+            }
+        }
+    }
+
+
+    #政党制度
+    GGO_zhengdang = {
+        law = yes
+        use_list_view = no  
+
+        yidangzhi = {
+            picture = GFX_law_zhengdang2
+            removal_cost = -1
+            modifier = {
+                political_power_cost = -0.04
+                drift_defence_factor = 0.3   
+            }
+        }
+
+        xiangzhengduodang = {
+            picture = GFX_law_zhengdang2
+            removal_cost = -1
+            modifier = {
+                political_power_cost = -0.01
+                stability_factor = 0.025
+                drift_defence_factor = 0.15     
+            }
+        }
+            
+
+        duodangzhi = {
+            picture = GFX_law_zhengdang2
+            removal_cost = -1
+            modifier = {
+                political_power_cost = 0.02
+                stability_factor = 0.05     
+            }
+        }
+
+        quzhengdanghua = {
+            picture = GFX_law_zhengdang2
+            removal_cost = -1
+            modifier = {
+                political_power_cost = -0.07
+                stability_factor = -0.04
+            }
+        }
+    }
+
+
+    #选举制度 
+    GGO_xuanju = {
+        law = yes
+        use_list_view = no 
+
+        wuxuanju = {
+            picture = GFX_law_xuanju2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.06
+                political_power_cost = -0.06
+            }
+        }
+
+        guizuguatou = {
+            picture = GFX_law_xuanju2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.04
+                political_power_cost = -0.04
+            }
+        }
+            
+
+        zichanjiaquan = {
+            picture = GFX_law_xuanju2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.02
+                political_power_cost = -0.02
+            }
+        }
+
+        daiyixuanju = {
+            picture = GFX_law_xuanju2
+            removal_cost = -1
+            modifier = {
+               
+            }
+        }
+
+        puxuanquan = {
+            picture = GFX_law_xuanju2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.04
+                political_power_cost = 0.05
+            }
+        }
+    }
+
+    #工作时长
+    GGO_gongzuo = { 
+        law = yes
+        use_list_view = no  
+
+        wuxianzhi_work = {
+            picture = GFX_law_gongzuo2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.15
+                industrial_capacity_factory = 0.1
+                line_change_production_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = -0.1
+            }
+        }
+
+        14xiaoshi = {
+            picture = GFX_law_gongzuo2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.10
+                industrial_capacity_factory = 0.07
+                line_change_production_efficiency_factor = 0.07
+                production_factory_efficiency_gain_factor = -0.07
+            }
+        }
+            
+
+        12xiaoshi = {
+            picture = GFX_law_gongzuo2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.05
+                industrial_capacity_factory = 0.035
+                line_change_production_efficiency_factor = 0.035
+                production_factory_efficiency_gain_factor = -0.035
+            }
+        }
+
+        10xiaoshi = {
+            picture = GFX_law_gongzuo2
+            removal_cost = -1
+            modifier = {
+
+            }
+        }
+
+        8xiaoshi = {
+            picture = GFX_law_gongzuo2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.05
+                industrial_capacity_factory = -0.05
+                production_factory_max_efficiency_factor = 0.04
+            }
+        }
+
+        6xiaoshi = {
+            picture = GFX_law_gongzuo2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.1
+                industrial_capacity_factory = -0.12
+                production_factory_max_efficiency_factor = 0.1  
+            }
+        }
+    }
+		
+    #移民政策
+    GGO_yimin = {
+        law = yes
+        use_list_view = no
+
+        fengsuobianjing = {
+            picture = GFX_law_yimin2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.1
+            }
+        }
+
+        yangexianzhiyimin = {
+            picture = GFX_law_yimin2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.05
+                monthly_population = 0.05
+            }
+        }
+            
+
+        xianzhiyimin = {
+            picture = GFX_law_yimin2
+            removal_cost = -1
+            modifier = {
+                monthly_population = 0.1
+            }
+        }
+
+        kaifangbianjing = {
+            picture = GFX_law_yimin2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.06
+                monthly_population = 0.15
+            }
+        }
+    }
+
+
+    #性少数权利
+    GGO_xingshaoshu = {  
+        law = yes
+        use_list_view = no 
+
+        xssfeiguomin = {
+            picture = GFX_law_xinshaoshu2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.06
+                monthly_population = -0.05
+                conscription_factor = -0.04
+            }
+        }
+
+        xssdaya = {
+            picture = GFX_law_xinshaoshu2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.03
+                monthly_population = -0.02
+                conscription_factor = -0.01
+            }
+        }
+            
+
+        xssyouxianpingdeng = {
+            picture = GFX_law_xinshaoshu2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.02
+                monthly_population = 0.02
+                conscription_factor = 0.03
+            }
+        }
+
+        xsspingdeng = {
+            picture = GFX_law_xinshaoshu2
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.06
+                monthly_population = 0.04
+                conscription_factor = 0.05
+            }
+        }
+    }
+
+
+    #民族种族政策
+    GGO_minzuzhongzu = { 
+        law = yes
+        use_list_view = no
+
+        zzmzjinghua = {
+            picture = GFX_law_zhongzuminzu2
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                research_speed_factor = -0.04
+                conscription_factor = -0.1
+            }
+        }
+
+        zzmzpohai = {
+            picture = GFX_law_zhongzuminzu2
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.075
+                research_speed_factor = -0.02
+                conscription_factor = -0.04  
+            }
+        }
+            
+
+        zzmzqishi = {
+            picture = GFX_law_zhongzuminzu2
+            removal_cost = -1
+            modifier = {
+
+            }
+        }
+
+        zzmzbiaomianpingdeng = {
+            picture = GFX_law_zhongzuminzu2
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.075
+                research_speed_factor = 0.02
+                conscription_factor = 0.04  
+            }
+        }
+
+        zzmzpingdeng = {
+            picture = GFX_law_zhongzuminzu2
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.15
+                research_speed_factor = 0.04
+                conscription_factor = 0.08
+            }
+        }
+    }
+
+
+    #司法刑罚
+    GGO_sifa = {  
+        law = yes
+        use_list_view = no
+
+        fuchousifa = {
+            picture = GFX_law_sifa2
+            removal_cost = -1
+            modifier = {
+                non_core_manpower = -0.07
+				monthly_population = -0.08
+                industry_repair_factor = 1
+                industrial_capacity_factory = 0.1
+                production_speed_buildings_factor = 0.05
+            }
+        }
+
+        chengjiesifa = {
+            picture = GFX_law_sifa2
+            removal_cost = -1
+            modifier = {
+                non_core_manpower = -0.02 
+				monthly_population = -0.04
+                industry_repair_factor = 0.5
+                industrial_capacity_factory = 0.05
+                production_speed_buildings_factor = 0.025
+            }
+        }
+            
+
+        gaizaosifa = {
+            picture = GFX_law_sifa2
+            removal_cost = -1
+            modifier = {
+                non_core_manpower = 0.03
+                research_speed_factor = 0.015
+            }
+        }
+
+        xiufusifa = {
+            picture = GFX_law_sifa2
+            removal_cost = -1
+            modifier = {
+                non_core_manpower = 0.06
+                research_speed_factor = 0.03
+            }
+        }
+    }
+		
+
+    #两性权益
+    GGO_nvquan = {  
+        law = yes
+        use_list_view = no
+
+        nvquan1 = {
+            picture = GFX_law_nvquan1
+            removal_cost = -1
+            modifier = {
+stability_factor = -0.05
+	conscription = -0.025
+	industrial_capacity_factory = -0.05
+            }
+        }
+
+        nvquan2 = {
+            picture = GFX_law_nvquan2
+            removal_cost = -1
+            modifier = {
+stability_factor = -0.1
+	conscription = -0.05
+	industrial_capacity_factory = -0.1
+            }
+        }
+            
+
+        nvquan3 = {
+            picture = GFX_law_nvquan3
+            removal_cost = -1
+            modifier = {
+stability_factor = 0.05
+	conscription = 0.025
+	industrial_capacity_factory = 0.1
+            }
+        }
+
+        nvquan4 = {
+            picture = GFX_law_nvquan4
+            removal_cost = -1
+            modifier = {
+stability_factor = 0.1
+	conscription = 0.04
+	industrial_capacity_factory = 0.1
+            }
+        }
+    }
+		
+
+    #言论权
+    GGO_yanlun = {  
+        law = yes
+        use_list_view = no
+
+        yanlun1 = {
+            picture = GFX_law_yanlun1
+            removal_cost = -1
+            modifier = {
+stability_factor = 0.1
+	war_support_factor = 0.1
+	political_power_gain = -1
+            }
+        }
+
+        yanlun2 = {
+            picture = GFX_law_yanlun2
+            removal_cost = -1
+            modifier = {
+stability_factor = 0.05
+	war_support_factor = 0.05
+political_power_gain = -0.5
+            }
+        }
+            
+
+       yanlun3 = {
+            picture = GFX_law_yanlun3
+            removal_cost = -1
+            modifier = {
+political_power_gain = 0.5
+            }
+        }
+
+        yanlun4 = {
+            picture = GFX_law_yanlun4
+            removal_cost = -1
+            modifier = {
+stability_factor = -0.05
+	war_support_factor = -0.05
+political_power_gain = 1
+            }
+        }
+    }
+    #宗教政策
+    GGO_zongjiao = {
+        law = yes
+        use_list_view = no 
+
+        zhengjiaoheyi = {
+            picture = GFX_law_zongjiao2
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = -0.06
+                stability_factor = 0.08
+                drift_defence_factor = 0.2
+                monthly_population = 0.2
+            }
+        }
+
+        danyiguojiao = {
+            picture = GFX_law_zongjiao2
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = -0.02
+                stability_factor = 0.04  
+                drift_defence_factor = 0.15 
+            }
+        }
+            
+
+        guojiawushenlun = {
+            picture = GFX_law_zongjiao2
+            removal_cost = -1
+            modifier = {
+                drift_defence_factor = 0.5
+                monthly_population = -0.08
+            }
+        }
+
+        xianzhizongjiao = {
+            picture = GFX_law_zongjiao2
+            removal_cost = -1
+            modifier = {
+                drift_defence_factor = 0.2
+            }
+        }
+
+        zongjiaoziyou = {
+            picture = GFX_law_zongjiao2
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = 0.02
+                stability_factor = -0.05
+                drift_defence_factor = -0.1
+            }
+        }
+    }
+
+
+    #福利政策 
+    GGO_fuli = {   
+        law = yes
+        use_list_view = no
+
+        wufulibaozhang = {
+            picture = GFX_fuli2
+            removal_cost = -1
+            modifier = {
+                
+            }
+        }
+
+        shaoliangfulibaozhang = {
+            picture = GFX_fuli2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.05
+                consumer_goods_factor = 0.04 
+                production_speed_buildings_factor = 0.02 
+            }
+        }
+            
+        jibenfulibaozhang = {
+            picture = GFX_fuli2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.07
+                consumer_goods_factor = 0.05
+                production_speed_buildings_factor = 0.04 
+            }
+        }
+
+        shiliangfulibaozhang = {
+            picture = GFX_fuli2
+            removal_cost = -1
+            modifier = {
+               stability_factor = 0.1
+               consumer_goods_factor = 0.07
+               production_speed_buildings_factor = 0.065 
+            }
+        }
+        
+        daliangfulibaozhang = {
+            picture = GFX_fuli2
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.15
+                consumer_goods_factor = 0.1
+                production_speed_buildings_factor = 0.1 
+            }
+        }
+    }
+        
+    #对外政策
+    GGO_duiwai = {
+        law = yes
+        use_list_view = no
+
+        duiwai_hexie = {
+            picture = GFX_duiwai2
+			removal_cost = -1	
+			modifier = {
+                opinion_gain_monthly_factor = 0.2
+                trade_opinion_factor = 0.3
+			}
+		}
+
+
+		duiwai_jingti = {
+            picture = GFX_duiwai2
+			removal_cost = -1	
+			modifier = {
+                opinion_gain_monthly_factor = -0.2
+                war_support_factor = 0.075
+			}
+		}
+
+
+		duiwai_heiansenlin = {
+            picture = GFX_duiwai2
+			removal_cost = -1	
+			modifier = {
+                opinion_gain_monthly_factor = -0.6
+                war_support_factor = 0.175
+                trade_opinion_factor = -0.1
+			}
+		}
+
+
+		duiwai_dengta = {
+            picture = GFX_duiwai2
+			removal_cost = -1
+			modifier = {
+                opinion_gain_monthly_same_ideology_factor = 1 
+                trade_opinion_factor = 0.1
+			}
+		}
+  
+		duiwai_zhongli = {
+            picture = GFX_duiwai2
+			removal_cost = -1
+            rules = {
+			    can_send_volunteers = no
+		    }
+			modifier = {
+                army_attack_factor = -0.1
+                army_defence_factor = 0.1
+                lend_lease_tension = 1
+			}
+		}
+    }
+
+    #国体
+    GGO_guoti = {
+        law = yes
+        use_list_view = no
+        
+        guoti_danyizhi = {
+            picture = GFX_guoti2
+			removal_cost = -1	
+			modifier = {
+                political_power_cost = 0.1
+                production_speed_buildings_factor = 0.4
+                mobilization_speed = 0.2
+			}
+		}
+
+
+		guoti_jiquanlianbang = {
+            picture = GFX_guoti2
+			removal_cost = -1	
+			modifier = {
+                political_power_cost = 0.05
+                production_speed_buildings_factor = 0.2
+                mobilization_speed = 0.1
+			}
+		}
+
+
+		guoti_lianbangzhi = {
+            picture = GFX_guoti2
+			removal_cost = -1	
+			modifier = {
+                mobilization_speed = -0.05
+                research_speed_factor = 0.01
+                stability_factor = 0.05
+			}
+		}
+
+
+		guoti_banglianzhi = {
+            picture = GFX_guoti2
+			removal_cost = -1
+			modifier = {
+                political_power_gain = 0.05
+                mobilization_speed = -0.15
+                research_speed_factor = 0.01
+			}
+		}
+  
+		guoti_wuzhengfu = {
+            picture = GFX_guoti2
+			removal_cost = -1
+			modifier = {
+                stability_weekly = -0.0015
+                mobilization_speed = -0.25
+                research_speed_factor = 0.05
+                political_power_gain = 0.5
+			}
+		}
+	}
+    
+}

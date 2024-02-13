@@ -1,0 +1,19 @@
+
+state={
+	id=218
+	name="STATE_218"
+
+	history={
+		owner = ABY
+		add_core_of = ABY
+
+	}
+
+	provinces={
+		1262 2802 3304 3336 3347 3938 6347 6357 6371 6379 6408 6418 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

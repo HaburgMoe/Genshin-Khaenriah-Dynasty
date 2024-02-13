@@ -1,0 +1,13 @@
+characters={
+	BAI_bainiu={
+		name=BAI_CHARACTER_BAINIU
+		portraits={
+			civilian={
+				large="GFX_portrait_BAI_bainiu_large"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+	}

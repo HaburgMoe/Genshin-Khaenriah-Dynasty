@@ -1,0 +1,376 @@
+bitmapfonts = {
+
+	bitmapfont = {
+		name = "GKD_special_font_title"
+		fontfiles = { 
+			"gfx/fonts/Wenhei_header_26_0"
+			"gfx/fonts/Wenhei_header_26_1"
+		}		
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "GKD_special_font_border_thin_title"
+		fontfiles = { 
+			"gfx/fonts/Wenhei_header_26_thin_0"
+			"gfx/fonts/Wenhei_header_26_border_0"
+			"gfx/fonts/Wenhei_header_26_border_1"
+			"gfx/fonts/Wenhei_header_26_border_2"
+		}		
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "GKD_special_font_border_title"
+		fontfiles = { 
+			"gfx/fonts/Wenhei_header_26_border_0"
+			"gfx/fonts/Wenhei_header_26_border_1"
+			"gfx/fonts/Wenhei_header_26_border_2"
+		}		
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "GKD_special_font_desc"
+		fontfiles = { 
+			"gfx/fonts/Wenhei_header_20_0"
+			"gfx/fonts/Wenhei_header_20_1"
+		}		
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}	
+
+	bitmapfont = {
+		name = "GKD_special_font_border_thin_desc"
+		fontfiles = { 
+			"gfx/fonts/Wenhei_header_20_thin_0"
+			"gfx/fonts/Wenhei_header_20_border_0"
+			"gfx/fonts/Wenhei_header_20_border_1"
+		}		
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "GKD_special_font_border_desc"
+		fontfiles = { 
+			"gfx/fonts/Wenhei_header_20_border_0"
+			"gfx/fonts/Wenhei_header_20_border_1"
+		}		
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}	
+	
+	#bitmapfont_override = {
+	#	name = "loadscreen_header"
+	#	fontfiles = { 
+	#		"gfx/fonts/hoi_20bs"
+	#		"gfx/fonts/hoi_20bs_cryllic"
+	#	}
+	#languages = { "l_russian" "l_polish" } 
+	#}
+
+	bitmapfont = {
+		name = "GKD_ChaoZiShe_small"
+		fontfiles = { 
+			"gfx/fonts/ChaoZiShe_28s_1"
+			"gfx/fonts/ChaoZiShe_28s_2"
+			"gfx/fonts/ChaoZiShe_28s_3"
+			"gfx/fonts/ChaoZiShe_28s_4"	
+		}		
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "GKD_ChaoZiShe_big"
+		fontfiles = {
+			"gfx/fonts/ChaoZiShe_34s_1"
+			"gfx/fonts/ChaoZiShe_34s_2"
+			"gfx/fonts/ChaoZiShe_34s_3"
+			"gfx/fonts/ChaoZiShe_34s_4"	
+		}
+		color = 0xffffffff
+
+		textcolors = {
+		C = { 35 206 255 }  # Cyan
+		L = { 195 176 145 } # Lilac
+		W = { 255 255 255 } # White
+		B = { 0 0 255 }     # Blue
+		G = { 0 159 3 }     # Green
+		R = { 255 50 50 }   # Red
+		b = { 0 0 0 }       # Black
+		g = { 176 176 176 } # Grey
+		Y = { 238 201 35 }   # Yellow
+		H = { 255 189 0 }   # Header
+		T = { 255 255 255 } # Title
+		O = { 139 90 43 }  # Orange
+		I = { 0 191 255 }      #天蓝
+		Z = { 255 0 0 }      #纯红
+		Q = { 190 190 190 }      #灰
+		S = { 255 143 144 }      #浅红
+		N = { 76 25 97 }      #紫黑
+		M = { 12 79 13 }      #墨绿
+		V = { 139 0 0 }      #深红
+		P = { 237 94 182 }      #粉红
+		J = { 255 64 64 }      #亮红
+		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
+		1 = { 0 206 209 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
+		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
+		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
+		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
+		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
+		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
+		7 = { 0 250 154 }	# Gradient Step 7 - light green	{ 153 209 153 }
+		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
+		9 = { 255 255 0 }	# Gradient Step 9 - orange		{ 250 102 25 }
+		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
+		}
+	}
+}

@@ -1,0 +1,287 @@
+technologies = {
+	GKD_LIEBIAN = {
+		path = {
+			leads_to_tech = GKD_LIEBIAN_FANYINGDUI
+			research_cost_coeff = 1
+		}
+		research_speed_factor = 0.05
+		research_cost = 1.5
+		start_year = 190
+		folder = {
+			name = electronicsA_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIAN_FANYINGDUI = {
+		path = {
+			leads_to_tech = GKD_LIEBIANDAN_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIANLU_333
+			research_cost_coeff = 1
+		}
+		research_speed_factor = 0.05
+		research_cost = 1.5
+		start_year = 200
+		folder = {
+			name = electronicsA_folder
+			position = { x = 0 y = 3 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIANLU_333 = {
+		path = {
+			leads_to_tech = GKD_DIANLU_DICHENGBEN
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIANLU_ANQUAN
+			research_cost_coeff = 1
+		}
+		research_speed_factor = 0.05
+		research_cost = 1.5
+		start_year = 230
+		folder = {
+			name = electronicsA_folder
+			position = { x = 10 y = 6 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIANLU_DICHENGBEN = {
+		research_cost = 1.5
+		start_year = 330
+	industrial_capacity_factory = 0.6
+		allow_branch = {
+			has_country_flag = renhelian_zhengchang_flag
+		}
+		folder = {
+			name = electronicsA_folder
+			position = { x = 8 y = 9 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIANLU_ANQUAN = {
+		research_cost = 1.5
+		start_year = 330
+	industrial_capacity_factory = 0.3
+		allow_branch = {
+has_country_flag = waihaixieyue_zhengchang_flag
+		}
+		folder = {
+			name = electronicsA_folder
+			position = { x = 12 y = 9 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANDAN_1 = {
+		nuclear_production = 1
+		path = {
+			leads_to_tech = GKD_LIEBIANDAN_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_LIEBIANDUOYONG
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 300
+		folder = {
+			name = electronicsA_folder
+			position = { x = 0 y = 9 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANDAN_2 = {
+		nuclear_production_factor = 1
+		path = {
+			leads_to_tech = GKD_LIEBIANDAN_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 400
+		folder = {
+			name = electronicsA_folder
+			position = { x = 0 y = 12 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANDAN_3 = {
+		nuclear_production_factor = 1
+		research_cost = 1.5
+		start_year = 460
+		folder = {
+			name = electronicsA_folder
+			position = { x = 0 y = 16 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANDUOYONG = {
+		research_speed_factor = 0.05
+		path = {
+			leads_to_tech = GKD_LIEBIANDILEI
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_LIEBIANYULEI
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_LIEBIANDAODAN
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 400
+		folder = {
+			name = electronicsA_folder
+			position = { x = 10 y = 12 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANDILEI = {
+	army_core_defence_factor = 0.5
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = electronicsA_folder
+			position = { x = 5 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANYULEI = {
+naval_mines_damage_factor = 0.5
+		path = {
+			leads_to_tech = GKD_LIEBIANZHADAN
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = electronicsA_folder
+			position = { x = 15 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANZHADAN = {
+naval_mines_damage_factor = 1.5
+		research_cost = 1.5
+		start_year = 480
+		folder = {
+			name = electronicsA_folder
+			position = { x = 15 y = 17 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANDAODAN = {
+	army_attack_factor = 0.5
+		path = {
+			leads_to_tech = GKD_LIEBIANHONGZHA
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = electronicsA_folder
+			position = { x = 10 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_LIEBIANHONGZHA = {
+		air_ground_attack = 0.5
+	air_attack_factor = 0.5
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = electronicsA_folder
+			position = { x = 10 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+
+
+}

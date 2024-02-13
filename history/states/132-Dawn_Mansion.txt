@@ -1,0 +1,16 @@
+
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		5498 5537 5566 
+	}
+	history={
+		owner = DLK
+		add_core_of = DLK
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

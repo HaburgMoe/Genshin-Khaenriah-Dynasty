@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_renhelian_zhengchang"
+		texturefile = "gfx/zhenying/renhelian_zhengchang.dds"
+	}
+	spriteType = {
+		name = "GFX_waihaixieyue_zhengchang"
+		texturefile = "gfx/zhenying/waihaixieyue_zhengchang.dds"
+	}
+
+}

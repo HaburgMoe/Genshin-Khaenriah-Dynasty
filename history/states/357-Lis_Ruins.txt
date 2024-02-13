@@ -1,0 +1,19 @@
+
+state={
+	id=357
+	name="STATE_357"
+
+	history={
+		owner = PRG
+		add_core_of = PRG
+
+	}
+
+	provinces={
+		279 328 358 848 966 1399 1839 1925 2640 2701 2789 2938 3049 3252 3330 3448 3488 3667 3711 3767 4737 4742 4745 4755 4756 4758 4763 4781 4782 4785 4808 4813 4821 4839 4844 4846 4861 4878 4879 4885 4901 4904 4914 4928 4935 4975 4990 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

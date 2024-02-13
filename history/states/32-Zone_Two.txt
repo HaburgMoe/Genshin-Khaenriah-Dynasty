@@ -1,0 +1,15 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		741 2372 3305 4348 4353 4404 8737 
+	}
+	history={
+		owner = ABY
+		add_core_of = ABY
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

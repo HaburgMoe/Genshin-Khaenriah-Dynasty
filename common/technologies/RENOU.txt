@@ -1,0 +1,139 @@
+technologies = {
+	GKD_RENOUYANJIU = {
+		path = {
+			leads_to_tech = GKD_RENOUYANJIU_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 470
+		research_speed_factor = 0.03
+		folder = {
+			name = RENOU_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RENOUYANJIU_2 = {
+		path = {
+			leads_to_tech = GKD_RENOUYANJIU_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 490
+		research_speed_factor = 0.03
+		folder = {
+			name = RENOU_folder
+			position = { x = 0 y = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RENOUYANJIU_3 = {
+		path = {
+			leads_to_tech = GKD_RENOUYANJIU_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 490
+		research_speed_factor = 0.03
+		folder = {
+			name = RENOU_folder
+			position = { x = 0 y = 10 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RENOUYANJIU_4 = {
+		path = {
+			leads_to_tech = GKD_RENOUYANJIU_51
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RENOUYANJIU_52
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = RENOU_folder
+			position = { x = 0 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		research_speed_factor = 0.03
+		on_research_complete = {
+			if = {
+				limit = {
+				OR = {
+					tag = SHG
+					tag = DQG
+				}
+				}
+	country_event = { id = renou.1 }
+			}
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RENOUYANJIU_51 = {
+		research_cost = 1.5
+		start_year = 510
+		folder = {
+			name = RENOU_folder
+			position = { x = -5 y = 20}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		enable_equipments = {
+			GKD_MOSHENRENOU_0
+		}
+		enable_subunits = {
+			GKD_MOSHENRENOU
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RENOUYANJIU_52 = {
+		research_cost = 1.5
+		start_year = 510
+		folder = {
+			name = RENOU_folder
+			position = { x = 5 y = 20}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		enable_equipments = {
+			GKD_LIANGCHANRENOU_0
+		}
+		enable_subunits = {
+			GKD_LIANGCHANRENOU
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+}

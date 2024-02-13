@@ -1,0 +1,19 @@
+
+state={
+	id=437
+	name="STATE_437"
+
+	history={
+		owner = TYL
+		add_core_of = TYL
+
+	}
+
+	provinces={
+		49 273 1347 1576 3277 7690 7722 7723 7728 7756 7778 7833 7847 7891 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

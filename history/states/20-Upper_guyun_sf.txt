@@ -1,0 +1,15 @@
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		1369 6605 6673 6729 
+	}
+	history={
+		owner = GYG
+		add_core_of = GYG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

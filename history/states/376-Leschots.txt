@@ -1,0 +1,17 @@
+
+state={
+	id=376
+	name="STATE_376"
+	provinces={
+		1007 3900 4610 4652 
+	}
+	history={
+		owner = ZLT
+		add_core_of = ZLT
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

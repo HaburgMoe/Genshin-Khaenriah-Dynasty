@@ -1,0 +1,310 @@
+technologies = {
+	GKD_QUANNENGYANJIU = {
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 420
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 0 y = 0 }
+		}
+		research_speed_factor = 0.03
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_2 = {
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 430
+		research_speed_factor = 0.03
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 0 y = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_3 = {
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 440
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 0 y = 10 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		research_speed_factor = 0.03
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_4 = {
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENG
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 0 y = 15 }
+		}
+		research_speed_factor = 0.03
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RUOHUAQUANNENG = {
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENGHUDUN
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENGCIBAO
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENGXUANFU
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENGTANCE
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENGCHAOXI
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_RUOHUAQUANNENGWENDU
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 470
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -10 y = 20 }
+		}
+		research_speed_factor = 0.03
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RUOHUAQUANNENGHUDUN = {
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -15 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+		enable_subunits = {
+			GKD_HUDUN
+		}
+	}
+	GKD_RUOHUAQUANNENGCIBAO = {
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -12 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+		enable_subunits = {
+			GKD_CIBAO
+		}
+	}
+	GKD_RUOHUAQUANNENGXUANFU = {
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -9 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+		enable_subunits = {
+			GKD_XUANFU
+		}
+	}
+	GKD_RUOHUAQUANNENGTANCE = {
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -5 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+		enable_subunits = {
+			GKD_TANCE
+		}
+	}
+	GKD_RUOHUAQUANNENGCHAOXI = {
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -1 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+
+		local_resources_factor = 0.15
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_RUOHUAQUANNENGWENDU = {
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = -19 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+line_change_production_efficiency_factor = 0.15
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_5 = {
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_6
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 470
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 10 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		research_speed_factor = 0.03
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_6 = {
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_71
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_QUANNENGYANJIU_72
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 10 y = 25 }
+		}
+		research_speed_factor = 0.03
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_71 = {
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 10 y = 30 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		research_speed_factor = 0.1
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_QUANNENGYANJIU_72 = {
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = MOSHEN_folder
+			position = { x = 15 y = 30 }
+		}
+		enable_subunits = {
+			GKD_LEIDIAN
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+}

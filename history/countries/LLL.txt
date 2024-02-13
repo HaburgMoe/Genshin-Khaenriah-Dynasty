@@ -1,0 +1,49 @@
+capital = 477
+oob = "LLL"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+set_politics = {
+	ruling_party = jiduan
+	last_election = "499.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	jiduan = 100
+}
+
+add_ideas = {
+	bingyizhidu1	
+	wufazizhumaoyi	
+	6xiaoshi	
+	guoti_wuzhengfu	
+	wuxuanju	
+	daliangfulibaozhang
+	duiwai_zhongli	
+	zongjiaoziyou	
+	zzmzpingdeng	
+	quzhengdanghua	
+	fengsuobianjing	
+	xsspingdeng	
+	xiufusifa	
+	nvquan4	
+	yanlun4
+}
+
+
+create_country_leader = {
+	name = "桓那兰那"
+	desc = "POLITICS_HNL_DESC"
+	picture = "gfx/leader/HNL.dds"
+	expire = "1965.1.1"
+	ideology = anyuanism
+	traits = {
+		#
+	}
+}
+

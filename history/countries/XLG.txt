@@ -1,0 +1,37 @@
+capital = 149
+oob = "XLG"
+
+set_technology = {
+
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = zhuanzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 60
+	xianfengrenzhi = 15
+	jiduan = 25
+}
+
+add_ideas = {
+	bingyizhidu6	wufazizhumaoyi	14xiaoshi	guoti_danyizhi	wuxuanju	wufulibaozhang	duiwai_zhongli	guojiawushenlun	zzmzbiaomianpingdeng	quzhengdanghua	fengsuobianjing	xssdaya	chengjiesifa	nvquan3	yanlun1
+}
+
+create_country_leader = {
+	name = "哈夫丹"
+	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	picture = "gfx/leader/hafudan.dds"
+	expire = "1965.1.1"
+	ideology = junquism
+	traits = {
+
+	}
+}

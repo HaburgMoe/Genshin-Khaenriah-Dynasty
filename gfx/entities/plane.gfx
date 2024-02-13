@@ -1,0 +1,8 @@
+objectTypes = {
+    pdxmesh = {
+        name = "mesh_plane"
+        file = "gfx/models/plane.mesh"
+	scale = 1.0
+	cull_distance = 99999.0			
+    }
+}

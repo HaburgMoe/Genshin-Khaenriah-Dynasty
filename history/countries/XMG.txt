@@ -1,0 +1,51 @@
+capital = 409
+oob = "XMG"
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+
+set_politics = {
+	ruling_party = weiquanrenzhi
+	last_election = "500.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ziyourenzhi = 20
+	tiaohe = 30
+	weiquanrenzhi = 40
+	pingdengrenzhi = 10
+}
+
+add_ideas = {
+	bingyizhidu3
+	quzhengdanghua
+	12xiaoshi
+	xssdaya
+	gaizaosifa
+	shaoliangfulibaozhang
+	yangexianzhimaoyi
+	wuxuanju
+	xianzhiyimin
+	zzmzpingdeng
+	xianzhizongjiao
+	duiwai_zhongli
+	guoti_banglianzhi
+	nvquan3
+	yanlun3
+}
+
+create_country_leader = {
+	name = "大慈树王"
+	desc = "POLITICS_Rukkhadevata_DESC"
+	picture = "gfx/leader/Rukkhadevata.dds"
+	expire = "1965.1.1"
+	ideology = jishuguanliaoism
+	traits = {
+		#
+	}
+}

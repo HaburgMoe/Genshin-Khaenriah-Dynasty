@@ -1,0 +1,215 @@
+technologies = {
+
+	GKD_SHIGUYANJIU = {
+		research_cost = 1
+		start_year = 440
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_WURANTIXI
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 0 y = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_WURANTIXI = {
+		research_cost = 1
+		start_year = 445
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_DIANLUQIANG
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIANLUPAO
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_WEISHENGWU
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 0 y = 10 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_DIANLUQIANG = {
+		research_cost = 1
+		start_year = 450
+	army_infantry_attack_factor = 0.5
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 0 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_DIANLUPAO = {
+		research_cost = 1
+		start_year = 450
+	army_artillery_attack_factor = 0.5
+	army_armor_attack_factor = 0.5
+		path = {
+			leads_to_tech = GKD_DIANLUPAO_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = -5 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_DIANLUPAO_2 = {
+		research_cost = 1
+		start_year = 480
+	army_artillery_attack_factor = 0.5
+	army_armor_attack_factor = 0.5
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = -5 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_WEISHENGWU = {
+
+		enable_subunits = {
+			GKD_SHENGHUABUDUI
+		}
+		research_cost = 1
+		start_year = 450
+		path = {
+			leads_to_tech = GKD_XIJUN_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_BINGDU_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 10 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_XIJUN_1 = {
+		GKD_SHENGHUABUDUI = {
+		defense = 0.4
+		breakthrough = 0.4
+		soft_attack = 0.4
+		hard_attack = 0.4
+		}
+		research_cost = 1
+		start_year = 460
+		path = {
+			leads_to_tech = GKD_XIJUN_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 5 y = 18 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_XIJUN_2 = {
+		research_cost = 1
+		start_year = 490
+		GKD_SHENGHUABUDUI = {
+		defense = 0.4
+		breakthrough = 0.4
+		soft_attack = 0.4
+		hard_attack = 0.4
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 5 y = 22 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_BINGDU_1 = {
+		research_cost = 1
+		start_year = 470
+		GKD_SHENGHUABUDUI = {
+		defense = 0.4
+		breakthrough = 0.4
+		soft_attack = 0.4
+		hard_attack = 0.4
+		}
+		path = {
+			leads_to_tech = GKD_BINGDU_2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 13 y = 19 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	GKD_BINGDU_2 = {
+		research_cost = 1
+		start_year = 500
+		GKD_SHENGHUABUDUI = {
+		defense = 0.4
+		breakthrough = 0.4
+		soft_attack = 0.4
+		hard_attack = 0.4
+		}
+		folder = {
+			name = mtgnavalsupportfolderA
+			position = { x = 13 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=280
+	name="STATE_280"
+
+	history={
+		owner = LYA
+		add_core_of = LYA
+
+	}
+
+	provinces={
+		2764 6159 6209 6280 6369 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

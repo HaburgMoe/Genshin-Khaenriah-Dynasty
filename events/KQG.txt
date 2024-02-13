@@ -1,0 +1,17 @@
+add_namespace = Keqing
+
+country_event = {
+	id = Keqing.1
+	title = Keqing.1.t
+	desc = Keqing.1.d
+	is_triggered_only = yes 
+	fire_only_once = yes 
+	
+	option = {
+		name = Keqing.1.a 
+		hidden_effect = {
+			sound_effect = "keqing1"
+	}
+	}
+}
+

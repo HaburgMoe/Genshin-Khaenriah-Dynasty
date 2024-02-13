@@ -1,0 +1,38 @@
+division_template = {
+	name = "水天督察团"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }	
+	}
+	support = {
+		military_police = { x = 0 y = 0 }  
+	}
+}
+units = {
+division = {
+		name = "水天督察团"
+		location = 249
+		division_template = "水天督察团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "水天督察团"
+		location = 6590
+		division_template = "水天督察团"
+		start_experience_factor = 0.2
+
+	}
+division = {
+		name = "水天督察团"
+		location = 2576
+		division_template = "水天督察团"
+		start_experience_factor = 0.2
+
+	}
+
+
+
+}

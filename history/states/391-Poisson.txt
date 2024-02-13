@@ -1,0 +1,16 @@
+state={
+	id=391
+	name="STATE_391"
+	provinces={
+		47 870 905 1382 2141 2270 2741 2930 3558 3801 4803 4832 4833 4868 4876 4913 4944 4949 4973 5008 5009 5017 5047 
+	}
+	history={
+		owner = ZQL
+		add_core_of = ZQL
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

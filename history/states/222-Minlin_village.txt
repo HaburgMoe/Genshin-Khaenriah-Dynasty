@@ -1,0 +1,19 @@
+
+state={
+	id=222
+	name="STATE_222"
+
+	history={
+		owner = MLB
+		add_core_of = MLB
+
+	}
+
+	provinces={
+		904 1396 1588 2659 3813 5934 5983 6017 6027 6043 6053 6080 6091 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

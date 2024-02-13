@@ -1,0 +1,114 @@
+characters={
+	MLB_AIK = {
+		name = MLB_AIK
+		portraits={
+			army = {   
+				large="gfx/leader/AK.dds"
+				small="gfx/country/MLB/aike.dds"
+			}
+			civilian = {  
+				large="gfx/leader/AK.dds"
+				small="gfx/country/MLB/aike.dds"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		
+
+		advisor = {  
+			slot = junwei_advisor
+			idea_token = MLB_AIK
+			traits = {
+ YSXT_DKYD
+ MLB_YKZJ
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	MLB_SLY = {
+		name = MLB_SLY
+		portraits={
+			civilian = {  
+				small="gfx/country/MLB/suolaya.dds"
+			}
+		}
+		
+
+		advisor = {  
+			slot = guowu_advisor
+			idea_token = MLB_SLY
+			traits = {
+ YSXT_WDZY
+ MLB_SGJ  
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	MLB_ZHUZI= {
+		name = MLB_ZHUZI
+		portraits={
+			civilian = {  
+				small="gfx/country/MLB/zhuzi.dds"
+			}
+		}
+
+		advisor = {  
+			slot = waijiao_advisor
+			idea_token = MLB_ZHUZI
+			traits = {
+ YSXT_WNSZY
+ SHG_JQR_JJWJ   
+}
+			ai_will_do = {
+				factor = 1
+			}
+			can_be_fired = no
+		}
+	}
+	MLB_MXL= {
+		name = MLB_MXL
+		portraits={
+			army = {   
+				large="gfx/leader/xiangling.dds"
+			}
+			civilian = {  
+				large="gfx/leader/xiangling.dds"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		
+		country_leader={  
+			desc = "POLITICS_XL_DESC"
+			ideology= zifawennisha
+			traits={
+ YSXT_ZFWNS
+MLB_JJFS
+}
+			expire="1965.1.1.1"
+		}
+
+		
+	}
+
+
+
+	}

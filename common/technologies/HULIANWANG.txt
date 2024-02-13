@@ -1,0 +1,437 @@
+technologies = {
+	GKD_DIMAIYANJIU = {
+		path = {
+			leads_to_tech = GKD_DIMAIYUNSHU_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIWANGCESHI_1
+			research_cost_coeff = 1
+		}
+		research_speed_factor = 0.03
+		research_cost = 1.5
+		start_year = 450
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIYUNSHU_1 = {
+		path = {
+			leads_to_tech = GKD_DIMAIYUNSHU_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 455
+	army_speed_factor = 0.1
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = -5 y = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIYUNSHU_2 = {
+		path = {
+			leads_to_tech = GKD_DIMAIYUNSHU_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIWANGCESHI_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 460
+	army_speed_factor = 0.2
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = -5 y = 10 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIYUNSHU_3 = {
+		research_cost = 1.5
+		start_year = 465
+	army_speed_factor = 0.3
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = -5 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIWANGCESHI_1 = {
+		path = {
+			leads_to_tech = GKD_DIMAIWANGCESHI_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 455
+		research_speed_factor = 0.03
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 5 y = 5 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIWANGCESHI_2 = {
+		path = {
+			leads_to_tech = GKD_DIMAIWANGCESHI_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 460
+		research_speed_factor = 0.03
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 5 y = 10 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIWANGCESHI_3 = {
+		enable_building = {
+			building = shg_radar_station
+			level = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIQIANG_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIJIZHAN_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GAILIANGWANGLU_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 465
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 5 y = 15 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIQIANG_1 = {
+		path = {
+			leads_to_tech = GKD_DIMAIQIANG_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+	stability_factor = 0.05
+	war_support_factor = 0.05
+                                decryption = 1
+                                encryption = 1
+		start_year = 470
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 0 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIQIANG_2 = {
+		path = {
+			leads_to_tech = GKD_DIMAIQIANG_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 480
+	stability_factor = 0.05
+	war_support_factor = 0.05
+                                decryption = 1
+                                encryption = 1
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 0 y = 25 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIQIANG_3 = {
+	stability_factor = 0.05
+	war_support_factor = 0.05
+                                decryption = 1
+                                encryption = 1
+		path = {
+			leads_to_tech = GKD_DIMAIQIANG_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 490
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 0 y = 30 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIQIANG_4 = {
+		research_cost = 1.5
+		start_year = 500
+	stability_factor = 0.1
+	war_support_factor = 0.1
+                                decryption = 2
+                                encryption = 2
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 0 y = 35 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIJIZHAN_1 = {
+		enable_building = {
+			building = shg_radar_station
+			level = 3
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIJIZHAN_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 475
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 5 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIJIZHAN_2 = {
+		enable_building = {
+			building = shg_radar_station
+			level = 6
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIJIZHAN_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 485
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 5 y = 28 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIJIZHAN_3 = {
+		enable_building = {
+			building = shg_radar_station
+			level = 10
+		}
+		path = {
+			leads_to_tech = GKD_DIMAIJIZHAN_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 495
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 5 y = 33 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_DIMAIJIZHAN_4 = {
+		enable_building = {
+			building = shg_radar_station
+			level = 15
+		}
+		research_cost = 1.5
+		start_year = 505
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 10 y = 38 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_GAILIANGWANGLU_1 = {
+		research_speed_factor = 0.03
+		path = {
+			leads_to_tech = GKD_GAILIANGWANGLU_21
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = GKD_GAILIANGWANGLU_22
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 475
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 10 y = 20 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_GAILIANGWANGLU_21 = {
+		research_speed_factor = 0.05
+		path = {
+			leads_to_tech = GKD_GAILIANGWANGLU_31
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 485
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 15 y = 28 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_GAILIANGWANGLU_31 = {
+		research_speed_factor = 0.05
+		path = {
+			leads_to_tech = GKD_DIMAIJIZHAN_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 495
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 15 y = 33 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_GAILIANGWANGLU_22 = {
+		research_speed_factor = 0.05
+		path = {
+			leads_to_tech = GKD_GAILIANGWANGLU_32
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 485
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 10 y = 28 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+	GKD_GAILIANGWANGLU_32 = {
+		research_speed_factor = 0.05
+		path = {
+			leads_to_tech = GKD_DIMAIJIZHAN_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 495
+		folder = {
+			name = DIMAIWANG_folder
+			position = { x = 10 y = 33 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		categories = {
+			industry
+			cat_production
+		}
+	}
+}

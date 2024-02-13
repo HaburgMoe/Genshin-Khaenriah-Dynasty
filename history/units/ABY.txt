@@ -1,0 +1,282 @@
+division_template = {
+	name = "坎瑞亚国防军"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }				
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }				
+		infantry = { x = 1 y = 4 }
+		medium_GKD_GENGDIJI = { x = 2 y = 0 }
+		medium_GKD_GENGDIJI = { x = 2 y = 1 }
+		medium_GKD_GENGDIJI = { x = 2 y = 2 }
+		medium_GKD_GENGDIJI = { x = 2 y = 3 }
+		medium_GKD_GENGDIJI = { x = 2 y = 4 }
+		medium_GKD_GENGDIJI = { x = 3 y = 0 }
+		medium_GKD_GENGDIJI = { x = 3 y = 1 }
+		medium_GKD_GENGDIJI = { x = 3 y = 2 }
+		medium_GKD_GENGDIJI = { x = 3 y = 3 }
+		medium_GKD_GENGDIJI = { x = 3 y = 4 }
+		heavy_armor_GKD_GENGDIJI = { x = 4 y = 0 }
+		heavy_armor_GKD_GENGDIJI = { x = 4 y = 1 }
+		heavy_armor_GKD_GENGDIJI = { x = 4 y = 2 }
+		heavy_armor_GKD_GENGDIJI = { x = 4 y = 3 }
+		heavy_armor_GKD_GENGDIJI = { x = 4 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+		military_police = { x = 0 y = 1 }  
+		mot_recon = { x = 0 y = 2 }  
+		field_hospital = { x = 0 y = 3 }  
+		signal_company = { x = 0 y = 4 }  
+	}
+}
+units = {
+division = {
+		name = "达达乌帕第一师"
+		location = 4258
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "达达乌帕第二师"
+		location = 2888
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "东蒙德第一师"
+		location = 3861
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "东蒙德第二师"
+		location = 3039
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "西蒙德第一师"
+		location = 3792
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "西蒙德第二师"
+		location = 3820
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "西蒙德第三师"
+		location = 3862
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "北蒙德第一师"
+		location = 3541
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "北蒙德第二师"
+		location = 1840
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "北蒙德第三师"
+		location = 3615
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "北蒙德第四师"
+		location = 3475
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "雪山第一师"
+		location = 4630
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "雪山第二师"
+		location = 4765
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "明蕴第一师"
+		location = 3043
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "明蕴第二师"
+		location = 4963
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "明蕴第三师"
+		location = 4853
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "璃月港第一师"
+		location = 5483
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "璃月港第二师"
+		location = 5960
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "璃月港第三师"
+		location = 5471
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "璃月港第四师"
+		location = 2049
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "璃月港第五师"
+		location = 6211
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "璃月港第六师"
+		location = 3158
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "须弥第一师"
+		location = 1780
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "须弥第二师"
+		location = 1626
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "须弥第三师"
+		location = 1337
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第一师"
+		location = 2306
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第二师"
+		location = 310
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第三师"
+		location = 4259
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第四师"
+		location = 48
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第五师"
+		location = 150
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第六师"
+		location = 465
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第七师"
+		location = 875
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第八师"
+		location = 1870
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第九师"
+		location = 102
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第十师"
+		location = 62
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "枫丹第十一师"
+		location = 1031
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "至冬第一师"
+		location = 1790
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "至冬第二师"
+		location = 322
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "至冬第三师"
+		location = 504
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+division = {
+		name = "新坎瑞亚守备师"
+		location = 3468
+		division_template = "坎瑞亚国防军"
+		start_experience_factor = 0.8
+	}
+
+
+
+}

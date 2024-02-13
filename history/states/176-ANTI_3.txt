@@ -1,0 +1,15 @@
+state={
+	id=176
+	name="STATE_176"
+	provinces={
+		130 521 605 623 664 991 1697 1979 1982 2718 3469 4529 4538 4543 4555 4574 4583 4599 4614 4619 4634 4660 4663 
+	}
+	history={
+		owner = ABY
+		add_core_of = ABY
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

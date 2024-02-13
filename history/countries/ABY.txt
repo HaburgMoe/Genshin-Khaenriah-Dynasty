@@ -1,0 +1,111 @@
+capital = 31
+oob = "ABY"
+
+set_research_slots = 0
+set_stability = 0.50
+set_war_support = 0.01
+set_convoys = 5
+
+set_politics = {
+	ruling_party = zhuanzhi
+	last_election = "100.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	zhuanzhi = 70
+	ziyourenzhi = 5
+	weiquanrenzhi = 25
+}
+
+add_ideas = {
+	bingyizhidu1
+	quzhengdanghua
+	12xiaoshi
+	xssdaya
+	chengjiesifa
+	ziyoumaoyi
+	yangexianzhimaoyi
+	shaoliangfulibaozhang
+	guizuguatou
+	yangexianzhiyimin
+	zzmzqishi
+	guojiawushenlun
+	duiwai_zhongli
+	guoti_danyizhi
+	nvquan3
+	yanlun1
+}
+
+set_country_flag = renhelian_zhengchang_flag
+MDC = {set_country_flag = renhelian_zhengchang_flag}
+CXG = {set_country_flag = renhelian_zhengchang_flag}
+MDG = {set_country_flag = renhelian_zhengchang_flag}
+XLG = {set_country_flag = renhelian_zhengchang_flag}
+XSG = {set_country_flag = renhelian_zhengchang_flag}
+KAD = {set_country_flag = renhelian_zhengchang_flag}
+ZDG = {set_country_flag = renhelian_zhengchang_flag}
+MBG = {set_country_flag = renhelian_zhengchang_flag}
+CWG = {set_country_flag = renhelian_zhengchang_flag}
+KWZ = {set_country_flag = renhelian_zhengchang_flag}
+NTG = {set_country_flag = renhelian_zhengchang_flag}
+XRG = {set_country_flag = renhelian_zhengchang_flag}
+GLG = {set_country_flag = renhelian_zhengchang_flag}
+LJG = {set_country_flag = renhelian_zhengchang_flag}
+LIY = {set_country_flag = renhelian_zhengchang_flag}
+WST = {set_country_flag = renhelian_zhengchang_flag}
+QXG = {set_country_flag = renhelian_zhengchang_flag}
+JYG = {set_country_flag = renhelian_zhengchang_flag}
+TYL = {set_country_flag = renhelian_zhengchang_flag}
+create_faction = "faction_human_union"
+add_to_faction = ABY
+add_to_faction = MDC
+add_to_faction = CXG
+add_to_faction = MDG
+add_to_faction = XLG
+add_to_faction = XSG
+add_to_faction = ZDG
+add_to_faction = MBG
+add_to_faction = CWG
+add_to_faction = KWZ
+add_to_faction = NTG
+add_to_faction = XRG
+add_to_faction = GLG
+add_to_faction = LJG
+add_to_faction = LIY
+add_to_faction = WST
+add_to_faction = QXG
+add_to_faction = JYG
+add_to_faction = TYL
+add_to_faction = XMG
+add_to_faction = MSK
+MSK = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = DLK
+DLK = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = FDG
+FDG = {set_country_flag = renhelian_zhengchang_flag}
+TYL = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = EUL
+EUL = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = STG
+STG = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = NZL
+NZL = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = VMZ
+VMZ = {set_country_flag = renhelian_zhengchang_flag}
+add_to_faction = KWZ
+KWZ = {set_country_flag = renhelian_zhengchang_flag}
+HYG = {set_country_flag = renhelian_zhengchang_flag}
+DDW = {set_country_flag = renhelian_zhengchang_flag}
+
+create_country_leader = {
+	name = "贵族议会"
+	desc = "POLITICS_GZYH_DESC"
+	picture = "gfx/leader/guizu.dds"
+	expire = "1965.1.1"
+	ideology = guizugongheism
+	traits = {
+		#
+	}
+}

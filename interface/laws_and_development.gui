@@ -1,0 +1,1800 @@
+guiTypes = {
+
+    containerWindowType = {
+		name = "laws_and_development_ui_window"
+		size = { width = 600 height = 500 }
+		position = { x = 10  y = 560 }
+        
+		iconType = {
+			name = "laws_and_development_background"        
+			spriteType ="GFX_laws_and_development_background"
+			position = { x = 0  y = 0 }
+		}
+
+		buttonType = {
+			name = "change_into_laws_button"        
+			spriteType ="GFX_laws_and_development_button"
+			position = { x = 26  y = 4 }
+		}
+		instantTextBoxType = {
+			name = "change_into_laws_text"
+			position = { x = 35 y = 12 }
+			text = "change_into_laws_text"
+			font = "GKD_ChaoZiShe_small"
+			maxWidth = 200
+			maxHeight = 20
+			format = centre
+		}
+		buttonType = {
+			name = "change_into_development_button"        
+			spriteType ="GFX_laws_and_development_button"
+			position = { x = 280  y = 4 }
+		}
+		instantTextBoxType = {
+			name = "change_into_development_text"
+			position = { x = 285 y = 12 }
+			text = "change_into_development_text"
+			font = "GKD_ChaoZiShe_small"
+			maxWidth = 200
+			maxHeight = 20
+			format = centre
+		}		
+	}
+
+
+
+	containerWindowType = { 
+		name = "laws_ui_window" 
+		position = { x = 20 y = 613 } 
+		size = { width = 518 height = 404 } 
+		clipping = yes 
+		verticalScrollbar = "right_vertical_slider" 
+		margin = { top = 6 left = 0 bottom = 5 right = 0}
+		
+		background = {
+			name = "laws_background_grid"        
+			quadTextureSprite ="GFX_laws_and_development_background_grid"
+		}
+
+		iconType = {
+			name = "laws_background"
+			position = { x = -2  y = -6 }
+			spriteType = "GFX_laws_background"
+		}
+
+		iconType = {
+			name = "laws_option2"
+			position = { x = -2  y = -6 }
+			spriteType = "GFX_laws_option2"
+		}
+
+		gridBoxType = {
+			name = "laws_grid"
+			position = { x = 0 y = 4 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 230 height = 16 }
+			format = "UPPER_LEFT"
+		}
+  
+
+	  ##兵役制度
+		instantTextBoxType = {
+			name = "bingyi_laws"
+			position = { x = -5 y = 14 }
+			text = "bingyi_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+		
+		buttonType = {
+			name = "bingyizhidu1_button"
+			position = { x = 19  y = 58 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "bingyizhidu1_chosen"
+			position = { x = 19  y = 58 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "bingyizhidu1"
+			position = { x = 14 y = 59 }
+			text = "bingyizhidu1"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "bingyizhidu1_influence"
+		}
+		
+		buttonType = {
+			name = "bingyizhidu2_button"
+			position = { x = 19  y = 80 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "bingyizhidu2_chosen"
+			position = { x = 19  y = 80 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "bingyizhidu2"
+			position = { x = 14 y = 81 }
+			text = "bingyizhidu2"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "bingyizhidu2_influence"
+		}
+		
+		buttonType = {
+			name = "bingyizhidu3_button"
+			position = { x = 19  y = 102 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "bingyizhidu3_chosen"
+			position = { x = 19  y = 102 }
+			spriteType = "GFX_laws_option1"
+		}
+	 
+		instantTextBoxType = {
+			name = "bingyizhidu3"
+			position = { x = 14 y = 103 }
+			text = "bingyizhidu3"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "bingyizhidu3_influence"
+		}
+		
+		buttonType = {
+			name = "bingyizhidu4_button"
+			position = { x = 19  y = 124 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "bingyizhidu4_chosen"
+			position = { x = 19  y = 124 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "bingyizhidu4"
+			position = { x = 14 y = 125 }
+			text = "bingyizhidu4"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "bingyizhidu4_influence"
+		}
+		
+		buttonType = {
+			name = "bingyizhidu5_button"
+			position = { x = 19  y = 146 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "bingyizhidu5_chosen"
+			position = { x = 19  y = 146 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "bingyizhidu5"
+			position = { x = 14 y = 147 }
+			text = "bingyizhidu5"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "bingyizhidu5_influence"
+			
+		}
+		
+		buttonType = {
+			name = "bingyizhidu6_button"
+			position = { x = 19  y = 168 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "bingyizhidu6_chosen"
+			position = { x = 19  y = 168 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "bingyizhidu6"
+			position = { x = 14 y = 169 }
+			text = "bingyizhidu6"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "bingyizhidu6_influence"
+		}
+
+	  #国体
+		instantTextBoxType = {
+			name = "guoti_laws"
+			position = { x = -5 y = 221 }
+			text = "guoti_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "guoti_danyizhi_chosen"
+			position = { x = 19  y = 267 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guoti_danyizhi"
+			position = { x = 14 y = 268 }
+			text = "guoti_danyizhi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guoti_danyizhi_influence"
+		}
+
+		iconType = {
+			name = "guoti_jiquanlianbang_chosen"
+			position = { x = 19  y = 289 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guoti_jiquanlianbang"
+			position = { x = 14 y = 290 }
+			text = "guoti_jiquanlianbang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guoti_jiquanlianbang_influence"
+		}
+
+		iconType = {
+			name = "guoti_lianbangzhi_chosen"
+			position = { x = 19  y = 311 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guoti_lianbangzhi"
+			position = { x = 14 y = 312 }
+			text = "guoti_lianbangzhi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guoti_lianbangzhi_influence"
+		}
+
+		iconType = {
+			name = "guoti_banglianzhi_chosen"
+			position = { x = 19  y = 333 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guoti_banglianzhi"
+			position = { x = 14 y = 334 }
+			text = "guoti_banglianzhi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guoti_banglianzhi_influence"
+		}
+
+		iconType = {
+			name = "guoti_wuzhengfu_chosen"
+			position = { x = 19  y = 355 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guoti_wuzhengfu"
+			position = { x = 14 y = 356 }
+			text = "guoti_wuzhengfu"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guoti_wuzhengfu_influence"
+			
+		}
+
+	  #对外关系
+		instantTextBoxType = {
+			name = "duiwai_laws"
+			position = { x = -5 y = 407 }
+			text = "duiwai_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "duiwai_hexie_chosen"
+			position = { x = 19  y = 453 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "duiwai_hexie"
+			position = { x = 14 y = 454 }
+			text = "duiwai_hexie"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "duiwai_hexie_influence"
+		}
+
+		iconType = {
+			name = "duiwai_jingti_chosen"
+			position = { x = 19  y = 475 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "duiwai_jingti"
+			position = { x = 14 y = 476 }
+			text = "duiwai_jingti"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "duiwai_jingti_influence"
+		}
+
+		iconType = {
+			name = "duiwai_heiansenlin_chosen"
+			position = { x = 19  y = 497 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "duiwai_heiansenlin"
+			position = { x = 14 y = 498 }
+			text = "duiwai_heiansenlin"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "duiwai_heiansenlin_influence"
+		}
+
+		iconType = {
+			name = "duiwai_dengta_chosen"
+			position = { x = 19  y = 519 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "duiwai_dengta"
+			position = { x = 14 y = 520 }
+			text = "duiwai_dengta"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "duiwai_dengta_influence"
+		}
+
+		iconType = {
+			name = "duiwai_zhongli_chosen"
+			position = { x = 19  y = 541 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "duiwai_zhongli"
+			position = { x = 14 y = 542 }
+			text = "duiwai_zhongli"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "duiwai_zhongli_influence"
+		}
+
+	  #政党制度
+		instantTextBoxType = {
+			name = "zhengdang_laws"
+			position = { x = -5 y = 593 }
+			text = "zhengdang_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "yidangzhi_chosen"
+			position = { x = 19  y = 639 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yidangzhi"
+			position = { x = 14 y = 640 }
+			text = "yidangzhi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yidangzhi_influence"
+		}
+
+		iconType = {
+			name = "xiangzhengduodang_chosen"
+			position = { x = 19  y = 661 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xiangzhengduodang"
+			position = { x = 14  y = 662 }
+			text = "xiangzhengduodang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xiangzhengduodang_influence"
+		}
+
+		iconType = {
+			name = "duodangzhi_chosen"
+			position = { x = 19  y = 683 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "duodangzhi"
+			position = { x = 14 y = 684 }
+			text = "duodangzhi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "duodangzhi_influence"
+		}
+
+		iconType = {
+			name = "quzhengdanghua_chosen"
+			position = { x = 19  y = 705 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "quzhengdanghua"
+			position = { x = 14 y = 706 }
+			text = "quzhengdanghua"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "quzhengdanghua_influence"
+		}
+
+	  #司法刑罚
+		instantTextBoxType = {
+			name = "sifa_laws"
+			position = { x = -5 y = 757 }
+			text = "sifa_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "fuchousifa_chosen"
+			position = { x = 19  y = 802 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "fuchousifa"
+			position = { x = 14 y = 803 }
+			text = "fuchousifa"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "fuchousifa_influence"
+		}
+
+		iconType = {
+			name = "chengjiesifa_chosen"
+			position = { x = 19  y = 824 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "chengjiesifa"
+			position = { x = 14 y = 825 }
+			text = "chengjiesifa"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "chengjiesifa_influence"
+		}
+
+		iconType = {
+			name = "gaizaosifa_chosen"
+			position = { x = 19  y = 846 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "gaizaosifa"
+			position = { x = 14 y = 847 }
+			text = "gaizaosifa"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "gaizaosifa_influence"
+		}
+
+		iconType = {
+			name = "xiufusifa_chosen"
+			position = { x = 19  y = 868 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xiufusifa"
+			position = { x = 14 y = 869 }
+			text = "xiufusifa"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xiufusifa_influence"
+		}
+
+	  #两性权益
+		instantTextBoxType = {
+			name = "nvquan_laws"
+			position = { x = 158 y = 757 }
+			text = "nvquan_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "nvquan1_chosen"
+			position = { x = 184  y = 802 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "nvquan1"
+			position = { x = 180 y = 803 }
+			text = "nvquan1"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "nvquan1_influence"
+		}
+
+		iconType = {
+			name = "nvquan2_chosen"
+			position = { x = 184  y = 824 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "nvquan2"
+			position = { x = 180 y = 825 }
+			text = "nvquan2"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "nvquan2_influence"
+		}
+
+		iconType = {
+			name = "nvquan3_chosen"
+			position = { x = 184  y = 846 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "nvquan3"
+			position = { x = 180 y = 847 }
+			text = "nvquan3"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "nvquan3_influence"
+		}
+
+		iconType = {
+			name = "nvquan4_chosen"
+			position = { x = 184  y = 868 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "nvquan4"
+			position = { x = 180 y = 869 }
+			text = "nvquan4"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "nvquan4_influence"
+		}
+
+	  #言论权利
+		instantTextBoxType = {
+			name = "yanlun_laws"
+			position = { x = 324 y = 757 }
+			text = "yanlun_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "yanlun1_chosen"
+			position = { x = 349  y = 802 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yanlun1"
+			position = { x = 344 y = 803 }
+			text = "yanlun1"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yanlun1_influence"
+		}
+
+		iconType = {
+			name = "yanlun2_chosen"
+			position = { x = 349  y = 824 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yanlun2"
+			position = { x = 344 y = 825 }
+			text = "yanlun2"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yanlun2_influence"
+		}
+
+		iconType = {
+			name = "yanlun3_chosen"
+			position = { x = 349  y = 846 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yanlun3"
+			position = { x = 344 y = 847 }
+			text = "yanlun3"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yanlun3_influence"
+		}
+
+		iconType = {
+			name = "yanlun4_chosen"
+			position = { x = 349  y = 868 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yanlun4"
+			position = { x = 344 y = 869 }
+			text = "yanlun4"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yanlun4_influence"
+		}
+
+		
+
+		
+	  #贸易政策
+		instantTextBoxType = {
+			name = "maoyi_laws"
+			position = { x = 160 y = 14 }
+			text = "maoyi_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+		
+		buttonType = {
+			name = "wufazizhumaoyi_button"
+			position = { x = 184  y = 58 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "wufazizhumaoyi_chosen"
+			position = { x = 184  y = 58 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "wufazizhumaoyi"
+			position = { x = 180 y = 59 }
+			text = "wufazizhumaoyi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "wufazizhumaoyi_influence"
+		}
+		
+		buttonType = {
+			name = "biguansuoguo_button"
+			position = { x = 184  y = 80 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "biguansuoguo_chosen"
+			position = { x = 184  y = 80 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "biguansuoguo"
+			position = { x = 180 y = 81 }
+			text = "biguansuoguo"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "biguansuoguo_influence"
+		}
+		
+		buttonType = {
+			name = "yangexianzhimaoyi_button"
+			position = { x = 184  y = 102 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "yangexianzhimaoyi_chosen"
+			position = { x = 184 y = 102 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yangexianzhimaoyi"
+			position = { x = 180 y = 103 }
+			text = "yangexianzhimaoyi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yangexianzhimaoyi_influence"
+		}
+		
+		buttonType = {
+			name = "maoyibaohu_button"
+			position = { x = 184  y = 124 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "maoyibaohu_chosen"
+			position = { x = 184  y = 124 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "maoyibaohu"
+			position = { x = 180 y = 125 }
+			text = "maoyibaohu"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "maoyibaohu_influence"
+		}
+		
+		buttonType = {
+			name = "ziyoumaoyi_button"
+			position = { x = 184  y = 146 }
+			spriteType = "GFX_laws_button"
+		}
+
+		iconType = {
+			name = "ziyoumaoyi_chosen"
+			position = { x = 184  y = 146 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "ziyoumaoyi"
+			position = { x = 180 y = 147 }
+			text = "ziyoumaoyi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "ziyoumaoyi_influence"
+			
+		}
+
+
+	  #选举制度
+		instantTextBoxType = {
+			name = "xuanju_laws"
+			position = { x = 160 y = 221 }
+			text = "xuanju_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "wuxuanju_chosen"
+			position = { x = 184  y = 267 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "wuxuanju"
+			position = { x = 180 y = 268 }
+			text = "wuxuanju"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "wuxuanju_influence"
+		}
+
+		iconType = {
+			name = "guizuguatou_chosen"
+			position = { x = 184  y = 289 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guizuguatou"
+			position = { x = 180 y = 290 }
+			text = "guizuguatou"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guizuguatou_influence"
+		}
+
+		iconType = {
+			name = "zichanjiaquan_chosen"
+			position = { x = 184  y = 311 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zichanjiaquan"
+			position = { x = 180 y = 312 }
+			text = "zichanjiaquan"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zichanjiaquan_influence"
+		}
+
+		iconType = {
+			name = "daiyixuanju_chosen"
+			position = { x = 184  y = 333 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "daiyixuanju"
+			position = { x = 180 y = 334 }
+			text = "daiyixuanju"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "daiyixuanju_influence"
+		}
+
+		iconType = {
+			name = "puxuanquan_chosen"
+			position = { x = 184  y = 355 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "puxuanquan"
+			position = { x = 180 y = 356 }
+			text = "puxuanquan"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "puxuanquan_influence"
+		}
+		
+	  #宗教政策
+		instantTextBoxType = {
+			name = "zongjiao_laws"
+			position = { x = 156 y = 407 }
+			text = "zongjiao_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "zhengjiaoheyi_chosen"
+			position = { x = 184  y = 453 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zhengjiaoheyi"
+			position = { x = 180 y = 454 }
+			text = "zhengjiaoheyi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zhengjiaoheyi_influence"
+		}
+
+		iconType = {
+			name = "danyiguojiao_chosen"
+			position = { x = 184  y = 475 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "danyiguojiao"
+			position = { x = 180 y = 476 }
+			text = "danyiguojiao"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "danyiguojiao_influence"
+		}
+
+		iconType = {
+			name = "guojiawushenlun_chosen"
+			position = { x = 184  y = 497 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "guojiawushenlun"
+			position = { x = 180 y = 498 }
+			text = "guojiawushenlun"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "guojiawushenlun_influence"
+		}
+
+		iconType = {
+			name = "xianzhizongjiao_chosen"
+			position = { x = 184  y = 519 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xianzhizongjiao"
+			position = { x = 180 y = 520 }
+			text = "xianzhizongjiao"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xianzhizongjiao_influence"
+		}
+
+		iconType = {
+			name = "zongjiaoziyou_chosen"
+			position = { x = 184  y = 541 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zongjiaoziyou"
+			position = { x = 180 y = 542 }
+			text = "zongjiaoziyou"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zongjiaoziyou_influence"
+		}
+
+
+	  #移民政策
+		instantTextBoxType = {
+			name = "yimin_laws"
+			position = { x = 158 y = 593 }
+			text = "yimin_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "fengsuobianjing_chosen"
+			position = { x = 184  y = 639 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "fengsuobianjing"
+			position = { x = 180 y = 640 }
+			text = "fengsuobianjing"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "fengsuobianjing_influence"
+		}
+
+		iconType = {
+			name = "yangexianzhiyimin_chosen"
+			position = { x = 184  y = 661 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "yangexianzhiyimin"
+			position = { x = 180 y = 662 }
+			text = "yangexianzhiyimin"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "yangexianzhiyimin_influence"
+		}
+
+		iconType = {
+			name = "xianzhiyimin_chosen"
+			position = { x = 184  y = 683 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xianzhiyimin"
+			position = { x = 180 y = 684 }
+			text = "xianzhiyimin"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xianzhiyimin_influence"
+		}
+
+		iconType = {
+			name = "kaifangbianjing_chosen"
+			position = { x = 184  y = 705 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "kaifangbianjing"
+			position = { x = 180 y = 706 }
+			text = "kaifangbianjing"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "kaifangbianjing_influence"
+		}
+		
+
+	  #工作时长
+		instantTextBoxType = {
+			name = "gongzuo_laws"
+			position = { x = 325 y = 14 }
+			text = "gongzuo_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "wuxianzhi_work_chosen"
+			position = { x = 349  y = 59 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "wuxianzhi_work"
+			position = { x = 344 y = 60 }
+			text = "wuxianzhi_work"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "wuxianzhi_work_influence"
+		}
+
+		iconType = {
+			name = "14xiaoshi_chosen"
+			position = { x = 349  y = 81 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "14xiaoshi"
+			position = { x = 344 y = 82 }
+			text = "14xiaoshi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "14xiaoshi_influence"
+		}
+
+		iconType = {
+			name = "12xiaoshi_chosen"
+			position = { x = 349  y = 103 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "12xiaoshi"
+			position = { x = 344 y = 104 }
+			text = "12xiaoshi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "12xiaoshi_influence"
+		}
+
+		iconType = {
+			name = "10xiaoshi_chosen"
+			position = { x = 349  y = 125 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "10xiaoshi"
+			position = { x = 344 y = 126 }
+			text = "10xiaoshi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "10xiaoshi_influence"
+		}
+
+		iconType = {
+			name = "8xiaoshi_chosen"
+			position = { x = 349  y = 147 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "8xiaoshi"
+			position = { x = 344 y = 148 }
+			text = "8xiaoshi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "8xiaoshi_influence"
+			
+		}
+
+		iconType = {
+			name = "6xiaoshi_chosen"
+			position = { x = 349  y = 169 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "6xiaoshi"
+			position = { x = 344 y = 170 }
+			text = "6xiaoshi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "6xiaoshi_influence"
+		}
+		
+				
+	  #福利保障
+		instantTextBoxType = {
+			name = "fuli_laws"
+			position = { x = 325 y = 221 }
+			text = "fuli_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 30
+			format = centre
+		}
+
+		iconType = {
+			name = "wufulibaozhang_chosen"
+			position = { x = 349  y = 267 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "wufulibaozhang"
+			position = { x = 344 y = 268 }
+			text = "wufulibaozhang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "wufulibaozhang_influence"
+		}
+
+		iconType = {
+			name = "shaoliangfulibaozhang_chosen"
+			position = { x = 349  y = 289 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "shaoliangfulibaozhang"
+			position = { x = 344 y = 290 }
+			text = "shaoliangfulibaozhang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "shaoliangfulibaozhang_influence"
+		}
+
+		iconType = {
+			name = "jibenfulibaozhang_chosen"
+			position = { x = 349  y = 311 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "jibenfulibaozhang"
+			position = { x = 344 y = 312 }
+			text = "jibenfulibaozhang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "jibenfulibaozhang_influence"
+		}
+
+		iconType = {
+			name = "shiliangfulibaozhang_chosen"
+			position = { x = 349  y = 333 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "shiliangfulibaozhang"
+			position = { x = 344 y = 334 }
+			text = "shiliangfulibaozhang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "shiliangfulibaozhang_influence"
+		}
+
+		iconType = {
+			name = "daliangfulibaozhang_chosen"
+			position = { x = 349  y = 355 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "daliangfulibaozhang"
+			position = { x = 344 y = 356 }
+			text = "daliangfulibaozhang"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "daliangfulibaozhang_influence"
+		}
+
+
+	  #种族民族政策
+		instantTextBoxType = {
+			name = "minzuzhongzu_laws"
+			position = { x = 325 y = 407 }
+			text = "minzuzhongzu_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "zzmzjinghua_chosen"
+			position = { x = 349  y = 453 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zzmzjinghua"
+			position = { x = 344 y = 454 }
+			text = "zzmzjinghua"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zzmzjinghua_influence"
+		}
+
+		iconType = {
+			name = "zzmzpohai_chosen"
+			position = { x = 349  y = 475 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zzmzpohai"
+			position = { x = 344 y = 476 }
+			text = "zzmzpohai"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zzmzpohai_influence"
+		}
+
+		iconType = {
+			name = "zzmzqishi_chosen"
+			position = { x = 349  y = 497 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zzmzqishi"
+			position = { x = 344 y = 498 }
+			text = "zzmzqishi"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zzmzqishi_influence"
+		}
+
+		iconType = {
+			name = "zzmzbiaomianpingdeng_chosen"
+			position = { x = 349  y = 519 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zzmzbiaomianpingdeng"
+			position = { x = 344 y = 520 }
+			text = "zzmzbiaomianpingdeng"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zzmzbiaomianpingdeng_influence"
+		}
+
+		iconType = {
+			name = "zzmzpingdeng_chosen"
+			position = { x = 349  y = 541 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "zzmzpingdeng"
+			position = { x = 344 y = 542 }
+			text = "zzmzpingdeng"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "zzmzpingdeng_influence"
+		}
+
+
+	  #性少数政策
+		instantTextBoxType = {
+			name = "xingshaoshu_laws"
+			position = { x = 324 y = 593 }
+			text = "xingshaoshu_laws"
+			font = "hoi_24header"
+			maxWidth = 180
+			maxHeight = 40
+			format = centre
+		}
+
+		iconType = {
+			name = "xssfeiguomin_chosen"
+			position = { x = 349  y = 639 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xssfeiguomin"
+			position = { x = 344 y = 640 }
+			text = "xssfeiguomin"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xssfeiguomin_influence"
+		}
+
+		iconType = {
+			name = "xssdaya_chosen"
+			position = { x = 349  y = 661}
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xssdaya"
+			position = { x = 344 y = 662 }
+			text = "xssdaya"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xssdaya_influence"
+		}
+
+		iconType = {
+			name = "xssyouxianpingdeng_chosen"
+			position = { x = 349  y = 683 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xssyouxianpingdeng"
+			position = { x = 344 y = 684 }
+			text = "xssyouxianpingdeng"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xssyouxianpingdeng_influence"
+		}
+
+		iconType = {
+			name = "xsspingdeng_chosen"
+			position = { x = 349  y = 705 }
+			spriteType = "GFX_laws_option1"
+		}
+
+		instantTextBoxType = {
+			name = "xsspingdeng"
+			position = { x = 344 y = 706 }
+			text = "xsspingdeng"
+			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			format = centre
+			pdx_tooltip = "xsspingdeng_influence"
+		} 
+
+	}
+
+    ##发展度
+	containerWindowType = {
+		name = "development_ui_window"
+		position = { x = 20  y = 613 }
+		size = { width = 518 height = 404 } 
+		clipping = yes 
+		verticalScrollbar = "right_vertical_slider" 
+		margin = { top = 6 left = 0 bottom = 5 right = 0}
+		
+		background = {
+			name = "development_background_grid"        
+			quadTextureSprite ="GFX_laws_and_development_background_grid"
+		}
+        
+		iconType = {
+			name = "development_background"
+			position = { x = -11  y = -8 }
+			spriteType = "GFX_development_background"
+		}
+
+		gridBoxType = {
+			name = "development_grid"
+			position = { x = 0 y = 4 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 230 height = 16 }
+			format = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType = {
+			name = "government_development_title"
+			position = { x = 10 y = 12 }
+			text = "government_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "government_frames"
+			position = { x = 50  y = 6 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "government_development_tip"
+		}
+		instantTextBoxType = {
+			name = "government_development_desc"
+			position = { x = 200 y = 8 }
+			text = "[GetGovernmentDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "government_increase_two_week"
+			position = { x = 52 y = 44 }
+			text = "government_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+
+        
+		instantTextBoxType = {
+			name = "army_development_title"
+			position = { x = 10 y = 140 }
+			text = "army_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "army_frames"
+			position = { x = 50  y = 132 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "army_development_tip"
+		}
+		instantTextBoxType = {
+			name = "army_development_desc"
+			position = { x = 200 y = 134 }
+			text = "[GetArmyDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "army_increase_two_week"
+			position = { x = 52 y = 174 }
+			text = "army_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+
+        
+		instantTextBoxType = {
+			name = "agriculture_development_title"
+			position = { x = 10 y = 266 }
+			text = "agriculture_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "agriculture_frames"
+			position = { x = 50  y = 258 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "agriculture_development_tip"
+		}
+		instantTextBoxType = {
+			name = "agriculture_development_desc"
+			position = { x = 200 y = 260 }
+			text = "[GetAgricultureDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "agriculture_increase_two_week"
+			position = { x = 52 y = 300 }
+			text = "agriculture_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+
+        
+		instantTextBoxType = {
+			name = "industry_development_title"
+			position = { x = 10 y = 392 }
+			text = "industry_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "industry_frames"
+			position = { x = 50  y = 384 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "industry_development_tip"
+		}
+		instantTextBoxType = {
+			name = "industry_development_desc"
+			position = { x = 200 y = 386 }
+			text = "[GetIndustryDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "industry_increase_two_week"
+			position = { x = 52 y = 426 }
+			text = "industry_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+
+        
+		instantTextBoxType = {
+			name = "public_facilities_development_title"
+			position = { x = 10 y = 518 }
+			text = "public_facilities_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "public_facilities_frames"
+			position = { x = 50  y = 510 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "public_facilities_development_tip"
+		}
+		instantTextBoxType = {
+			name = "public_facilities_development_desc"
+			position = { x = 200 y = 512 }
+			text = "[GetPublicfacilitiesDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "public_facilities_increase_two_week"
+			position = { x = 52 y = 552 }
+			text = "public_facilities_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+
+        
+		instantTextBoxType = {
+			name = "education_development_title"
+			position = { x = 10 y = 644 }
+			text = "education_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "education_frames"
+			position = { x = 50  y = 636 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "education_development_tip"
+		}
+		instantTextBoxType = {
+			name = "education_development_desc"
+			position = { x = 200 y = 638 }
+			text = "[GetEducationDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "education_increase_two_week"
+			position = { x = 52 y = 678 }
+			text = "education_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+
+        
+		instantTextBoxType = {
+			name = "research_development_title"
+			position = { x = 10 y = 770 }
+			text = "research_development_title"
+			font = "hoi_24header"
+			maxWidth = 28
+			maxHeight = 112
+			format = centre
+		}
+		iconType = {
+			name = "research_frames"
+			position = { x = 50  y = 762 }
+			spriteType = "GFX_development_frames"
+			pdx_tooltip = "research_development_tip"
+		}
+		instantTextBoxType = {
+			name = "research_development_desc"
+			position = { x = 200 y = 764 }
+			text = "[GetResearchDevelopmentDesc]"
+			font = "hoi_16mbs"
+			maxWidth = 300
+			maxHeight = 100
+		}
+		instantTextBoxType = {
+			name = "research_increase_two_week"
+			position = { x = 52 y = 804 }
+			text = "research_increase_two_week"
+			font = "hoi_16mbs"
+			maxWidth = 120
+			maxHeight = 40
+			format = centre
+		}
+	}
+
+}

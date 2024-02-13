@@ -1,0 +1,31 @@
+scripted_gui = {
+
+    renhelian_zhenying_window = {
+		window_name = "renhelian_zhenying_window"
+		parent_window_token = politics_tab
+		
+		visible = {has_country_flag = renhelian_zhengchang_flag }
+		
+		triggers = {
+		 renhelian_zhengchang_visible = {
+				has_country_flag = renhelian_zhengchang_flag
+			}
+		}
+		
+		
+	}
+    waihaixieyue_zhenying_window = {
+		window_name = "waihaixieyue_zhenying_window"
+		parent_window_token = politics_tab
+		
+		visible = {has_country_flag = waihaixieyue_zhengchang_flag }
+		
+		triggers = {
+		 renhelian_zhengchang_visible = {
+				has_country_flag = waihaixieyue_zhengchang_flag
+			}
+		}
+		
+		
+	}
+}

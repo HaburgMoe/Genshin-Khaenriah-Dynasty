@@ -1,0 +1,17 @@
+
+state={
+	id=401
+	name="STATE_401"
+	provinces={
+		253 526 636 647 944 1084 1377 1384 1762 1977 2048 2373 2621 2979 2981 3225 3260 3339 3430 3603 3808 4109 4123 4125 4128 4131 4133 4137 4138 4142 4147 4149 4157 4160 4163 4164 4173 4189 4197 4199 4218 4240 8734 
+	}
+	history={
+		owner = NWT
+		add_core_of = NWT
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

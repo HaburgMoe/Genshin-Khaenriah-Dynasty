@@ -1,0 +1,49 @@
+capital = 436
+set_technology = {
+	infantry_weapons = 1
+	}
+set_stability = 1.00
+set_war_support = 1.00
+set_convoys = 5
+set_politics = {
+	ruling_party = tiaohe
+	last_election = "499.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	tiaohe = 60
+	pingdengrenzhi = 40
+}
+
+add_ideas = {
+	bingyizhidu3	
+	yangexianzhimaoyi	
+	10xiaoshi	
+	guoti_danyizhi	
+	zichanjiaquan	
+	wufulibaozhang	
+	duiwai_zhongli	
+	guojiawushenlun	
+	zzmzbiaomianpingdeng	
+	xiangzhengduodang	
+	xianzhiyimin	
+	xssdaya	
+	chengjiesifa	
+	nvquan3	
+	yanlun2
+}
+
+
+create_country_leader = {
+	name = "甘雨"
+	desc = "POLITICS_GANYU_DESC"
+	picture = "gfx/leader/Ganyu.dds"
+	expire = "1965.1.1"
+	ideology = zhongliism
+	traits = {
+		#
+	}
+}
+

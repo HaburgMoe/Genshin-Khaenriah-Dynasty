@@ -1,0 +1,19 @@
+
+state={
+	id=255
+	name="STATE_255"
+
+	history={
+		owner = ABY
+		add_core_of = ABY
+
+	}
+
+	provinces={
+		6879 6886 6916 6949 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

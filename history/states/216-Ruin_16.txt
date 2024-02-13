@@ -1,0 +1,19 @@
+
+state={
+	id=216
+	name="STATE_216"
+
+	history={
+		owner = EMP
+		add_core_of = EMP
+
+	}
+
+	provinces={
+		53 516 2516 3150 3686 6001 6022 6044 6048 6050 6059 6087 6092 6123 6165 6171 6181 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
